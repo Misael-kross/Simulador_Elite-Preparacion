@@ -1,0 +1,4368 @@
+{
+  "nombre": "Simulador ECOEMS 2",
+  "nivel": "Bachillerato",
+  "institucion": "ECOEMS",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué números continúan en la siguiente sucesión? \\(50, 13, 40, 11, 30, 9, \\_, \\_, \\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "20, 6",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "20, 7",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "20, 8",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "10, 6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El número que sigue en la sucesión \\(1, 3, 9, 11, 33, 35, \\_\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "105",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "46",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "44",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "38",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Encuentra los términos que continúan la sucesión. \\(2, 11, 12, 14, 72, 17, \\_, \\_, \\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "432, 20",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "430, 21",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "360, 19",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "432, 23",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué números completan la secuencia de la cadena?",
+        "imagen": "imagenes/ecoems/simulador_2/p004.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "30, 10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "33, 10",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "33, 12",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "36, 13",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es la figura que continúa en la siguiente serie?",
+        "imagen": "imagenes/ecoems/simulador_2/p005.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p005_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p005_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p005_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p005_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es la figura que continúa en la siguiente serie?",
+        "imagen": "imagenes/ecoems/simulador_2/p006.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p006_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p006_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p006_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p006_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El número de cubos que tendrá la octava figura de la siguiente sucesión es",
+        "imagen": "imagenes/ecoems/simulador_2/p007.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "28",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "35",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "36",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "45",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es la figura que sigue para completar la secuencia?",
+        "imagen": "imagenes/ecoems/simulador_2/p008.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p008_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p008_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p008_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p008_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuántos hexágonos hay en la figura siguiente?",
+        "imagen": "imagenes/ecoems/simulador_2/p009.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "7",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "6",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "3",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuántos cuadrados hay en la siguiente figura?",
+        "imagen": "imagenes/ecoems/simulador_2/p010.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "7",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "8",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Observa la figura y selecciona la opción que la representa después de ser girada \\(90^{\\circ}\\) en el sentido de las manecillas del reloj.",
+        "imagen": "imagenes/ecoems/simulador_2/p011.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p011_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p011_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p011_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p011_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Selecciona la posición de la siguiente figura cuando se rota \\(180^{\\circ}\\).",
+        "imagen": "imagenes/ecoems/simulador_2/p012.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p012_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p012_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p012_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p012_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es el número que falta en el último triángulo?",
+        "imagen": "imagenes/ecoems/simulador_2/p013.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "13",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "23",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "24",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "31",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 14,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el número que falta en el siguiente cuadro? \\[\\begin{array}{ccc}20 & 4 & 16 \\\\ 28 & 8 & 20 \\\\ 40 & ? & 30\\end{array}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "12",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "16",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "18",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La suma de un número con el triple de otro es \\(18\\); y la diferencia del primero con el doble del segundo es \\(8\\). ¿Cuáles son esos números?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "24 y −2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "24 y 2",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "12 y 2",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "12 y −2",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 16,
+      "materia": "Habilidad matemática",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una máquina llena \\(150\\) botellas en \\(20\\) minutos. A esta misma razón, ¿cuántos minutos tardará el llenado de \\(60\\) botellas?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "6",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "8",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "10",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 17,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ________ es la característica de los seres vivos donde el organismo responde a estímulos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "alimentación",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "irritabilidad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "nutrición",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "reproducción",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Promueve el cambio de las especies, según la teoría de la evolución propuesta por Darwin.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Necesidad interna al cambio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ausencia de mutaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Selección natural.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Herencia de caracteres adquiridos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En México, uno de los factores más importantes que dañan la biodiversidad es ________ de especies en peligro de extinción.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la crianza de animales",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la venta clandestina",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la exhibición en zoológicos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el cultivo masivo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Conciliar el crecimiento económico de la población con la renovabilidad y permanencia de los recursos naturales, tanto en la actualidad como a futuro, es una medida del",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "crecimiento político.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "desarrollo sustentable.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "desarrollo industrial.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "equilibrio urbano.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La manipulación de genes en la obtención de transgénicos es un producto de la interacción de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ciencia y conocimiento empírico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "ciencia y tecnología.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "conocimiento empírico y científico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "conocimiento científico y ciencia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 22,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los helechos convierten la energía lumínica del sol en energía química de las moléculas de azúcar, a través de la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "fermentación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "respiración.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "fotosíntesis.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "excreción.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los organismos heterótrofos",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "utilizan la energía del Sol para sintetizar sus alimentos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "transforman la energía de la luz en energía química.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "sintetizan su alimento mediante el proceso de fotosíntesis.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "dependen de otros organismos para obtener su alimento.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 24,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes alimentos es rico en almidón?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Mantequilla.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Papa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Queso.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Piña.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 25,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Recomendación para evitar enfermedades respiratorias ante condiciones ambientales desfavorables.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Evitar orear habitaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Contar con clima artificial.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Realizar ejercicio diariamente.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Consumir líquidos y cítricos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 26,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Tipo de reproducción biológica cuyo propósito es la producción de individuos diferentes al progenitor.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Asexual.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Gemación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Bipartición.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sexual.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 27,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los anticonceptivos _______ presentan mayor porcentaje de eficacia que los _______.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "físicos – hormonales",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "naturales – hormonales",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "químicos – naturales",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "naturales – mecánicos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 28,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una de las características de la manipulación genética es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la selección de genes específicos de un organismo para incorporarlos en otro y darle a éste características que no tenía.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el intercambio de genes únicamente en organismos animales para modificar sus características.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la combinación de organismos de reproducción asexual para mejorar sus características.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el intercambio de genes únicamente en organismos vegetales para modificar sus características.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 29,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ficha ________ tiene la función de ayudarnos a conservar los datos de una obra.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "mesográfica",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "de cita textual",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "de trabajo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "bibliográfica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 30,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Ordena cronológicamente los siguientes párrafos. I. Entonces la muchedumbre se abalanzó contra el ladrón. Su guardia personal, sólo pudo rescatar un par de ensangrentados zapatos de charol. II. Saltó con agilidad un pequeño charco de agua podrida y se puso a estrechar manos sudorosas y de una aspereza de piedras de volcán. De pronto, se dio cuenta que su finísimo reloj de oro había desaparecido. III. El señor presidente, olisqueando su pañuelo empapado en agua de lavanda, se paseaba por el mercado público en cumplimiento de su promesa electoral, de que cada ocho días se pondría en contacto con el pueblo. IV. Se empinó en la punta de sus zapatos de charol y vislumbró el correr desalado de un muchacho. Con todas las fuerzas de sus pulmones gritó: ¡Al ladrón! ¡Al ladrón! ¡Agarren al ladrón! ¡Maten al ladrón! Jairo Aníbal Niño, De las crónicas de la ciudad",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "II, I, III y IV",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "I, IV, II y III",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "III, II, IV y I",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "III, IV, II y I",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 31,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el siguiente párrafo, ¿qué recurso se ha empleado predominantemente para desarrollar el tema? Hay quienes son adictos a una persona, o adictos a la sensación que les producen ciertos patrones destructivos en una relación. Tengo una amiga que siempre se queja de que los hombres la utilizan o maltratan, pero sólo elige involucrarse en relaciones conflictivas: triángulos amorosos, hombres celosos, casados, psicóticos, vejestorios. Otra más siente que siempre –literalmente, siempre y en todo momento– tiene que estar enamorada; a esto también se le llama \"síndrome de Madame Bovary\". Y ellos no están exentos de sentir esa pulsión por el amor romántico –y, muchas veces, estoico, sin sentido y sin posibilidad de dar frutos en la vida real–, sólo que lo suyo recibe el nombre de \"síndrome de caballero andante\". Karla Covarrubias Molina, Las nuevas adicciones",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Paráfrasis.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Explicación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ejemplificación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Reiteración.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 32,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el siguiente texto, la frase subrayada sirve para En un medio transparente se puede comprobar claramente el fenómeno de la refracción. Por ejemplo, cuando introducimos lentamente un popote en un vaso de agua y observamos además que el trozo sumergido parece doblarse. Daniel Martín Reyna, Invisibilidad a la vista",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "presentar una causa.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "encadenar argumentos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "introducir una idea.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "indicar simultaneidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 33,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto. Al instante se oyó un gran estallido y, ante el asombro de todos, Ganumi comenzó a recoger la cuerda hasta hacerla desaparecer en el cielo. Después de eso el hombre invitó a los demás a probar los frutos que le habían dado. Primero la gente no quiso tomarlos, temiendo que fueran venenosos, luego todo el mundo tomó un poco... Juan Manuel de Prada, El hombre que quiso conocer a la luna. Las palabras subrayadas son nexos que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "tienen un significado concesivo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "introducen ideas y argumentos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "relacionan temporalmente los enunciados.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "tienen un significado causal.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 34,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto. Los problemas de sobrepeso y obesidad son problemas de todos los mexicanos, pero fundamentalmente de los hombres y mujeres pobres que viven en las ciudades (en el campo, entre los pobres, son más bajos los índices de sobrepeso, aunque también resultan alarmantes)... Carlos Tello Díaz, Los gordos. Las palabras subrayadas son nexos que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "encadenan argumentos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "jerarquizan información.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "presentan una causa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "introducen una consecuencia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 35,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las oraciones que conforman el siguiente texto deben estar separadas por En \\(1810\\) había muchas fábricas de chocolate porque nuestros abuelos desayunaban con chocolate__ tomaban chocolate a la hora de la siesta__ bebían chocolate en la merienda y cenaban chocolate.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "punto y coma.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "comas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "punto y aparte.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "punto y seguido.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 36,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se utiliza para introducir una definición o concepto, antes de escribir una cita textual, después del vocativo y antes de iniciar una enumeración.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Punto y aparte.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Punto y coma.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Dos puntos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Coma.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 37,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente párrafo e indica a qué categoría pertenecen los elementos subrayados. Jorge era un hombre, un grave guerrero, hermoso a su manera, digno de la admiración con que le miraba Miguel. Alto y membrudo, llevaba con marcial desembarazo [...] el arnés entero de batalla [...] El rostro de Jorge respiraba ardor y lealtad: pálido, de garzos ojos, una puntiaguda barba castaña lo hacía más varonil.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sustantivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Gerundios.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Participios.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Adjetivos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 38,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El fragmento es una narración porque El siglo XX es el siglo del gran error del arte, de la gran equivocación, el malentendido de convertir lo banal e intrascendental en perpetuo, de confundir el ingenio rápido y fácil con reflexión profunda. Con el inicio del siglo XX comenzó la etapa más torpe y mediocre de la creación y la visión artística. En 1917 Marcel Duchamp hizo del sentido del humor la nueva filosofía, de la ocurrencia un aforismo y de la supuesta falta de comprensión del público su máxima. Al llamar a un urinario Fuente, Duchamp inventó el anti-arte, una pieza destinada a destruir el arte. Esta invención fue malinterpretada como una osadía estética, y los teóricos y curadores la instauraron como canon artístico. Éste fue el primer error, afirmar que tal obra era arte y situarla en un contexto impropio: el museo. Avelina Lesper, Para que no avance la ignorancia",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "hace uso de tiempos verbales en pasado.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "confronta dos visiones del arte.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "utiliza adjetivos para describir hechos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "aborda el concepto de arte.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 39,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Señala el eslogan que pretende lograr un cambio de conducta en el consumidor.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La marca Nike distingue.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\"Coca-cola\" la chispa de la vida.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Mezclar alcohol y gasolina mata.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El agua más sana \"Sol y Nieve\"",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 40,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona el ejemplo de texto publicitario donde se exageran las cualidades de un producto.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\"Yo sin Bic, no puedo vivir\".",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\"Mejor, mejora, Mejoral\".",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\"Por su rico sabor casero, Tía Rosa\".",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\"Con el cariño de siempre, Bimbo\".",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 41,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son dos propiedades físicas de los gases.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Difusibilidad y volumen propio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Volumen definido y maleabilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Volumen y forma indefinida.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Forma indefinida y maleabilidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 42,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Propiedades físicas de las sustancias que permiten medir la cantidad de ellas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Temperatura de ebullición y solubilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Temperatura de fusión y densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Presión y densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Masa y volumen.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 43,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si cierta cantidad de agua pasa del estado sólido al estado líquido, permanece constante su",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "masa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "solubilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "volumen.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 44,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "A partir de los siguientes modelos \\(X\\), \\(Q\\) y \\(Z\\) se puede afirmar que \\(X\\) es ________, \\(Q\\) ________ y \\(Z\\) ________.",
+        "imagen": "imagenes/ecoems/simulador_2/p044.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "compuesto – mezcla – elemento",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "mezcla – compuesto – elemento",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "elemento – compuesto – mezcla",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mezcla – elemento – compuesto",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 45,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los ________ tienen carga ________ y se ubican dentro del núcleo del átomo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "electrones – negativa",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "neutrones – negativa",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "protones – positiva",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "neutrinos – positiva",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 46,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El número de masa de un elemento que tiene \\(34\\) protones y \\(45\\) neutrones es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "34",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "11",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "79",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "45",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 47,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la fórmula del \\(H_{2}O\\) existen \\(2\\) ________ de hidrógeno y \\(1\\) ________ de oxígeno.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "moléculas – átomo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "átomos – átomo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "moléculas – molécula",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "átomos – molécula",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 48,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la tabla periódica los elementos se clasifican en orden",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "creciente de masa atómica.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "decreciente de número de masa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "creciente de número atómico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "decreciente de número atómico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 49,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los enlaces químicos están formados por fuerzas _________ que mantienen unidos a los átomos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "eléctricas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "gravitacionales",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "químicas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "magnéticas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 50,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes ejemplos es un fenómeno químico?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Evaporación del agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Diluir un refresco.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Combustión de carbón.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sublimación del yodo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 51,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Interpreta la información de la siguiente ecuación química. \\[2SO_{2}(g) + O_{2}(g) \\rightarrow 2SO_{3}(g)\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\) mol de dióxido de azufre más \\(2\\) mol de oxígeno forman \\(3\\) mol de trióxido de azufre.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4\\) mol de dióxido de azufre más \\(2\\) mol de oxígeno forman \\(3\\) mol de trióxido de azufre.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\) mol de dióxido de azufre más \\(2\\) mol de oxígeno forman \\(6\\) mol de trióxido de azufre.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\) mol de dióxido de azufre más \\(1\\) mol de oxígeno forman \\(2\\) mol de trióxido de azufre.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 52,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son procesos de óxido–reducción.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La evaporación del agua, el empañamiento de la plata y quemar un papel.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La oxidación de la manzana, la corrosión de un clavo y la combustión de una vela.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El empañamiento de la plata, la oxidación de la manzana y romper un huevo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "La combustión de una vela, quemar un papel y evaporación del agua.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 53,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Razón por la que, a principios del siglo XVI, los europeos se vieron en la necesidad de abrir nuevas rutas comerciales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Lucha de las potencias marítimas por el control del Atlántico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Toma de Constantinopla por parte de los turcos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Avance de los pueblos árabes al sur de Europa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Necesidad de adquirir nuevas colonias en África.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 54,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "País que se independizó en el siglo XIX y se inspiró en la Revolución Francesa.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "India",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Argelia",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "México",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cuba",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 55,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La primera Guerra Mundial se desarrolló en varias etapas, una de ellas fue la guerra",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "bacteriológica.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "relámpago.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "de las trincheras.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "de los seis días.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 56,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Uno de los resultados de la Primera Guerra Mundial fue",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la consolidación del Imperio Austro-húngaro.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la independencia de Austria y Hungría.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la desintegración de Checoslovaquia.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la desintegración de Rusia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 57,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ________ hace referencia a las hostilidades no frontales entre el bloque socialista encabezado por la Unión Soviética y las potencias capitalistas representadas por Estados Unidos de América después de la Segunda Guerra Mundial.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "crisis de los misiles",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "guerra pacifica",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "cortina de hierro",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "guerra fría",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 58,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La Guerra del Golfo Pérsico entre Iraq y una coalición internacional liderada por Estados Unidos surgió del interés por controlar ________ de esa zona del planeta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el grafito",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el petróleo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la plata",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el oro",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 59,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Fue el medio de mayor relevancia para mantener el poder ideológico de la Iglesia novohispana.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El Tribunal de la Acordada.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El Santo Oficio de la Inquisición.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El Tribunal de la Santa Cruzada.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El Provisorato de Indios.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 60,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La producción de ________ fue determinante para la economía de la Nueva España.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "artesanías",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "metales",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "henequén",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "maíz",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 61,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Fueron factores que provocaron la guerra contra los Estados Unidos de América de \\(1846\\) a \\(1847\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La separación de Texas y la separación de Yucatán.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La política federalista de México y la carencia de armas para la defensa del territorio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El debilitamiento de México tras la guerra contra Francia y el gobierno centralista de México.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El expansionismo anglosajón y la anexión de Texas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 62,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la Constitución de \\(1917\\), el artículo \\(27\\) es uno de los más trascendentales porque",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ha logrado incidir en el liberalismo mundial, al influir en otras naciones como ejemplo de orden y progreso.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "estipula como propiedad de la Nación las tierras y demás recursos naturales que integran nuestro territorio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "recoge las inquietudes sociales de obreros y campesinos demandadas desde el proceso revolucionario.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "enfatiza la independencia nacional frente a las demás naciones, así como la autonomía de los Estados.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 63,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Autor representativo del Modernismo literario en México.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Joaquín Fernández de Lizardi.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Manuel Payno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Manuel Gutiérrez Nájera.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Guillermo Prieto.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 64,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Institución que se crea para recobrar la legitimidad del régimen perdida en los comicios de \\(1988\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Tribunal de lo Contencioso Electoral.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Partido de la Revolución Democrática.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Instituto Federal Electoral.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Comités ciudadanos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 65,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resultado de realizar la siguiente operación. \\[(-25)(2)(-3)(0)(-9)(7)\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "−9450",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "−163",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "0",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "9550",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 66,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Agrega paréntesis para indicar el orden correcto de las operaciones en la expresión \\(2.5 \\div 2 + 9 - 1.5 \\times 3.5\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((2.5 \\div 2) + 9 - (1.5 \\times 3.5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2.5 \\div 2 + (9 - 1.5) \\times 3.5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((2.5 \\div 2 + 9 - 1.5) \\times 3.5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((2.5 \\div 2) + 9 - 1.5 \\times 3.5\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La notación original de las opciones aparece con símbolos ordenados en línea; se convirtió a LaTeX interpretando la expresión visible."
+    },
+    {
+      "id": 67,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un pueblo sufre una plaga de \\(10,000\\) ratones que encuentran condiciones de reproducción al inicio de la temporada de cosecha, por lo que se espera un incremento de \\(120\\%\\) de su población. ¿Cuál es el total de ratas al final de temporada?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "12,000",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "22,000",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "120,000",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "220,000",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 68,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si Juan tiene \\(x\\) años de edad, Luis la tercera parte de Juan, Isaac el doble de Luis y Pedro el cuádruple de Juan ¿cuánto suman las edades de los cuatro?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{7x}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(5x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{8x}{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 69,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la ecuación \\(x - 3 = 6\\) el valor de \\(x\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x = -3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = 2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x = 3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x = 9\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 70,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resuelve el siguiente sistema de ecuaciones. \\[\\begin{cases}4x + 5y = 48 \\\\ 3x - y = -2\\end{cases}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x = 8\\), \\(y = 2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = 2\\), \\(y = -8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x = 2\\), \\(y = 8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x = -2\\), \\(y = -8\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 71,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona los valores de \\(x\\) que satisfacen la ecuación \\[3x^{2} - 7x - 6 = 0\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x_{1} = -6,\\ x_{2} = \\frac{1}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x_{1} = 6,\\ x_{2} = -\\frac{1}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x_{1} = 3,\\ x_{2} = -\\frac{2}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x_{1} = -3,\\ x_{2} = \\frac{2}{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 72,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La siguiente tabla muestra el Índice de Explosividad Volcánica (IEV) y su relación con la altura de la fumarola producida durante ese tipo de erupción. Con base en los datos anteriores, se puede afirmar que la altura de la fumarola producida en una erupción volcánica paroxismal es más",
+        "imagen": "imagenes/ecoems/simulador_2/p072.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "pequeña que todas las producidas en las otras clasificaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "grande que la emanada en una erupción violenta.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "grande que todas las producidas en las otras clasificaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "pequeña que la emanada en una erupción moderada.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 73,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las calificaciones finales de Roberto son: Matemáticas \\(6\\), Física \\(7\\), Español \\(9\\), Biología \\(7\\), Historia \\(9\\), Civismo \\(9\\) e Inglés \\(9\\). La media es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "7",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "9",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "8",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 74,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Dada la figura, identifica un par de ángulos alternos internos.",
+        "imagen": "imagenes/ecoems/simulador_2/p074.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4 y 6",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "6 y 5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "7 y 3",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1 y 4",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 75,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determina el área de un rectángulo que mide \\(15.8\\ \\mathrm{cm}\\) de largo y \\(7.3\\ \\mathrm{cm}\\) de ancho.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(115.34\\ \\mathrm{cm}^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(111\\ \\mathrm{cm}^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(57.67\\ \\mathrm{cm}^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(46.20\\ \\mathrm{cm}^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 76,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el volumen de un cubo de \\(10\\ \\mathrm{cm}\\) de lado?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(10\\ \\mathrm{cm}^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(50\\ \\mathrm{cm}^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(100\\ \\mathrm{cm}^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(1000\\ \\mathrm{cm}^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 77,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el texto \"Los agujeros negros, realidad o ficción\". Según EL SENTIDO GLOBAL DEL TEXTO, los avances en las investigaciones de los agujeros negros han sido",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "dudosos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "notables.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "ficticios",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "certeros.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 78,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El universo todavía guarda múltiples misterios para el hombre debido",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "a las inconsistencias de las investigaciones científicas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "a la falta de imágenes de los cuerpos muy lejanos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "a las limitaciones de la tecnología actual.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "al campo gravitatorio de las estrellas en su fase final.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 79,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes enunciados es una hipótesis?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La gravedad ejerce atracción sobre cualquier cuerpo celeste.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Nada viaja más rápido que la luz.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los agujeros negros sin rotación son perfectamente esféricos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Los hoyos negros posiblemente son túneles.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 80,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el tema del texto?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El Universo y los muchos misterios que aún guarda para el hombre.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Los científicos que han estudiado los hoyos negros.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los hoyos negros y su posible conexión con otros universos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "La explicación del fenómeno de los agujeros negros.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 81,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el texto \"El hombre y la víbora\". En la narración, el hombre muere debido",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "al calor que le da a la víbora.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "a la mordida que le da la víbora.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "a que no se percató de la maldad que hay en otros.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "a que no esperaba la ingratitud del reptil.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 82,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el texto los animales hablan debido a que es una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "historia que no tiene que ver con la realidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "narración que tiene la mitad de verdad y la mitad de maravilloso.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "fábula y en ella se dota los animales de características humanas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "descripción del animal que mejor encarna la maldad y la ingratitud.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 83,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El mensaje o moraleja de la fábula es que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el agradecimiento es propio de las personas compasivas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el hombre malvado no muestra compasión.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "las víboras son malvadas y no son compasivas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la ingratitud es propia de los seres malvados.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 84,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "De la pregunta \\(84\\) a la \\(86\\), selecciona la opción con el par de palabras que muestra una relación ANÁLOGA a las que están en mayúsculas. HONRADEZ – VIRTUD",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "engaño – hipocresía",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "defecto – avaricia",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "maldad – mentira",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "vanidad – defecto",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 85,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "CANAS – VEJEZ",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "niño – belleza",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "humo – fuego",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "nubes – hielo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "adulto – sabiduría",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 86,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "ABEJA – ENJAMBRE",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "felino – cardumen",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "persona – individuo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "parvada – pájaro",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "perro – jauría",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 87,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "De la pregunta \\(87\\) a la \\(89\\), selecciona la opción que sustituya con un ANTÓNIMO la palabra en mayúsculas. IMPLEMENTÓ las nuevas reformas constitucionales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Abolió",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Instauró",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Reemplazó",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Estableció",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 88,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El tejón es un mamífero carnicero CORRIENTE en Europa.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Exótico",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Común",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Rechazado",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Despreciable",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 89,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "OCIO",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Reposo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Diversión",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Actividad",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Distracción",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 90,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la opción que contenga un par de sinónimos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Súplica – ruego",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Maldad – bondad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Paupérrimo – triste",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Compañía – soledad",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 91,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En las preguntas \\(91\\) y \\(92\\), selecciona la opción que sustituya con un SINÓNIMO la palabra en mayúsculas. Los juicios que emitió eran DISPARATADOS.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Engañosos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Absurdos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Atrevidos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Estúpidos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 92,
+      "materia": "Habilidad verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Este hombre se indignó cuando le dijeron que era un ZONZO.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Bromista",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Gracioso",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Torpe",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Impropio",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 93,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Componentes del espacio geográfico que incluyen las actividades que se relacionan con la producción, transporte, comercialización y consumo de bienes y servicios.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Políticos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Sociales.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Económicos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Físicos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 94,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Determina las coordenadas geográficas para el punto II.",
+        "imagen": "imagenes/ecoems/simulador_2/p094.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(30^{\\circ}\\ \\mathrm{N},\\ 10^{\\circ}\\ \\mathrm{W}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(30^{\\circ}\\ \\mathrm{S},\\ 10^{\\circ}\\ \\mathrm{E}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(10^{\\circ}\\ \\mathrm{N},\\ 30^{\\circ}\\ \\mathrm{W}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(10^{\\circ}\\ \\mathrm{S},\\ 30^{\\circ}\\ \\mathrm{E}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 95,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las zonas de mayor sismicidad se relacionan con",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "límites convergentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "grandes planicies.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "límites divergentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "depresiones relativas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 96,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Parte del ciclo del agua relacionada directamente con las aguas subterráneas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Evaporación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Precipitación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Condensación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Infiltración.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 97,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una manera de proteger el medio ambiente es la fabricación de combustibles a partir de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "recursos hídricos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "derivados del petróleo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "aceites vegetales.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "recursos marítimos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 98,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Principal factor de riesgo para la población que vive en la península de Yucatán.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Tsunamis.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Huracanes.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Derrumbes.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sismos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 99,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Principales ciudades de México que destacan por la extracción de hidrocarburos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Coatzacoalcos y Poza Rica.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Salamanca y Tampico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Puerto Madero y Campeche.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Veracruz y Tuxpan.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 100,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El transporte _______ se aprovecha para transportar petróleo de Veracruz a Estados Unidos de América.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "lacustre",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "fluvial",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "marítimo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "terrestre",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 101,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Institución conformada por \\(184\\) miembros cuyo objetivo es asegurar la estabilidad financiera mundial a través del comercio internacional, la promoción del empleo y el desarrollo económico sustentable.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Fondo Monetario Internacional.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Banco Mundial.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Conferencia de Naciones Unidas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Organización de Cooperación y Desarrollo Económico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 102,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "País que se independizó en julio de \\(2011\\) después de una guerra civil, lo que ocasionó que se modificaran las fronteras políticas de África.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Kosovo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Sudán del Sur.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Eritrea.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Namibia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 103,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Relaciona los sitios considerados patrimonio cultural de la humanidad con la entidad en donde se localizan. Entidad: I. Querétaro. II. Veracruz. III. Oaxaca. IV. Chihuahua. Patrimonio: a. Zona arqueológica de Paquimé. b. Misiones Franciscanas de la Sierra Gorda. c. Monumentos históricos de Tlacotalpan. d. Sitio arqueológico de Monte Albán.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "I: d – II: a – III: c – IV: b",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "I: a – II: b – III: c – IV: d",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "I: b – II: c – III: d – IV: a",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "I: b – II: d – III: a – IV: c",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 104,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Franja adyacente a las costas cuya anchura es de \\(12\\) millas náuticas y donde el Estado ejerce plena soberanía.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Mar territorial.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Mar patrimonial.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Región patrimonial.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Zona territorial.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 105,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la diferencia que existe entre la velocidad y la rapidez?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La velocidad es un vector y la rapidez es un escalar.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La rapidez mide la relación velocidad–tiempo mientras que la velocidad es la relación entre distancia–tiempo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La rapidez mide la aceleración mientras que la velocidad es únicamente la relación entre distancia y tiempo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "La velocidad es un escalar y la rapidez es un vector.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 106,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Elige la gráfica que representa la siguiente tabla de datos.",
+        "imagen": "imagenes/ecoems/simulador_2/p106.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p106_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p106_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p106_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes/ecoems/simulador_2/p106_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 107,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Un automóvil realiza un viaje como el que ilustra la gráfica que a continuación se presenta, ¿cuál de las opciones describe las características de éste?",
+        "imagen": "imagenes/ecoems/simulador_2/p107.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El automóvil inició su recorrido en el reposo incrementando la velocidad hasta \\(60\\ \\mathrm{km/h}\\) en una hora, mantuvo está velocidad durante las siguientes tres horas, tiempo en el cual llegó al punto en que inició su recorrido.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El automóvil partió del reposo hasta alcanzar una velocidad de \\(60\\ \\mathrm{km/h}\\) en una hora, después se detuvo durante las siguientes dos horas, en la siguiente hora reanudó su marcha hasta llegar al lugar de donde partió.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El automóvil partió del reposo, en la primera hora alcanzó una velocidad de \\(60\\ \\mathrm{km/h}\\), y mantuvo esta durante las dos horas siguientes, después redujo la velocidad hasta que a las \\(4\\) horas de iniciado su recorrido se detuvo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El automóvil partió del reposo y se encontró con la pendiente de una montaña, a la que ascendió en una hora, después recorrió la meseta de la montaña a \\(60\\ \\mathrm{km/h}\\) durante dos horas, en la hora siguiente descendió a \\(60\\ \\mathrm{km/h}\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 108,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si se aplica una fuerza de \\(10\\) Newtons a un balón de \\(2\\ \\mathrm{kg}\\) de masa, originalmente en reposo, su aceleración será de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(5\\ \\mathrm{m/s}^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\ \\mathrm{m/s}^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1\\ \\mathrm{m/s}^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(10\\ \\mathrm{m/s}^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 109,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La resultante \\((R)\\) de las fuerzas que actúan sobre una lámpara en equilibrio sostenida por dos cables es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "menor a cero.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "igual a cero.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "igual a la aceleración de la lámpara.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mayor a cero.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 110,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Cuando caminas sobre una alfombra (originalmente neutra) y traes puestos tenis y ropa de nylon adquieres carga eléctrica principalmente por",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "frotamiento.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "conducción.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "inducción.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "contacto.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 111,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La aguja de la brújula apunta siempre al norte porque",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "en el polo norte hay mayor fuerza.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "en el polo norte hay mayor cantidad de hierro.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "en el polo norte el magnetismo es más intenso.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la aguja se alinea en la dirección del campo magnético de la tierra.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 112,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El enunciado que supone que las moléculas de un gas están muy separadas, se mueven en trayectorias rectilíneas, y que al chocar unas con otras ó con las paredes del recipiente que las contiene corresponde a la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Teoría cinética de los gases.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ley de Charles.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ley general del estado gaseoso.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ley de Gay-Lussac.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 113,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la opción que define correctamente la diferencia básica entre calor y temperatura, en un nivel macroscópico.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La temperatura se refiere a las sensaciones de calor o frío, mientras que el calor es lo que mide el termómetro cuando entran en contacto dos cuerpos con diferente temperatura.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La temperatura es lo que mide el termómetro, mientras que el calor es la energía no-mecánica que se transfiere de un cuerpo de mayor a uno de menor temperatura",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El termómetro mide grados de temperatura, mientras que el calor es la sensación de mayor calor o frío entre dos cuerpos a diferente temperatura.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El calor es lo que mide el termómetro, mientras que la temperatura es energía que se transfiere entre dos cuerpos en contacto a diferentes temperaturas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 114,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿En cuáles de los siguientes casos se puede generar un campo magnético? I. Pasando una corriente eléctrica a través de un conductor. II. Enrollando un alambre sobre un clavo y pasando una corriente eléctrica a través de éste. III. Impidiendo el paso de la corriente eléctrica sobre un conductor. IV. A través de la acción de una carga puntual en reposo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "II, IV",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "III, IV",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "I, III",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "I, II",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 115,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El movimiento ondulatorio es un proceso por medio del cual se transmite",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "energía.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "átomos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "moléculas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "partículas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 116,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué color de la luz visible tiene mayor longitud de onda?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Amarillo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Verde.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Azul.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Rojo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 117,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes casos ejemplifica la importancia de la relación del ser humano con su entorno social y natural para su identidad personal?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Balbina está callada y distante, pues recientemente ha sentido que nadie la comprende.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Eloy prefiere cenar tacos en la calle, pues el trabajo en la oficina no le deja tiempo para nada en el día.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Yolanda es una persona tolerante y reflexiva, pues en su familia siempre ha prevalecido el diálogo y la empatía.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "José se reúne a jugar dominó con sus amigos, pues quiere fomentar su agilidad mental.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 118,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Relaciona los tipos de valores con el concepto que le corresponde. Valor: I. Estético. II. Económico. III. Moral. Conceptos: a. Se le asigna a lo material, los bienes y los servicios. b. Es la apreciación del arte, la expresión corporal y la belleza. c. Se orientan de acuerdo a nuestros ideales, metas y juicios.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "I: c – II: a – III: b",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "I: b – II: a – III: c",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "I: c – II: b – III: a",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "I: a – II: c – III: b",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 119,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Pablo y Laura le pidieron a su abuela que les mostrara sus álbumes fotográficos, les contara el contexto y las anécdotas. A partir de entonces, descubrieron que ________ han intervenido en la conformación de su identidad personal.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "las leyes sociales",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "los deseos infantiles",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "las historias compartidas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "las políticas públicas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 120,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Relaciona los derechos y obligaciones de los adolescentes con el ejemplo que les corresponde. Derechos y obligaciones: I. Derecho. II. Obligación. Ejemplos: a. Respeto de los padres a los hijos. b. Responsabilidad en los estudios. c. Cumplimiento de las normas sociales. d. Contar con servicios de salud gratuitos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "I: a, d – II: b, c",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "I: a, c – II: b, d",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "I: b, c – II: a, d",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "I: c, d – II: b, a",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 121,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El dueño de un establecimiento paga a sus empleados adolescentes un sueldo menor al salario mínimo argumentando que no tienen necesidades importantes que satisfacer, como en el caso de los adultos casados. Esta situación describe un tipo de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "favoritismo económico empresarial.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "violencia económica a los adolescentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "pequeñas y medianas empresas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "economía propia de la adolescencia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 122,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una democracia, el método que permite resolver las diferencias, en la toma de decisiones, se fundamenta en el principio de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "justicia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "mayoría.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "utilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "equidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 123,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Espacio físico dentro del cual se ejerce el poder estatal y define los límites de la independencia frente a otros estados.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Territorio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Región.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Nación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Lugar.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 124,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Reto democrático que permite manifestar el reconocimiento de la pluralidad ideológica y política de la sociedad.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Participación ciudadana.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Transparencia pública.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Acceso a la información.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Responsabilidad pública.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 125,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Ejemplo de soberanía.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los ciudadanos eligen al presidente de la República.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El pueblo celebra ceremonias cívicas importantes.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La sociedad participa en actividades públicas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Los ciudadanos ejercen la cultura de la legalidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 126,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El \"Teletón\" que anualmente organizan diversas televisoras es un ejemplo de que los medios de comunicación pueden cumplir con una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "responsabilidad política.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "función social.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "acción altruista.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "conciencia ambiental.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 127,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la escuela de María se ha pedido a los alumnos que recolecten envases de plástico para llevarlos a reciclar. Esta es una acción encaminada al cuidado del entorno",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "natural.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "cultural.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "económico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "social.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 128,
+      "materia": "Formación Cívica y Ética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La negociación se caracteriza por ser un proceso en el que dos o más actores",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "tienen problemáticas similares y están dispuestos a resolverlas mediante el diálogo y la discusión.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "afrontan un acuerdo de intereses y están dispuestos a ceder y hacer concesiones gracias al diálogo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "enfrentan un conflicto de intereses, pero están dispuestos a dialogar y ceder a cambio de algo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "solucionan problemas comunes dialogando, sin necesidad de ceder algo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}
