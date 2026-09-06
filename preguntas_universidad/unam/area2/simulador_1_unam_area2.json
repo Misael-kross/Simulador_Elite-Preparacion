@@ -1,0 +1,4096 @@
+{
+  "nombre": "Simulador UNAM 1",
+  "nivel": "Universidad",
+  "institucion": "UNAM",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Durante 15 segundos un motociclista se desplaza a \\(20\\ m/s\\), después, durante 20 segundos se mueve a \\(15\\ m/s\\), posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a \\(10\\ m/s\\). Con base en estos datos, la rapidez media es de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(25\\ m/s\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(15\\ m/s\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(20\\ m/s\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(10\\ m/s\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Sobre un cuerpo se aplicaron diferentes fuerzas en dirección horizontal y con el mismo sentido provocando que el objeto experimentara distintas aceleraciones. Basándote en la gráfica de los resultados obtenidos y despreciando la acción ejercida por la fricción entre el objeto y la superficie de contacto, ¿cuál es la masa del objeto?",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p002.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1.6\\ kg\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2.5\\ kg\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(3.2\\ kg\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4.0\\ kg\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La Ley de Hooke sobre la relación entre desplazamiento \\(x\\) del resorte y la fuerza \\(F\\), como se muestra en la figura, establece que \\(x\\) es",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p003.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "directamente proporcional a F.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "inversamente proporcional a F.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "directamente proporcional al cuadrado de F.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "inversamente proporcional al cuadrado de F.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Un balín \\(x\\) de masa igual a \\(200\\ g\\) rueda con velocidad \\(V\\) sobre un riel recto con fricción despreciable y en posición horizontal. Otro balín \\(y\\) de masa igual a \\(400\\ g\\) rueda con velocidad \\(-V\\) sobre el mismo riel pero en sentido contrario (ver figura). Si se considera que hay conservación de energía e ímpetu, que los balines se comportan como partículas y que después de chocar el balín \\(y\\) queda inmóvil, ¿cuál será la velocidad del balín \\(x\\) después del choque totalmente elástico?",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p004.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((-V)(0.5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-V\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((-V)(0.25)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un termómetro de gas a volumen constante es usado para medir la temperatura de un objeto. Cuando el termómetro está en contacto con el punto triple del agua (\\(273.17\\ K\\)), la presión en el termómetro es \\(8\\,500 \\times 10^{4}\\ Pa\\). Cuando éste entra en contacto con otro objeto la presión es de \\(9\\,650 \\times 10^{4}\\ Pa\\). La temperatura del objeto es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(683\\ K\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(310\\ K\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(410\\ K\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(241\\ K\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La Teoría cinética de los gases predice una temperatura para la cual todas las partículas del gas cesan su movimiento aleatorio. ¿Cuál es esa temperatura?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-100\\ ^{\\circ}C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(0\\ ^{\\circ}F\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(0\\ K\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(0\\ ^{\\circ}C\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una onda formada en una cuerda tiene una longitud de onda de \\(10\\ cm\\) y un periodo de \\(2\\ s\\), ¿con qué velocidad se propaga?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(20.00\\ cm/s\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(0.25\\ cm/s\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(5.00\\ cm/s\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2.00\\ cm/s\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "En uno de los lados de una esquina, dos personas tienen una conversación, una tercera la escucha a la vuelta de la misma. ¿Cómo se llama este fenómeno ondulatorio?",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p008.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Interferencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Difracción.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Polarización.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Refracción.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un circuito consta de una pila con voltaje conocido de \\(V\\) volts y \\(4\\) resistores conectados en serie que presentan la misma resistencia desconocida de \\(R\\) ohms. Si por el circuito circula una corriente conocida de \\(i\\) amperes, ¿qué expresión nos sirve para calcular el valor de \\(R\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(R = \\frac{4V}{i}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(R = 4VI\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(R = \\frac{i}{4V}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(R = \\frac{V}{4i}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El orden creciente de la longitud de onda para el color azul (z), el verde (v), el rojo (r), y la luz amarilla (a) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "r, a, v, z.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "a, v, r, z.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "v, a, z, r.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "z, v, a, r.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La presión atmosférica en el Everest disminuye comparada con la del nivel del mar porque",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la densidad del aire aumenta.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la altura de la columna de aire soportada es menor.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la presión hidrostática del mar influye.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la densidad del aire soportada es mayor.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿En cuánto tiempo se llenará una alberca olímpica de \\(50\\ m \\times 25\\ m \\times 3\\ m\\), si se usa un tubo de \\(40\\ cm\\) de diámetro por el que fluye agua a una velocidad de \\(4\\ m/s\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "0.0052 horas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "0.020 horas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1.63 horas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "2.07 horas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identifica el propósito del siguiente texto. En la ceremonia celebrada en la explanada Francisco I. Madero de la residencia oficial de Los Pinos, Calderón indicó que para los XVI Juegos Panamericanos, Guadalajara 2011, se espera que participen ocho mil quinientos atletas de cuarenta y dos países y más de doscientos cincuenta mil visitantes nacionales y extranjeros.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Reflexionar sobre un tema.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Plasmar un sentimiento.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Difundir ideas políticas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Informar oportunamente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 14,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Texto que se elabora para ser representado, en él aparecen fuerzas que entran en conflicto y se resuelve en el desenlace.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Novela.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Leyenda.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Drama.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cuento.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Personaje del texto dramático que realiza acciones prescindibles, pues sirven para crear ambientes y darle verosimilitud a la trama.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Principal.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Antagonista.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Incidental.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Secundario.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 16,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identifica la idea que transmite el autor en los siguientes versos. Quiero morir cuando decline el día, en alta mar y con la cara al cielo; donde parezca un sueño la agonía, y el alma, un ave que remonta el vuelo. Manuel Gutiérrez Nájera",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Me rehúso a morir ahogado en el mar, a convertirme en pájaro.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Deseo una muerte con dignidad, en paz y sin dolor.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Tengo miedo de morir, me asustan la soledad y el sufrimiento.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Creo que la agonía y la muerte son nada más un sueño.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 17,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Género literario que es presentado en un escenario a través de diálogos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Épico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dramático.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Narrativo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Lírico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Movimiento literario que surge en la segunda mitad del siglo XIX, como reacción ante el individualismo extremo y el idealismo que caracterizó al romanticismo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Neoclasicismo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Creacionismo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Realismo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Surrealismo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Poeta mexicano de la segunda mitad del siglo XX, ganador del premio Nobel.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Carlos Fuentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Jaime Sabines.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Octavio Paz.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Carlos Monsiváis.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El siguiente fragmento sólo utiliza un espacio narrativo y pocos personajes, esto es característico. LA AUTONOMÍA. Una sombra decidió independizarse y se volvió contra su creador. Cuando estaban peleando y la sombra parecía ganar su primer encuentro, un sol bilioso entró por la ventana y ambos, fantasma y sombra, se esfumaron por la grieta de un rincón. Jaime Lopera",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "del mito.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "del cuento.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "de la leyenda.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "de la fábula.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La novela pertenece al género ________, está escrita en ________ y suele tener una estructura ________.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "narrativo — prosa — compleja",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "épico — verso — complicada",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "dramático — verso — escueta",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "lírico — prosa — simple",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 22,
+      "materia": "Literatura",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La paráfrasis es un proceso de carácter",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "descriptivo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "argumentativo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "expositivo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "interpretativo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "los periodos superiores.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "los periodos inferiores.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "las columnas de la izquierda.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "las columnas de la derecha.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 24,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántos gramos equivalen a \\(0.5\\ mol\\) de ácido fosfórico, \\(H_{3}PO_{4}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "49",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "96",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "98",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "48",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 25,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Sustancias que al estar en disolución donan protones.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Óxidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ácidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Bases.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sales.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 26,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En cierto laboratorio, se determinó que la disolución \\(Z\\) tiene un valor de \\(pH = 3\\), por lo cual podemos decir que presenta una concentración de iones \\(H^{+}\\) ______ y una concentración de iones \\(OH^{-}\\) = ______.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\) y \\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\) y \\(11\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(10^{-11}\\) y \\(10^{-3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(10^{-3}\\) y \\(10^{-11}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 27,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una botella de brandy de 946 mL tiene una concentración del 38% en volumen de alcohol. Los mL de alcohol presentes en la botella son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "24.84",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "38.00",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "359.48",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "586.52",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 28,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La oxidación de un elemento no metálico genera",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "oxisales.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "óxidos básicos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "hidróxidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "óxidos ácidos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 29,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de las siguientes ecuaciones químicas representa una reacción que favorece la formación de la lluvia ácida?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C + 2H_{2} \\rightarrow CH_{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(SO_{3} + H_{2}O \\rightarrow H_{2}SO_{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(CO_{2} \\rightarrow C + O_{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(N_{2} + 3H_{2} \\rightarrow 2NH_{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 30,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Nutrimentos que se consumen en forma de almidones y azúcares.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Lípidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Vitaminas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Carbohidratos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Proteínas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 31,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los triglicéridos son un grupo de lípidos caracterizados por tener el grupo funcional",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "éter.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "éster.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "amida.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "alcohol.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 32,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un valor de constante de equilibrio mayor que 1 indica que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "hay mayor formación de productos que de reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "hay mayor formación de reactivos que de productos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el equilibrio se desplaza hacia los reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la reacción química está en equilibrio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 33,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La función principal de un catalizador en una reacción química es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "aumentar la energía de activación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "favorecer la pureza de los productos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "disminuir la energía de activación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "aumentar la temperatura de los reactivos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 34,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La siguiente estructura representa a un",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p034.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "alqueno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "aromático.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "alquino.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "alcano.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 35,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(CH_{3}–C(=O)–OH\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(CH_{3}–C(=O)–NH_{2}\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(CH_{3}–CH_{2}–CH_{3}\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(CH_{3}–C(=O)–OCH_{2}CH_{3}\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Las opciones aparecen como estructuras químicas; el texto se transcribió en fórmula condensada."
+    },
+    {
+      "id": 36,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Es un ejemplo de la relación hombre — naturaleza como objeto de estudio de la Geografía.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los husos horarios son divisiones de la Tierra hechas en el siglo XIX.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El clima se define por el promedio de las condiciones medias de la atmósfera.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La corriente de Humboldt tiene relación con la gran riqueza pesquera de Perú.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Las migraciones de las especies generadas por el cambio climático.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 37,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El estado de Chihuahua está recorrido por la Sierra",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Madre Oriental.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Volcánica Transversal.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "de San Pedro Mártir.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Madre Occidental.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 38,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Es el río que ocupa el cuarto lugar en extensión en el mundo y se localiza en uno de los países económicamente más poderosos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Misisipi — Estados Unidos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Yangtsé — China",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Rin — Alemania",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Volga — Rusia",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 39,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las corrientes frías se relacionan con los grandes bancos pesqueros de especies altamente cotizadas como",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "camarón y jaiba.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "jaiba y salmón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "salmón y bacalao.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "bacalao y camarón.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 40,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La taiga es una región natural que se localiza en el",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "sur de E.U.A., centro de Europa y Malasia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "norte de Chile, norte de Suráfrica y Australia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "norte de México, sur de Italia y sur de India.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "centro de Canadá, norte de Europa y Siberia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 41,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Es la causa principal que provoca hundimientos en áreas de la Ciudad de México.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Fractura del subsuelo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Aumento del asentamiento humano.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ubicación en zona sísmica.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sobreexplotación de mantos acuíferos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 42,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las dos áreas de mayor concentración de población en el mundo son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Asia Oriental y Europa Occidental.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Asia Occidental y Europa Occidental.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Asia Meridional y Europa Occidental.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Asia Meridional y Europa Meridional.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 43,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una de las principales causas de la separación de Ucrania de la Unión de Repúblicas Socialistas Soviéticas fue",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la explosión de la central nuclear de Chernóbil.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el conflicto armado en Chechenia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la reestructuración económica de Gorbachov.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el enfrentamiento en la Guerra Fría.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 44,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una causa de la formación de nuevos países en Europa es la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "caída de la Unión Soviética.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "dependencia económica.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "regionalización económica.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "expansión de la Unión Soviética.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 45,
+      "materia": "Geografía",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La cría de ganado bovino en el estado de ______ tiene como objetivo principal su exportación.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sonora",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Tlaxcala",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Veracruz",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Tabasco",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 46,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(\\frac{(a^{2} + b)^{\\frac{3}{2}}}{a^{2} + b}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{(a^{2} + b)^{5}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((a^{2} + b)^{-\\frac{3}{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{a^{2} + b}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((a^{2} + b)^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 47,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Factoriza la siguiente expresión. \\(n^{6} - 3n^{3} - 18\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((n^{3} + 3)(n^{3} - 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((n^{3} - 3)(n^{3} + 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((n^{3} - 3)(n^{3} - 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((n^{3} + 3)(n^{3} + 6)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 48,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la expresión que corresponde a una ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\operatorname{sen}(x) = \\frac{1}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\operatorname{sen}(x)\\operatorname{csc}(x) = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\operatorname{sen}^{2}(x) + \\cos^{2}(x) = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\sec^{2}(x) - \\tan^{2}(x) = 1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 49,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los valores \\(0\\) y \\(-2\\) son las raíces o soluciones de la ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x(x - 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((x + 2)(x - 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x(x + 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{2} - 4 = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 50,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la desigualdad que tiene por solución al siguiente conjunto. \\([\\frac{1}{3}, \\infty)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3x - 1 \\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3x - 1 \\leq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-3x + 1 \\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-3x + 1 \\leq 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 51,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A partir del siguiente sistema de ecuaciones obtén el valor de \\(x\\). \\[\\begin{cases} 5x = 4y + 19 \\\\ 7x + 3y = 18 \\end{cases}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x = -3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = -1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x = 3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 52,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La función de la siguiente gráfica está dada por",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p052.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f(x) = -\\sqrt{-8x - 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f(x) = \\sqrt{-8x - 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f(x) = -\\sqrt{-8x + 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f(x) = \\sqrt{-8x + 16}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 53,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En términos de \\(\\operatorname{sen}\\theta\\) y \\(\\cos\\theta\\), \\(\\tan\\theta\\) es igual a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{2\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 54,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para encontrar la medida de los ángulos internos de un triángulo oblicuángulo cuando se conocen las medidas de sus lados se utiliza",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la ley de los cosenos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la ley de los senos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el teorema de Pitágoras.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la razón trigonométrica tangente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 55,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el rango de la siguiente función \\(y = e^{5x - 1} + 5\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((\\frac{1}{5}, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((5, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((-5, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\([-\\frac{1}{5}, \\infty)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "La expresión exponencial se transcribió según el OCR disponible; revisar contra imagen si se requiere precisión absoluta."
+    },
+    {
+      "id": 56,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la distancia entre los puntos \\(P(2, 5)\\) y \\(Q(4, -1)\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\sqrt{10}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\sqrt{10}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 57,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determina el centro de la circunferencia cuyo diámetro es el segmento \\(A(-3, 2)\\), \\(B(7, 8)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(P(2, 5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(P(5, 5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(P(5, 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(P(-2, 3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 58,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La ecuación ordinaria de la mediatriz del siguiente triángulo trazada desde el lado AB es",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y = -3x + 6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y = -3x + 7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y = -2x + 5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y = -2x + 6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 59,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica las coordenadas del centro de la circunferencia cuya ecuación general es \\(3x^{2} + 3y^{2} + 12x + 30y + 6 = 0\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C(-4, -10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(C(-2, -5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(C(4, 10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(C(2, 5)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 60,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la ecuación de la parábola con foco \\(F(1, 0)\\), valor del parámetro \\(P = 1\\) y eje focal paralelo al eje \\(Y\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^{2} + 4y = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y^{2} - 4x = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2} - 4y = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y^{2} + 4x = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 61,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la ecuación general de la siguiente elipse \\(\\frac{x^{2}}{16} + \\frac{y^{2}}{4} = 1\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4x^{2} + y^{2} - 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2} + 4y^{2} + 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2} + 4y^{2} - 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4x^{2} + 4y^{2} + 16 = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 62,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para la ecuación de la siguiente hipérbola, si \\(c = 41\\), ¿cuánto vale \\(a\\)? \\(\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{9^{2}} = 1\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a = 1024\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a = 1600\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a = 32\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a = 40\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 63,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si en la ecuación \\(Ax^{2} + Bxy + Cy^{2} + Dx + Ey + F = 0\\) el discriminante \\(B^{2} - 4AC\\) es positivo, entonces la ecuación representa una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "circunferencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "parábola.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "elipse.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "hipérbola.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 64,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La condición que debe cumplir \\(x\\) cuando se aproxima a \\(b\\) para que en \\(f(x)\\) exista el límite \\(L\\) es que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x \\neq b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x > b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x \\geq b\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 65,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La derivada de \\(y = (2x^{3} + 5)^{4}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y\\prime = 12x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y\\prime = 6x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y\\prime = 8x^{2}(2x^{3} + 5)^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y\\prime = 24x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 66,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La posición de una partícula expresada en unidades \\(u\\) está dada por la función de tiempo \\(s\\) \\(f(t) = t^{3} - t + 1\\). Considerando \\(t = 3\\), ¿cuál es su aceleración en \\(u/s^{2}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(24\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(26\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(17\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(18\\ u/s^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 67,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La expresión \\(f(t) = \\cos(2t + 3)\\) es una función de posición de movimiento armónico. La expresión para la aceleración es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a(t) = -4\\cos(2t - 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a(t) = \\cos(2t + 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a(t) = -\\cos(2t + 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a(t) = -4\\cos(2t + 3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 68,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con la siguiente imagen ¿qué características de la función nos permite determinar si es integrable o no?",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "No es integrable porque está acotada pero su número de discontinuidades es infinito.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Sí es integrable porque está acotada y su número de discontinuidades es finito.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Sí es integrable porque está acotada y su número de discontinuidades es finito.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "No es integrable porque no está acotada aun cuando su número de discontinuidades es finito.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La opción B y C aparecen muy similares en el OCR; revisar la imagen para confirmar el texto exacto."
+    },
+    {
+      "id": 69,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La integral \\(\\int(2\\operatorname{sen}x + 3\\cos x)\\,dx\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\operatorname{sen} x + \\cos x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\operatorname{sen} x - \\cos x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2\\cos x + 3\\operatorname{sen} x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-2\\cos x + 3\\operatorname{sen} x + C\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 70,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A partir del siguiente texto, identifica la función de la lengua que predomina. Oye, escucha bien lo que he de decirte, no pierdas una sola palabra, es decir, permanece atento, no pienso repetir lo que diga.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Poética.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Emotiva.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Referencial.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Apelativa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 71,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona el enunciado en el que existe predominio de la función poética de la lengua.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ese verso muestra su vocación de poeta.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La literatura incluye al género poético.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Manifestación de la belleza o del sentimiento estético.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "¿Qué es poesía? ¿Y tú me lo preguntas? / Poesía... eres tú.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 72,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identifica la forma del discurso que predomina en el siguiente párrafo. Los primeros prototipos de los platos biodegradables eran de piedra caliza, fécula de papa y papel reciclado, pero se fue perfeccionando la idea hasta que se logró una mezcla de almidón de papa, agua y un polímero orgánico.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Argumentativa.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Narrativa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Demostrativa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Descriptiva.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 73,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identifica la forma del discurso que predomina en el siguiente texto. Hablamos porque tenemos necesidad de nombrarnos, de afirmar nuestra libertad y declarar al mundo nuestro absoluto derecho a existir. Entendemos entonces que somos seres que existimos por el lenguaje en tanto seres comunitarios. Individuos que nacemos y nos relacionamos a partir de una vida en comunidad. Comunidad y comunicación no sólo son términos similares, sino también esencias que caracterizan a los seres humanos que existen por el lenguaje. Por ello el lenguaje posee una condición ontológica en el devenir del hombre histórico.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Argumentación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Descripción.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Narración.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Exposición.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 74,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto y contesta de la pregunta 74 a la 78. Tiempo libre. Todas las mañanas compro el periódico y todas las mañanas, al leerlo, me mancho los dedos con tinta. Nunca me ha importado ensuciármelos con tal de estar al día en las noticias. Pero esta mañana sentí un gran malestar apenas toqué el periódico. Creí que solamente se trataba de uno de mis acostumbrados mareos. Pagué el importe del diario y regresé a mi casa. Mi esposa había salido de compras. Me acomodé en mi sillón favorito, encendí un cigarro y me puse a leer la primera página. Luego de enterarme de que el jet se había desplomado, volví a sentirme mal; vi mis dedos y las manos con toda la calma y, ya tranquilo, regresé al sillón. Cuando iba a tomar mi cigarro, descubrí que una mancha negra cubría mis dedos. De inmediato retomé el baño, me tallé con zacate, piedra pómez y, finalmente, me lavé con blanqueador; pero el intento fue inútil, porque la mancha creció y me invadió hasta los codos. Ahora, más preocupado que molesto, llamé al doctor y me recomendó que lo mejor era que tomara unas vacaciones, o que durmiera. Después, llamé a las oficinas del periódico para elevar mi más rotunda protesta; me contestó una voz de mujer, que solamente me insultó y me trató de loco. En el momento en que hablaba por teléfono, me di cuenta de que, en realidad, no se trataba de una mancha, sino de un número infinito de letras pequeñísimas, apresuradas, como una inquieta multitud de hormigas negras. Cuando colgué, las letritas habían avanzado ya hasta mi cintura. Asustado, corrí hacia la puerta de entrada; pero, antes de poder abrirla. Me flaquearon las piernas y caí estrepitosamente. Tirado bocarriba descubrí que, además de la gran cantidad de letras hormiga que ahora ocupaban todo mi cuerpo, había una que otra fotografía. Así estuve durante varias horas hasta que escuché que abrían la puerta. Me costó trabajo hilar la idea, pero al fin pensé que había llegado mi salvación. Entró mi esposa, me levantó del suelo, me cargó bajo el brazo, se acomodó en mi sillón favorito, me hojeó despreocupadamente y se puso a leer. Guillermo Samperio El clímax en el texto se da cuando",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la esposa del personaje toma el periódico para leerlo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el personaje corrió hacia la puerta de entrada.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el personaje cayó estrepitosamente.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el personaje llamó a las oficinas del periódico para protestar.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 75,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El término apeñuscadas se refiere a que las letras",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "eran muchas y muy pequeñas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "tenían color muy oscuro.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "eran pequeñas y negras.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "quedaban amontonadas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 76,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El personaje de la historia hizo una llamada telefónica para",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "protestar porque una mujer de la oficina fue descortés con él.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "exigir un diagnóstico a su médico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "quejarse de que el periódico le causó daño en la piel.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "expresar su preocupación al periódico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 77,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El personaje sintió un gran alivio al",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "escuchar que su mujer abría la puerta.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "regresar al sillón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "llamar a su médico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "sentir que su mujer lo levantaba.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 78,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Con el texto, el autor intenta",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "denunciar los efectos nocivos del papel periódico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "narrar la despersonalización de un individuo obsesionado con las noticias.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "describir los síntomas de la intoxicación por tinta.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mostrar el malestar de un individuo al leer el periódico diariamente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 79,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la oración principal del siguiente fragmento. De cara a la redefinición de la izquierda, conviene la reflexión retrospectiva: En el vasto frente opositor que tomó el nombre de Frente Democrático Nacional (FDN) había fuerzas distintas y dispersas de izquierda. Nunca terminaron de integrarse aunque sí se articularon con fines electorales. Siempre fue mucho mayor la fuerza societaria que la capacidad orgánica de los partidos y su desarrollo institucional. Desde que fuimos Corriente Democrática éramos mucho más una idea, una conciencia, una propuesta, que una organización.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Nunca terminaron de integrarse aunque sí se articularon con fines electorales.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Siempre fue mucho mayor la fuerza societaria que la capacidad orgánica de los partidos y su desarrollo institucional.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Desde que fuimos Corriente Democrática éramos mucho más una idea, una conciencia, una propuesta, que una organización.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "En el vasto frente opositor que tomó el nombre de Frente Democrático Nacional (FDN) había fuerzas distintas y dispersas de izquierda.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 80,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la opción que contenga sujeto tácito.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "No hay posibilidades de cambio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Un rincón cerca del cielo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Así es todos los días.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cada noche camina dormida.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 81,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige el párrafo con la mejor redacción.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "En este orden, la posibilidad y el origen del conocimiento son algunos problemas a considerar. Presenta el conocimiento, para iniciar, así una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Así, la posibilidad y el origen del conocimiento son algunos problemas a considerar que presenta el conocimiento. Para iniciar, una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El conocimiento, en el inicio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. De modo que la posibilidad y el origen del conocimiento son algunos problemas a considerar.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El conocimiento, en principio, ofrece una vertiente filosófica que no podemos soslayar si queremos profundizar en el tema. En este orden, la posibilidad y el origen del conocimiento son algunos problemas clave.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 82,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige el párrafo con la redacción adecuada.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Cuentan que en éste año hubieron muchos damnificados a consecuencia de las inundaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Afirmaron que éste año habían muchos damnificados a consecuencia de las inundaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Se afirmó que en este año hubieron muchos damnificados a consecuencia de las inundaciones.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Según los últimos datos, en este año ha habido muchos damnificados a consecuencia de las inundaciones.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 83,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son las propiedades textuales de un párrafo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Concordancia, ortografía y tema.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Inicio, desarrollo y conclusión.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Sentido, ortografía y estructura.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cohesión, coherencia y adecuación.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 84,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "De acuerdo con la relación de analogía que se establece entre las palabras subrayadas del siguiente enunciado, señala la opción que presenta una relación semejante. Tu discurso parece un desierto, provocó aburrimiento en el auditorio y, en consecuencia, un generalizado bostezo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ira — agresión.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Diversión — sonrisa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Distracción — error.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Impaciencia — fastidio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 85,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la opción que contiene sólo palabras homófonas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ay — hay — ahí",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "este — esté",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "hacia — Asia",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "a — ha — ah",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 86,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la opción con las palabras que completan correctamente el siguiente enunciado. Recuerda que los ______ plásticos no son ______ fácilmente por las máquinas trituradoras de basura.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "desechos — deshechos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "desechos — desechos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "desechos — deshechos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "deshechos — desechos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 87,
+      "materia": "Español",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la opción que usa correctamente las letras mayúsculas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ante la presencia de los Príncipes de Noruega, Haakon Magnus y Mette-Marit, fue inaugurada hoy la Muestra Kristin Jarmund, Obras Escogidas. El trabajo de la Arquitecta se exhibirá todo este mes en la Galería José Luis Benlliure.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ante la presencia de los príncipes de Noruega, Haakon Magnus y Mette-Marit, fue inaugurada hoy la Muestra Kristin Jarmund, Obras escogidas. El trabajo de la Arquitecta se exhibirá todo este mes en la galería José Luis Benlliure.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ante la presencia de los príncipes de Noruega, Haakon Magnus y Mette-Marit, fue inaugurada hoy la Muestra Kristin Jarmund, Obras escogidas. El trabajo de la arquitecta se exhibirá todo este mes en la galería José Luis Benlliure.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ante la presencia de los Príncipes de Noruega, Haakon Magnus y Mette-Marit, fue inaugurada hoy la Muestra Kristin Jarmund, Obras Escogidas. El trabajo de la arquitecta se exhibirá todo este mes en la galería José Luis Benlliure.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 88,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Estructura que protege y da soporte a las células vegetales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Complejo de Golgi.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Pared celular.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Matriz extracelular.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Membrana plasmática.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 89,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La principal ventaja evolutiva de los organismos eucariontes con respecto a los procariontes es la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "compartimentalización del citoplasma.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "respiración anaerobia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "presencia de nutrición quimioautótrofa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "síntesis de proteínas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 90,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Cuando se hidroliza el ATP se forma",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "AMP",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "ADP",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "GTP",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "UTP",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 91,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuáles de los siguientes compuestos son utilizados para la fijación del bióxido de carbono en la fase oscura de la fotosíntesis?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(FADH_{2}\\) y \\(H_{2}O\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(ATP\\) y \\(NADPH\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(FADH_{2}\\) y \\(ATP\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(C_{6}H_{12}O_{6}\\) y \\(O_{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 92,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La información genética codificada en el ácido desoxirribonucleico está en",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el número de nucleótidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la secuencia de las bases nitrogenadas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "los enlaces entre las bases nitrogenadas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la unión entre nucleótidos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 93,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Tipos de gametos producidos por un progenitor con genotipo Aa — Bb.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "AA — BB — aa — bb",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "AB — Ab — aB — ab",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "AA — Aa — BB — Bb",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Aa — Bb — aa — bb",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 94,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si al revisar cromosomas en el microscopio encontramos un cuerpo de Barr, se trata de un cromosoma",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "de un individuo masculino.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "metacéntrico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "acrocéntrico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "de un individuo femenino.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 95,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Primera proteína humana realizada con la tecnología del ADN recombinante.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Miosina.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Hemoglobina.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Queratina.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Insulina.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 96,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La Teoría Quimiosintética formulada por Alexander Ivanovich Oparin y John Burdon Sanderson Haldane, propone un origen ______ de la vida.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "biótico",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "abiótico",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "espontáneo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "panspérmico",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 97,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La barrera reproductiva que se presenta cuando se cruza un burro con una yegua, se llama",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "esterilidad gamética.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "aislamiento gamético.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "inviabilidad híbrida.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "esterilidad híbrida.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 98,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Organismos de diferentes especies que viven juntos y que interactúan en un área en particular.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Colonia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Bioma.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Población.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Comunidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 99,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Conjunto de organismos que interactúan entre sí y con el medio, dentro de un proceso de flujo y ciclaje de materia y energía.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Metagenoma.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Población.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Comunidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ecosistema.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 100,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un ecosistema en equilibrio dinámico",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la energía fluye en una dirección y los nutrimentos se reciclan.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la energía entra en forma de calor metabólico para los organismos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "se recicla la energía pero no la materia.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la energía y los nutrimentos fluyen en diferentes direcciones.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 101,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los historiadores construyen los procesos históricos mediante la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "intervención de los restos materiales antiguos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "interpretación de las fuentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "explicación subjetiva de los datos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "omisión de las fuentes secundarias.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 102,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La creencia en la razón humana, la crítica a la religión y al orden social establecido, así como la búsqueda del conocimiento enciclopédico, fueron características",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "de la Revolución Científica.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "del Positivismo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "del Racionalismo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "de la Ilustración.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 103,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La lucha a favor del liberalismo y el nacionalismo representa la característica de las revoluciones de ______ y ______ apoyadas por las clases populares.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1820, 1830, 1848",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1849, 1776, 1793",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1789, 1804, 1820",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1808, 1839, 1936",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 104,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El automóvil, el aeroplano, el teléfono y la comida enlatada fueron inventos de la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Primera Revolución Industrial.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Segunda Revolución Industrial.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Primera Guerra Mundial.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Segunda Guerra Mundial.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 105,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La crisis en los Balcanes, la formación de alianzas diplomáticas entre los imperios europeos y la competencia económica entre las potencias fueron causas de la",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Primera Guerra Mundial.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Guerra de los Balcanes.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Guerra de Crimea.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Segunda Guerra Mundial.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 106,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La sobreproducción de artículos por la expansión industrial y la política del liberalismo económico fueron causas de la crisis de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1908.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1929.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1973.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1974.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 107,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Ordena cronológicamente los siguientes acontecimientos relacionados con la Segunda Guerra Mundial. I. Hitler invade Polonia. II. Desembarco angloamericano en Normandía. III. Bombas atómicas sobre Hiroshima y Nagasaki. IV. Los alemanes toman París. V. Ataque Japonés a Pearl Harbor.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "I, IV, V, II y III",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "II, V, I, III y IV",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "III, I, IV, V y II",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "IV, III, I, II y V",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 108,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Periodo de luchas políticas, diplomáticas, ideológicas y de enfrentamientos indirectos entre la Unión de Repúblicas Socialistas Soviéticas y Estados Unidos de América.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Luchas de liberación Nacional.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Guerra Fría.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Era Neoliberal.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Neoimperialismo Nacionalista.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 109,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Factor importante de la crisis político—militar en el Medio Oriente es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la creación del Estado de Israel.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la opresión turca de Palestina.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la independencia de Irán.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la disputa religiosa en Líbano.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 110,
+      "materia": "Historia Universal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una característica del mundo unipolar es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el establecimiento del sistema económico socialista.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la globalización de los sectores productivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la estabilidad económica en el mundo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el fortalecimiento de las identidades nacionales.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 111,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál fue la principal actividad económica que promovió la corona española en la Nueva España?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Agricultura.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Minería.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ganadería.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Comercio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 112,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿En qué momento de la Independencia de la Nueva España se promulgó la Constitución de Apatzingán?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La organización.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El inicio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La consumación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "La guerrilla insurgente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 113,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Con el fin de mejorar la economía y organizar la administración del país, el gobierno de Anastasio Bustamante",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "estableció el impuesto por puertas y ventanas y se fraccionaron los latifundios.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "suspendió el cobro del diezmo y se subastaron propiedades del clero.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "promulgó el Banco del Avío y se fomentó el capital extranjero para la industria.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "estimuló la agricultura y se obligó a la iniciativa privada a pagar más impuestos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 114,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El objetivo principal del gobierno juarista durante la Restauración de la República fue",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "limitar la democracia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "evitar la ruptura de las relaciones diplomáticas con Francia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "reorganizar al país bajo la filosofía positivista.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "establecer una oligarquía.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 115,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El Partido Liberal Mexicano fue encabezado por",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ricardo Flores Magón.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Gustavo Madero.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Emiliano Zapata.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Pascual Orozco Vázquez.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 116,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Documento que reconoce derechos sociales, como el derecho a la educación, al trabajo digno, al respeto a las garantías individuales, así como a la libertad de culto y de elección.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Constitución de 1917.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Constitución de 1857.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Constitución de 1824.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Constitución de Apatzingán.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 117,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La inauguración del Palacio de Bellas Artes, la instauración del Partido Nacional Revolucionario, la restitución de las relaciones diplomáticas con América del Sur y el reconocimiento de la autonomía universitaria, fueron acciones del periodo conocido como",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Maximato.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Unidad Nacional.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Desarrollo Compartido.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cardenismo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 118,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La trascendencia histórica del Plan Sexenal se debe principalmente a que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "suscribió la paz entre las facciones revolucionarias.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "dio voz a obreros y campesinos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "estableció un modelo de desarrollo económico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "permitió la reelección de Álvaro Obregón.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 119,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El impulso a la petrolización del país y la apertura del sector turístico a los capitales privados fueron acciones de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Luis Echeverría Álvarez.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "José López Portillo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Miguel de la Madrid Hurtado.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Carlos Salinas de Gortari.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 120,
+      "materia": "Historia de México",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La aplicación de políticas neoliberales en México, inició con el gobierno de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Luis Echeverría Álvarez.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "José López Portillo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Miguel de la Madrid Hurtado.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ernesto Zedillo Ponce de León.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}

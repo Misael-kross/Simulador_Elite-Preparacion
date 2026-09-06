@@ -1,0 +1,2626 @@
+{
+  "nombre": "Simulador Exani II",
+  "nivel": "Universidad",
+  "institucion": "-",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el siguiente texto y conteste las preguntas asociadas. FIFA llama a un alto al fuego entre Rusia y Ucrania durante el Mundial de Qatar. El presidente de la FIFA, Gianni Infantino, llamó este martes a guardar un alto al fuego de un mes en Ucrania, el periodo de tiempo que dura el Mundial de Qatar, afirmando que el deporte puede jugar un papel unificador. 'Mi llamado a todos ustedes es que valoren un alto al fuego temporal de un mes mientras dure la Copa del Mundo', declaró durante un almuerzo con los dirigentes del G20 reunidos en la isla indonesia de Bali. Vladimir Putin es el gran ausente de esta reunión de los dirigentes de las grandes economías del planeta donde Rusia está representada por su ministro de Relaciones Exteriores, Serguéi Lavrov. En caso de que no hubiera tregua, el dirigente futbolístico, condecorado por Putin luego del Mundial-2018, mencionó la posibilidad de 'corredores humanitarios o cualquier cosa que pueda conducir a retomar el diálogo'. Infantino puso en valor el papel unificador del fútbol, recordando que Rusia organizó el Mundial-2018 y que Ucrania es candidata para acoger la competición en 2030 con España y Portugal. 'No somos tan ingenuos como para pensar que el fútbol puede resolver los problemas del mundo', concedió. Pero el Mundial es una plataforma única, con una audiencia estimada en cinco mil millones de espectadores, ofreciendo 'una oportunidad para hacer todo lo posible para poner fin a todos los conflictos [1]', aseguró. En el marco de la preparación del torneo, que comienza el 20 de noviembre, Qatar ha recibido muchas críticas sobre el trato dispensado a los trabajadores migrantes, a las mujeres y a la comunidad LGBTQ+. Los organizadores del Mundial respondieron insistiendo en el hecho de que 'ningún país es perfecto'.\n\nEl texto anterior es un ejemplo de...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "noticia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "artículo de opinión.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "ensayo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el siguiente texto y conteste las preguntas asociadas. FIFA llama a un alto al fuego entre Rusia y Ucrania durante el Mundial de Qatar. El presidente de la FIFA, Gianni Infantino, llamó este martes a guardar un alto al fuego de un mes en Ucrania, el periodo de tiempo que dura el Mundial de Qatar, afirmando que el deporte puede jugar un papel unificador. 'Mi llamado a todos ustedes es que valoren un alto al fuego temporal de un mes mientras dure la Copa del Mundo', declaró durante un almuerzo con los dirigentes del G20 reunidos en la isla indonesia de Bali. Vladimir Putin es el gran ausente de esta reunión de los dirigentes de las grandes economías del planeta donde Rusia está representada por su ministro de Relaciones Exteriores, Serguéi Lavrov. En caso de que no hubiera tregua, el dirigente futbolístico, condecorado por Putin luego del Mundial-2018, mencionó la posibilidad de 'corredores humanitarios o cualquier cosa que pueda conducir a retomar el diálogo'. Infantino puso en valor el papel unificador del fútbol, recordando que Rusia organizó el Mundial-2018 y que Ucrania es candidata para acoger la competición en 2030 con España y Portugal. 'No somos tan ingenuos como para pensar que el fútbol puede resolver los problemas del mundo', concedió. Pero el Mundial es una plataforma única, con una audiencia estimada en cinco mil millones de espectadores, ofreciendo 'una oportunidad para hacer todo lo posible para poner fin a todos los conflictos [1]', aseguró. En el marco de la preparación del torneo, que comienza el 20 de noviembre, Qatar ha recibido muchas críticas sobre el trato dispensado a los trabajadores migrantes, a las mujeres y a la comunidad LGBTQ+. Los organizadores del Mundial respondieron insistiendo en el hecho de que 'ningún país es perfecto'.\n\n¿Cuál es probablemente la intención del autor del texto anterior?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Informar sobre el tema que aborda.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Criticar una postura social del país anfitrión del Mundial de fútbol.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Dar su testimonio de la situación que menciona.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el siguiente texto y conteste las preguntas asociadas. FIFA llama a un alto al fuego entre Rusia y Ucrania durante el Mundial de Qatar. El presidente de la FIFA, Gianni Infantino, llamó este martes a guardar un alto al fuego de un mes en Ucrania, el periodo de tiempo que dura el Mundial de Qatar, afirmando que el deporte puede jugar un papel unificador. 'Mi llamado a todos ustedes es que valoren un alto al fuego temporal de un mes mientras dure la Copa del Mundo', declaró durante un almuerzo con los dirigentes del G20 reunidos en la isla indonesia de Bali. Vladimir Putin es el gran ausente de esta reunión de los dirigentes de las grandes economías del planeta donde Rusia está representada por su ministro de Relaciones Exteriores, Serguéi Lavrov. En caso de que no hubiera tregua, el dirigente futbolístico, condecorado por Putin luego del Mundial-2018, mencionó la posibilidad de 'corredores humanitarios o cualquier cosa que pueda conducir a retomar el diálogo'. Infantino puso en valor el papel unificador del fútbol, recordando que Rusia organizó el Mundial-2018 y que Ucrania es candidata para acoger la competición en 2030 con España y Portugal. 'No somos tan ingenuos como para pensar que el fútbol puede resolver los problemas del mundo', concedió. Pero el Mundial es una plataforma única, con una audiencia estimada en cinco mil millones de espectadores, ofreciendo 'una oportunidad para hacer todo lo posible para poner fin a todos los conflictos [1]', aseguró. En el marco de la preparación del torneo, que comienza el 20 de noviembre, Qatar ha recibido muchas críticas sobre el trato dispensado a los trabajadores migrantes, a las mujeres y a la comunidad LGBTQ+. Los organizadores del Mundial respondieron insistiendo en el hecho de que 'ningún país es perfecto'.\n\nDel último párrafo del texto es posible inferir que...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Rusia es un país aliado de Qatar.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La postura de la FIFA es contradictoria.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Qatar trabaja arduamente por ser un país más tolerante.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el siguiente texto y conteste las preguntas asociadas. FIFA llama a un alto al fuego entre Rusia y Ucrania durante el Mundial de Qatar. El presidente de la FIFA, Gianni Infantino, llamó este martes a guardar un alto al fuego de un mes en Ucrania, el periodo de tiempo que dura el Mundial de Qatar, afirmando que el deporte puede jugar un papel unificador. 'Mi llamado a todos ustedes es que valoren un alto al fuego temporal de un mes mientras dure la Copa del Mundo', declaró durante un almuerzo con los dirigentes del G20 reunidos en la isla indonesia de Bali. Vladimir Putin es el gran ausente de esta reunión de los dirigentes de las grandes economías del planeta donde Rusia está representada por su ministro de Relaciones Exteriores, Serguéi Lavrov. En caso de que no hubiera tregua, el dirigente futbolístico, condecorado por Putin luego del Mundial-2018, mencionó la posibilidad de 'corredores humanitarios o cualquier cosa que pueda conducir a retomar el diálogo'. Infantino puso en valor el papel unificador del fútbol, recordando que Rusia organizó el Mundial-2018 y que Ucrania es candidata para acoger la competición en 2030 con España y Portugal. 'No somos tan ingenuos como para pensar que el fútbol puede resolver los problemas del mundo', concedió. Pero el Mundial es una plataforma única, con una audiencia estimada en cinco mil millones de espectadores, ofreciendo 'una oportunidad para hacer todo lo posible para poner fin a todos los conflictos [1]', aseguró. En el marco de la preparación del torneo, que comienza el 20 de noviembre, Qatar ha recibido muchas críticas sobre el trato dispensado a los trabajadores migrantes, a las mujeres y a la comunidad LGBTQ+. Los organizadores del Mundial respondieron insistiendo en el hecho de que 'ningún país es perfecto'.\n\n¿Qué dato es cierto según el texto?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Rusia será sede del siguiente mundial.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ucrania podría ser la sede principal del mundial de 2026.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "España y Portugal son candidatas a ser sedes del mundial de 2030.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el siguiente texto y conteste las preguntas asociadas. FIFA llama a un alto al fuego entre Rusia y Ucrania durante el Mundial de Qatar. El presidente de la FIFA, Gianni Infantino, llamó este martes a guardar un alto al fuego de un mes en Ucrania, el periodo de tiempo que dura el Mundial de Qatar, afirmando que el deporte puede jugar un papel unificador. 'Mi llamado a todos ustedes es que valoren un alto al fuego temporal de un mes mientras dure la Copa del Mundo', declaró durante un almuerzo con los dirigentes del G20 reunidos en la isla indonesia de Bali. Vladimir Putin es el gran ausente de esta reunión de los dirigentes de las grandes economías del planeta donde Rusia está representada por su ministro de Relaciones Exteriores, Serguéi Lavrov. En caso de que no hubiera tregua, el dirigente futbolístico, condecorado por Putin luego del Mundial-2018, mencionó la posibilidad de 'corredores humanitarios o cualquier cosa que pueda conducir a retomar el diálogo'. Infantino puso en valor el papel unificador del fútbol, recordando que Rusia organizó el Mundial-2018 y que Ucrania es candidata para acoger la competición en 2030 con España y Portugal. 'No somos tan ingenuos como para pensar que el fútbol puede resolver los problemas del mundo', concedió. Pero el Mundial es una plataforma única, con una audiencia estimada en cinco mil millones de espectadores, ofreciendo 'una oportunidad para hacer todo lo posible para poner fin a todos los conflictos [1]', aseguró. En el marco de la preparación del torneo, que comienza el 20 de noviembre, Qatar ha recibido muchas críticas sobre el trato dispensado a los trabajadores migrantes, a las mujeres y a la comunidad LGBTQ+. Los organizadores del Mundial respondieron insistiendo en el hecho de que 'ningún país es perfecto'.\n\nEl enunciado marcado con el número 1 implica que...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "los certámenes internacionales son la solución a los conflictos bélicos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "los eventos como el mundial de fútbol pueden mitigar las diferencias políticas entre países.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el fútbol puede ayudar a recordar las cosas que son más importantes que la guerra.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Quitarle tiempo al tiempo: una lectura equivocada de Edna St. Vincent Millay. Cuando comencé a leer poesía, no leía 'poesía': leía un poema, uno sólo, una y otra vez durante días. No era una fijación con el género como tal sino con uno de sus exponentes, que guardaba celosamente en mi bolsillo bajo la forma de fotocopias, mullidas hasta lo irreconocible [2]. La primera vez que leí un libro completo de poemas tenía alrededor de dieciséis años. La poeta era Edna St. Vincent Millay y el mío, un amor decididamente adolescente y decimonónico. Aunque avanzaba en la lectura, volvía siempre a mi soneto favorito, una descripción desoladora y en cámara rápida de una vida entera que cierra con el broche de oro de una reflexión sobre la angustia. Alegría pura. Años después, al llegar a la maestría, me encontré de nuevo con el poemario en una librería de viejo y, al releer el soneto, caí en cuenta de algo que me conmocionó. Durante mis años de intensidad adolescente, una lectura descuidada y primeriza había cambiado el significado del final, cuya sintaxis es sin duda enrevesada. En lugar de entender que la enunciante desea envejecer para experimentar cómo el tiempo cambia su angustia volviéndola soportable, leí exactamente lo contrario. En mi versión mal habida del poema, lo que más temía la enunciante del paso del tiempo era que se deslavara su angustia, que su dolor perdiera filo y se volviera dócil. Con frecuencia he pensado que el duelo es la mayor cercanía a la que podemos aspirar con lo perdido. Ese dolor se convierte en el doble invertido de la amiga ausente o la abuela muerta o el primer novio. Es una copia en carbón de la presencia. He querido sostenerme a la pérdida, registrarla, guardar celosamente ese dolor y he temido, confieso, perderlo. Porque salir del duelo es alejarse en dirección contraria a la presencia. Porque es un hecho que el dolor también se desgasta. Incluso la angustia más terrible se domestica. Cuando era pequeña, mi abuela me decía dale tiempo al tiempo y aunque me enojaba lo absurdo del dicho en esa orilla intolerante de mis cinco años, lo cierto es que permanecer en ese umbral del duelo es quitarle tiempo al tiempo: es anular su paso, es construir con el luto una patria. Tanto Edna como mi abuela tenían razón en confiar en el tiempo. Pienso ahora que estaban aliadas, quizá sin saber de su existencia, a la vida media de los elementos. La vida media suele aplicarse a los átomos radioactivos y describe el tiempo que tarda su núcleo en desintegrarse hasta la mitad de su valor original. Ahora encuentro cierto consuelo en que ya sé, al menos, leer bien ese poema.\n\n¿A qué se refiere el enunciado marcado con el 2?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Que las hojas estaban muy maltratadas y el texto ya no se entendía bien.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Que el autor fue doblando las hojas para transformar el texto hasta parecer otro.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Que las hojas estaban muy rotas y los poemas estaban incompletos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Quitarle tiempo al tiempo: una lectura equivocada de Edna St. Vincent Millay. Cuando comencé a leer poesía, no leía 'poesía': leía un poema, uno sólo, una y otra vez durante días. No era una fijación con el género como tal sino con uno de sus exponentes, que guardaba celosamente en mi bolsillo bajo la forma de fotocopias, mullidas hasta lo irreconocible [2]. La primera vez que leí un libro completo de poemas tenía alrededor de dieciséis años. La poeta era Edna St. Vincent Millay y el mío, un amor decididamente adolescente y decimonónico. Aunque avanzaba en la lectura, volvía siempre a mi soneto favorito, una descripción desoladora y en cámara rápida de una vida entera que cierra con el broche de oro de una reflexión sobre la angustia. Alegría pura. Años después, al llegar a la maestría, me encontré de nuevo con el poemario en una librería de viejo y, al releer el soneto, caí en cuenta de algo que me conmocionó. Durante mis años de intensidad adolescente, una lectura descuidada y primeriza había cambiado el significado del final, cuya sintaxis es sin duda enrevesada. En lugar de entender que la enunciante desea envejecer para experimentar cómo el tiempo cambia su angustia volviéndola soportable, leí exactamente lo contrario. En mi versión mal habida del poema, lo que más temía la enunciante del paso del tiempo era que se deslavara su angustia, que su dolor perdiera filo y se volviera dócil. Con frecuencia he pensado que el duelo es la mayor cercanía a la que podemos aspirar con lo perdido. Ese dolor se convierte en el doble invertido de la amiga ausente o la abuela muerta o el primer novio. Es una copia en carbón de la presencia. He querido sostenerme a la pérdida, registrarla, guardar celosamente ese dolor y he temido, confieso, perderlo. Porque salir del duelo es alejarse en dirección contraria a la presencia. Porque es un hecho que el dolor también se desgasta. Incluso la angustia más terrible se domestica. Cuando era pequeña, mi abuela me decía dale tiempo al tiempo y aunque me enojaba lo absurdo del dicho en esa orilla intolerante de mis cinco años, lo cierto es que permanecer en ese umbral del duelo es quitarle tiempo al tiempo: es anular su paso, es construir con el luto una patria. Tanto Edna como mi abuela tenían razón en confiar en el tiempo. Pienso ahora que estaban aliadas, quizá sin saber de su existencia, a la vida media de los elementos. La vida media suele aplicarse a los átomos radioactivos y describe el tiempo que tarda su núcleo en desintegrarse hasta la mitad de su valor original. Ahora encuentro cierto consuelo en que ya sé, al menos, leer bien ese poema.\n\nEl poema favorito de la autora era...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "un soneto.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "uno de tema amoroso.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "un texto sobre la ira.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Quitarle tiempo al tiempo: una lectura equivocada de Edna St. Vincent Millay. Cuando comencé a leer poesía, no leía 'poesía': leía un poema, uno sólo, una y otra vez durante días. No era una fijación con el género como tal sino con uno de sus exponentes, que guardaba celosamente en mi bolsillo bajo la forma de fotocopias, mullidas hasta lo irreconocible [2]. La primera vez que leí un libro completo de poemas tenía alrededor de dieciséis años. La poeta era Edna St. Vincent Millay y el mío, un amor decididamente adolescente y decimonónico. Aunque avanzaba en la lectura, volvía siempre a mi soneto favorito, una descripción desoladora y en cámara rápida de una vida entera que cierra con el broche de oro de una reflexión sobre la angustia. Alegría pura. Años después, al llegar a la maestría, me encontré de nuevo con el poemario en una librería de viejo y, al releer el soneto, caí en cuenta de algo que me conmocionó. Durante mis años de intensidad adolescente, una lectura descuidada y primeriza había cambiado el significado del final, cuya sintaxis es sin duda enrevesada. En lugar de entender que la enunciante desea envejecer para experimentar cómo el tiempo cambia su angustia volviéndola soportable, leí exactamente lo contrario. En mi versión mal habida del poema, lo que más temía la enunciante del paso del tiempo era que se deslavara su angustia, que su dolor perdiera filo y se volviera dócil. Con frecuencia he pensado que el duelo es la mayor cercanía a la que podemos aspirar con lo perdido. Ese dolor se convierte en el doble invertido de la amiga ausente o la abuela muerta o el primer novio. Es una copia en carbón de la presencia. He querido sostenerme a la pérdida, registrarla, guardar celosamente ese dolor y he temido, confieso, perderlo. Porque salir del duelo es alejarse en dirección contraria a la presencia. Porque es un hecho que el dolor también se desgasta. Incluso la angustia más terrible se domestica. Cuando era pequeña, mi abuela me decía dale tiempo al tiempo y aunque me enojaba lo absurdo del dicho en esa orilla intolerante de mis cinco años, lo cierto es que permanecer en ese umbral del duelo es quitarle tiempo al tiempo: es anular su paso, es construir con el luto una patria. Tanto Edna como mi abuela tenían razón en confiar en el tiempo. Pienso ahora que estaban aliadas, quizá sin saber de su existencia, a la vida media de los elementos. La vida media suele aplicarse a los átomos radioactivos y describe el tiempo que tarda su núcleo en desintegrarse hasta la mitad de su valor original. Ahora encuentro cierto consuelo en que ya sé, al menos, leer bien ese poema.\n\nEl texto tiene en general un tono...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "analítico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "descuidado.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "reflexivo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Quitarle tiempo al tiempo: una lectura equivocada de Edna St. Vincent Millay. Cuando comencé a leer poesía, no leía 'poesía': leía un poema, uno sólo, una y otra vez durante días. No era una fijación con el género como tal sino con uno de sus exponentes, que guardaba celosamente en mi bolsillo bajo la forma de fotocopias, mullidas hasta lo irreconocible [2]. La primera vez que leí un libro completo de poemas tenía alrededor de dieciséis años. La poeta era Edna St. Vincent Millay y el mío, un amor decididamente adolescente y decimonónico. Aunque avanzaba en la lectura, volvía siempre a mi soneto favorito, una descripción desoladora y en cámara rápida de una vida entera que cierra con el broche de oro de una reflexión sobre la angustia. Alegría pura. Años después, al llegar a la maestría, me encontré de nuevo con el poemario en una librería de viejo y, al releer el soneto, caí en cuenta de algo que me conmocionó. Durante mis años de intensidad adolescente, una lectura descuidada y primeriza había cambiado el significado del final, cuya sintaxis es sin duda enrevesada. En lugar de entender que la enunciante desea envejecer para experimentar cómo el tiempo cambia su angustia volviéndola soportable, leí exactamente lo contrario. En mi versión mal habida del poema, lo que más temía la enunciante del paso del tiempo era que se deslavara su angustia, que su dolor perdiera filo y se volviera dócil. Con frecuencia he pensado que el duelo es la mayor cercanía a la que podemos aspirar con lo perdido. Ese dolor se convierte en el doble invertido de la amiga ausente o la abuela muerta o el primer novio. Es una copia en carbón de la presencia. He querido sostenerme a la pérdida, registrarla, guardar celosamente ese dolor y he temido, confieso, perderlo. Porque salir del duelo es alejarse en dirección contraria a la presencia. Porque es un hecho que el dolor también se desgasta. Incluso la angustia más terrible se domestica. Cuando era pequeña, mi abuela me decía dale tiempo al tiempo y aunque me enojaba lo absurdo del dicho en esa orilla intolerante de mis cinco años, lo cierto es que permanecer en ese umbral del duelo es quitarle tiempo al tiempo: es anular su paso, es construir con el luto una patria. Tanto Edna como mi abuela tenían razón en confiar en el tiempo. Pienso ahora que estaban aliadas, quizá sin saber de su existencia, a la vida media de los elementos. La vida media suele aplicarse a los átomos radioactivos y describe el tiempo que tarda su núcleo en desintegrarse hasta la mitad de su valor original. Ahora encuentro cierto consuelo en que ya sé, al menos, leer bien ese poema.\n\nLa autora emplea un tono ________ porque ________.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "impersonal - se desentiende de los hechos que menciona.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "íntimo - habla de su propia experiencia, su familia y sus gustos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "nostálgico - piensa con ahínco en el pasado.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Quitarle tiempo al tiempo: una lectura equivocada de Edna St. Vincent Millay. Cuando comencé a leer poesía, no leía 'poesía': leía un poema, uno sólo, una y otra vez durante días. No era una fijación con el género como tal sino con uno de sus exponentes, que guardaba celosamente en mi bolsillo bajo la forma de fotocopias, mullidas hasta lo irreconocible [2]. La primera vez que leí un libro completo de poemas tenía alrededor de dieciséis años. La poeta era Edna St. Vincent Millay y el mío, un amor decididamente adolescente y decimonónico. Aunque avanzaba en la lectura, volvía siempre a mi soneto favorito, una descripción desoladora y en cámara rápida de una vida entera que cierra con el broche de oro de una reflexión sobre la angustia. Alegría pura. Años después, al llegar a la maestría, me encontré de nuevo con el poemario en una librería de viejo y, al releer el soneto, caí en cuenta de algo que me conmocionó. Durante mis años de intensidad adolescente, una lectura descuidada y primeriza había cambiado el significado del final, cuya sintaxis es sin duda enrevesada. En lugar de entender que la enunciante desea envejecer para experimentar cómo el tiempo cambia su angustia volviéndola soportable, leí exactamente lo contrario. En mi versión mal habida del poema, lo que más temía la enunciante del paso del tiempo era que se deslavara su angustia, que su dolor perdiera filo y se volviera dócil. Con frecuencia he pensado que el duelo es la mayor cercanía a la que podemos aspirar con lo perdido. Ese dolor se convierte en el doble invertido de la amiga ausente o la abuela muerta o el primer novio. Es una copia en carbón de la presencia. He querido sostenerme a la pérdida, registrarla, guardar celosamente ese dolor y he temido, confieso, perderlo. Porque salir del duelo es alejarse en dirección contraria a la presencia. Porque es un hecho que el dolor también se desgasta. Incluso la angustia más terrible se domestica. Cuando era pequeña, mi abuela me decía dale tiempo al tiempo y aunque me enojaba lo absurdo del dicho en esa orilla intolerante de mis cinco años, lo cierto es que permanecer en ese umbral del duelo es quitarle tiempo al tiempo: es anular su paso, es construir con el luto una patria. Tanto Edna como mi abuela tenían razón en confiar en el tiempo. Pienso ahora que estaban aliadas, quizá sin saber de su existencia, a la vida media de los elementos. La vida media suele aplicarse a los átomos radioactivos y describe el tiempo que tarda su núcleo en desintegrarse hasta la mitad de su valor original. Ahora encuentro cierto consuelo en que ya sé, al menos, leer bien ese poema.\n\nDe acuerdo con el texto, el duelo es...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "una etapa que debe ser superada.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "lo más cercano a recuperar lo que hemos perdido.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "algo que debe pasar, como todo proceso.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Dragón. La noche soplaba en el escaso pasto del páramo. No había otro movimiento. Desde hacía años, en el casco del cielo tenebroso no volaba ningún pájaro. Dos hombres, encorvados junto a una hoguera solitaria, temen al dragón que devora a los hombres que viajan solos. Dicen que este dragón tiene ojos de fuego y un aliento de gas blanquecino; corre echando rayos y azufre, quemando el pasto. Los hombres visten sus armaduras y montan los caballos. Un monstruoso ronquido quebró la medianoche desierta y el dragón, rugiendo, se acercó. La deslumbrante mirilla amarilla apareció en lo alto de un cerro; el monstruoso ojo ambarino se clavó en los hombres. La lanza golpeó bajo el ojo amarillo sin párpado y el hombre voló por el aire. Después se escucha: '¡Un caballero con armadura! ¡Lo atropellamos!'. El tren silbó un buen rato; el hombre no se movió. El tren nocturno, de fuego y furia, desapareció hacia el norte.\n\n¿Cuál es la relación, según el relato, entre el Dragón y el tren?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los personajes creen que hay un tren pero en realidad se trata de un dragón.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Tanto el tren como el dragón son producto de la imaginación de los soldados.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los caballeros creen que el tren es en realidad un dragón.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Dragón. La noche soplaba en el escaso pasto del páramo. No había otro movimiento. Desde hacía años, en el casco del cielo tenebroso no volaba ningún pájaro. Dos hombres, encorvados junto a una hoguera solitaria, temen al dragón que devora a los hombres que viajan solos. Dicen que este dragón tiene ojos de fuego y un aliento de gas blanquecino; corre echando rayos y azufre, quemando el pasto. Los hombres visten sus armaduras y montan los caballos. Un monstruoso ronquido quebró la medianoche desierta y el dragón, rugiendo, se acercó. La deslumbrante mirilla amarilla apareció en lo alto de un cerro; el monstruoso ojo ambarino se clavó en los hombres. La lanza golpeó bajo el ojo amarillo sin párpado y el hombre voló por el aire. Después se escucha: '¡Un caballero con armadura! ¡Lo atropellamos!'. El tren silbó un buen rato; el hombre no se movió. El tren nocturno, de fuego y furia, desapareció hacia el norte.\n\n¿Cuál es la explicación del desenlace del cuento?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los caballeros son en realidad personas que padecen de sus facultades mentales.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Se trata de una imaginación desbordada lo que hace que el tren sea visto como un dragón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Se trata de un entrecruce de dos épocas distintas en el mismo páramo, por ello los caballeros creen al tren un dragón.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Dragón. La noche soplaba en el escaso pasto del páramo. No había otro movimiento. Desde hacía años, en el casco del cielo tenebroso no volaba ningún pájaro. Dos hombres, encorvados junto a una hoguera solitaria, temen al dragón que devora a los hombres que viajan solos. Dicen que este dragón tiene ojos de fuego y un aliento de gas blanquecino; corre echando rayos y azufre, quemando el pasto. Los hombres visten sus armaduras y montan los caballos. Un monstruoso ronquido quebró la medianoche desierta y el dragón, rugiendo, se acercó. La deslumbrante mirilla amarilla apareció en lo alto de un cerro; el monstruoso ojo ambarino se clavó en los hombres. La lanza golpeó bajo el ojo amarillo sin párpado y el hombre voló por el aire. Después se escucha: '¡Un caballero con armadura! ¡Lo atropellamos!'. El tren silbó un buen rato; el hombre no se movió. El tren nocturno, de fuego y furia, desapareció hacia el norte.\n\nSe puede decir que la ________ y el ________ son las emociones que predominan en los personajes.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "confusión - miedo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "desesperación - frío",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "imaginación - miedo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 14,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Dragón. La noche soplaba en el escaso pasto del páramo. No había otro movimiento. Desde hacía años, en el casco del cielo tenebroso no volaba ningún pájaro. Dos hombres, encorvados junto a una hoguera solitaria, temen al dragón que devora a los hombres que viajan solos. Dicen que este dragón tiene ojos de fuego y un aliento de gas blanquecino; corre echando rayos y azufre, quemando el pasto. Los hombres visten sus armaduras y montan los caballos. Un monstruoso ronquido quebró la medianoche desierta y el dragón, rugiendo, se acercó. La deslumbrante mirilla amarilla apareció en lo alto de un cerro; el monstruoso ojo ambarino se clavó en los hombres. La lanza golpeó bajo el ojo amarillo sin párpado y el hombre voló por el aire. Después se escucha: '¡Un caballero con armadura! ¡Lo atropellamos!'. El tren silbó un buen rato; el hombre no se movió. El tren nocturno, de fuego y furia, desapareció hacia el norte.\n\nEn el ________ del cielo tenebroso no ________ ningún pájaro.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "vacío - cantaba",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "espacio - planeaba",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "casco - volaba",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Dragón. La noche soplaba en el escaso pasto del páramo. No había otro movimiento. Desde hacía años, en el casco del cielo tenebroso no volaba ningún pájaro. Dos hombres, encorvados junto a una hoguera solitaria, temen al dragón que devora a los hombres que viajan solos. Dicen que este dragón tiene ojos de fuego y un aliento de gas blanquecino; corre echando rayos y azufre, quemando el pasto. Los hombres visten sus armaduras y montan los caballos. Un monstruoso ronquido quebró la medianoche desierta y el dragón, rugiendo, se acercó. La deslumbrante mirilla amarilla apareció en lo alto de un cerro; el monstruoso ojo ambarino se clavó en los hombres. La lanza golpeó bajo el ojo amarillo sin párpado y el hombre voló por el aire. Después se escucha: '¡Un caballero con armadura! ¡Lo atropellamos!'. El tren silbó un buen rato; el hombre no se movió. El tren nocturno, de fuego y furia, desapareció hacia el norte.\n\nLos maquinistas se muestran asustados porque...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "combaten un dragón.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "atropellaron a alguien.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "saben que hay espíritus en el páramo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 16,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Dragón. La noche soplaba en el escaso pasto del páramo. No había otro movimiento. Desde hacía años, en el casco del cielo tenebroso no volaba ningún pájaro. Dos hombres, encorvados junto a una hoguera solitaria, temen al dragón que devora a los hombres que viajan solos. Dicen que este dragón tiene ojos de fuego y un aliento de gas blanquecino; corre echando rayos y azufre, quemando el pasto. Los hombres visten sus armaduras y montan los caballos. Un monstruoso ronquido quebró la medianoche desierta y el dragón, rugiendo, se acercó. La deslumbrante mirilla amarilla apareció en lo alto de un cerro; el monstruoso ojo ambarino se clavó en los hombres. La lanza golpeó bajo el ojo amarillo sin párpado y el hombre voló por el aire. Después se escucha: '¡Un caballero con armadura! ¡Lo atropellamos!'. El tren silbó un buen rato; el hombre no se movió. El tren nocturno, de fuego y furia, desapareció hacia el norte.\n\nSegún los soldados, el dragón...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "tiene piel de acero.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "camina sobre un camino de metal.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "nunca entra al pueblo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 17,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Nocturno de la estatua. Soñar, soñar la noche, la calle, la escalera y el grito de la estatua desdoblando la esquina. Correr hacia la estatua y encontrar sólo el grito, querer tocar el grito y sólo hallar el eco, querer asir el eco y encontrar sólo el muro y correr hacia el muro y tocar un espejo. Hallar en el espejo la estatua asesinada, sacarla de la sangre de su sombra, vestirla en un cerrar de ojos, acariciarla como a una hermana imprevista y jugar con las flechas de sus dedos y contar a su oreja cien veces cien cien veces hasta oírla decir: «estoy muerta de sueño».\n\nDe acuerdo con el poema, la estatua...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "grita.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "corre.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "se mira en el espejo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Nocturno de la estatua. Soñar, soñar la noche, la calle, la escalera y el grito de la estatua desdoblando la esquina. Correr hacia la estatua y encontrar sólo el grito, querer tocar el grito y sólo hallar el eco, querer asir el eco y encontrar sólo el muro y correr hacia el muro y tocar un espejo. Hallar en el espejo la estatua asesinada, sacarla de la sangre de su sombra, vestirla en un cerrar de ojos, acariciarla como a una hermana imprevista y jugar con las flechas de sus dedos y contar a su oreja cien veces cien cien veces hasta oírla decir: «estoy muerta de sueño».\n\nDesde el principio se establece que el poema habla sobre...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la muerte.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "un sueño.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la soledad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Nocturno de la estatua. Soñar, soñar la noche, la calle, la escalera y el grito de la estatua desdoblando la esquina. Correr hacia la estatua y encontrar sólo el grito, querer tocar el grito y sólo hallar el eco, querer asir el eco y encontrar sólo el muro y correr hacia el muro y tocar un espejo. Hallar en el espejo la estatua asesinada, sacarla de la sangre de su sombra, vestirla en un cerrar de ojos, acariciarla como a una hermana imprevista y jugar con las flechas de sus dedos y contar a su oreja cien veces cien cien veces hasta oírla decir: «estoy muerta de sueño».\n\nEl grito y el eco tienen una relación semejante a la de...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la llama y el calor.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "un cuerpo y su sombra.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "un recuerdo y un sueño.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. Nocturno de la estatua. Soñar, soñar la noche, la calle, la escalera y el grito de la estatua desdoblando la esquina. Correr hacia la estatua y encontrar sólo el grito, querer tocar el grito y sólo hallar el eco, querer asir el eco y encontrar sólo el muro y correr hacia el muro y tocar un espejo. Hallar en el espejo la estatua asesinada, sacarla de la sangre de su sombra, vestirla en un cerrar de ojos, acariciarla como a una hermana imprevista y jugar con las flechas de sus dedos y contar a su oreja cien veces cien cien veces hasta oírla decir: «estoy muerta de sueño».\n\nEs posible inferir a partir del sexto verso que la estatua es en realidad...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el reflejo de la voz lírica.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la muerte.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "una sombra.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. JORNADA DE TRABAJO Y SALARIOS. De lunes a viernes, por la mañana de 8:00 a 16:00. Por la tarde de 12:00 a 20:00 sábado de 8 a 14 hrs. La tolerancia será de 10 minutos a la entrada de cada turno. Al exceder dicha tolerancia el trabajador retardado pedirá autorización para entrar al patrón y/o sus representantes. ARTÍCULO 5° Los trabajadores llegarán a la empresa con suficiente anticipación para que las labores se inicien efectivamente en el horario de entrada. ARTÍCULO 6° El patrón está facultado para cambiar los horarios del trabajo y la rotación de los trabajadores conforme a las necesidades de la empresa. ARTÍCULO 7° La jornada semanal será de lunes a sábado. Los trabajadores descansarán el día domingo. ARTÍCULO 8° Todo el personal checará su hora respectiva, tanto a la entrada como a la salida por lo que la falta de tal requisito se considera como falta injustificada a sus labores. ARTÍCULO 10° Cuando por necesidades de la empresa, el patrón ordene horas extras, expedirá por escrito esta ordenanza. Los servicios en este lapso se pagarán al doble, no excederán de 3 horas por jornada ni de tres veces por semana. ARTÍCULO 13° Cuando algún trabajador no esté conforme con la liquidación de su raya deberá manifestarlo inmediatamente al patrón y/o representantes para que se corrija la irregularidad si es que hubiera.\n\nSegún el reglamento, un empleado inconforme con su liquidación debe...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "resignarse y firmar su renuncia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "notificarlo inmediatamente a su patrón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "presentar una denuncia ante las autoridades concernientes.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 22,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. JORNADA DE TRABAJO Y SALARIOS. De lunes a viernes, por la mañana de 8:00 a 16:00. Por la tarde de 12:00 a 20:00 sábado de 8 a 14 hrs. La tolerancia será de 10 minutos a la entrada de cada turno. Al exceder dicha tolerancia el trabajador retardado pedirá autorización para entrar al patrón y/o sus representantes. ARTÍCULO 5° Los trabajadores llegarán a la empresa con suficiente anticipación para que las labores se inicien efectivamente en el horario de entrada. ARTÍCULO 6° El patrón está facultado para cambiar los horarios del trabajo y la rotación de los trabajadores conforme a las necesidades de la empresa. ARTÍCULO 7° La jornada semanal será de lunes a sábado. Los trabajadores descansarán el día domingo. ARTÍCULO 8° Todo el personal checará su hora respectiva, tanto a la entrada como a la salida por lo que la falta de tal requisito se considera como falta injustificada a sus labores. ARTÍCULO 10° Cuando por necesidades de la empresa, el patrón ordene horas extras, expedirá por escrito esta ordenanza. Los servicios en este lapso se pagarán al doble, no excederán de 3 horas por jornada ni de tres veces por semana. ARTÍCULO 13° Cuando algún trabajador no esté conforme con la liquidación de su raya deberá manifestarlo inmediatamente al patrón y/o representantes para que se corrija la irregularidad si es que hubiera.\n\n¿En qué tipo de ámbito tiene cabida el texto anterior?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Académico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Jurídico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Laboral.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. JORNADA DE TRABAJO Y SALARIOS. De lunes a viernes, por la mañana de 8:00 a 16:00. Por la tarde de 12:00 a 20:00 sábado de 8 a 14 hrs. La tolerancia será de 10 minutos a la entrada de cada turno. Al exceder dicha tolerancia el trabajador retardado pedirá autorización para entrar al patrón y/o sus representantes. ARTÍCULO 5° Los trabajadores llegarán a la empresa con suficiente anticipación para que las labores se inicien efectivamente en el horario de entrada. ARTÍCULO 6° El patrón está facultado para cambiar los horarios del trabajo y la rotación de los trabajadores conforme a las necesidades de la empresa. ARTÍCULO 7° La jornada semanal será de lunes a sábado. Los trabajadores descansarán el día domingo. ARTÍCULO 8° Todo el personal checará su hora respectiva, tanto a la entrada como a la salida por lo que la falta de tal requisito se considera como falta injustificada a sus labores. ARTÍCULO 10° Cuando por necesidades de la empresa, el patrón ordene horas extras, expedirá por escrito esta ordenanza. Los servicios en este lapso se pagarán al doble, no excederán de 3 horas por jornada ni de tres veces por semana. ARTÍCULO 13° Cuando algún trabajador no esté conforme con la liquidación de su raya deberá manifestarlo inmediatamente al patrón y/o representantes para que se corrija la irregularidad si es que hubiera.\n\nSegún el texto, de requerirse horas extras, el patrón debe...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "pagar el doble de los honorarios correspondientes a cada hora.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "limitar dichas horas a un máximo de cuatro horas extra.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "manifestarlo por escrito.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 24,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. JORNADA DE TRABAJO Y SALARIOS. De lunes a viernes, por la mañana de 8:00 a 16:00. Por la tarde de 12:00 a 20:00 sábado de 8 a 14 hrs. La tolerancia será de 10 minutos a la entrada de cada turno. Al exceder dicha tolerancia el trabajador retardado pedirá autorización para entrar al patrón y/o sus representantes. ARTÍCULO 5° Los trabajadores llegarán a la empresa con suficiente anticipación para que las labores se inicien efectivamente en el horario de entrada. ARTÍCULO 6° El patrón está facultado para cambiar los horarios del trabajo y la rotación de los trabajadores conforme a las necesidades de la empresa. ARTÍCULO 7° La jornada semanal será de lunes a sábado. Los trabajadores descansarán el día domingo. ARTÍCULO 8° Todo el personal checará su hora respectiva, tanto a la entrada como a la salida por lo que la falta de tal requisito se considera como falta injustificada a sus labores. ARTÍCULO 10° Cuando por necesidades de la empresa, el patrón ordene horas extras, expedirá por escrito esta ordenanza. Los servicios en este lapso se pagarán al doble, no excederán de 3 horas por jornada ni de tres veces por semana. ARTÍCULO 13° Cuando algún trabajador no esté conforme con la liquidación de su raya deberá manifestarlo inmediatamente al patrón y/o representantes para que se corrija la irregularidad si es que hubiera.\n\n¿Qué ocurre cuando un empleado no registra su entrada y/o salida?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Será sancionado.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Se considera como una falta.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Será despedido.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 25,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. JORNADA DE TRABAJO Y SALARIOS. De lunes a viernes, por la mañana de 8:00 a 16:00. Por la tarde de 12:00 a 20:00 sábado de 8 a 14 hrs. La tolerancia será de 10 minutos a la entrada de cada turno. Al exceder dicha tolerancia el trabajador retardado pedirá autorización para entrar al patrón y/o sus representantes. ARTÍCULO 5° Los trabajadores llegarán a la empresa con suficiente anticipación para que las labores se inicien efectivamente en el horario de entrada. ARTÍCULO 6° El patrón está facultado para cambiar los horarios del trabajo y la rotación de los trabajadores conforme a las necesidades de la empresa. ARTÍCULO 7° La jornada semanal será de lunes a sábado. Los trabajadores descansarán el día domingo. ARTÍCULO 8° Todo el personal checará su hora respectiva, tanto a la entrada como a la salida por lo que la falta de tal requisito se considera como falta injustificada a sus labores. ARTÍCULO 10° Cuando por necesidades de la empresa, el patrón ordene horas extras, expedirá por escrito esta ordenanza. Los servicios en este lapso se pagarán al doble, no excederán de 3 horas por jornada ni de tres veces por semana. ARTÍCULO 13° Cuando algún trabajador no esté conforme con la liquidación de su raya deberá manifestarlo inmediatamente al patrón y/o representantes para que se corrija la irregularidad si es que hubiera.\n\nLa jornada laboral deberá abarcar...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Seis días de la semana.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "De lunes a sábado.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "De lunes a viernes.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 26,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. El futbol, ¿qué lo hace tan apasionante? El texto explica que la pasión por el balompié permea constantemente en el mundo. Entre los diversos estudios sociológicos que investigan este deporte y su impacto dentro de la población, afloran dos cuestiones fundamentales para comprender el apasionamiento como uno de los ejes estructurales del futbol: la colectividad y la simplicidad del deporte. La naturaleza colectiva del futbol permite comprenderlo como un acto comunicativo y de solidaridad entre jugadores y espectadores. La simplicidad del juego hace que pueda practicarse con cualquier instrumento que simule una pelota, en casi cualquier lugar. Además, la exposición constante a los medios de comunicación impulsó masivamente este deporte en la segunda mitad del siglo XX.\n\n¿Cuál es, según el texto, una de las razones por las que el fútbol es tan seguido?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Por su complejidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Por su simplicidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Por emplear una portería.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 27,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. El futbol, ¿qué lo hace tan apasionante? El texto explica que la pasión por el balompié permea constantemente en el mundo. Entre los diversos estudios sociológicos que investigan este deporte y su impacto dentro de la población, afloran dos cuestiones fundamentales para comprender el apasionamiento como uno de los ejes estructurales del futbol: la colectividad y la simplicidad del deporte. La naturaleza colectiva del futbol permite comprenderlo como un acto comunicativo y de solidaridad entre jugadores y espectadores. La simplicidad del juego hace que pueda practicarse con cualquier instrumento que simule una pelota, en casi cualquier lugar. Además, la exposición constante a los medios de comunicación impulsó masivamente este deporte en la segunda mitad del siglo XX.\n\nDe acuerdo con el texto, el fútbol es...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "apasionante.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "un espectáculo infame.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el mejor deporte del mundo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 28,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. El futbol, ¿qué lo hace tan apasionante? El texto explica que la pasión por el balompié permea constantemente en el mundo. Entre los diversos estudios sociológicos que investigan este deporte y su impacto dentro de la población, afloran dos cuestiones fundamentales para comprender el apasionamiento como uno de los ejes estructurales del futbol: la colectividad y la simplicidad del deporte. La naturaleza colectiva del futbol permite comprenderlo como un acto comunicativo y de solidaridad entre jugadores y espectadores. La simplicidad del juego hace que pueda practicarse con cualquier instrumento que simule una pelota, en casi cualquier lugar. Además, la exposición constante a los medios de comunicación impulsó masivamente este deporte en la segunda mitad del siglo XX.\n\nEl tema central del texto es...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el fútbol y su historia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "por qué el fútbol es tan apasionante.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "las razones por las que el fútbol es el deporte más jugado.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 29,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. El futbol, ¿qué lo hace tan apasionante? El texto explica que la pasión por el balompié permea constantemente en el mundo. Entre los diversos estudios sociológicos que investigan este deporte y su impacto dentro de la población, afloran dos cuestiones fundamentales para comprender el apasionamiento como uno de los ejes estructurales del futbol: la colectividad y la simplicidad del deporte. La naturaleza colectiva del futbol permite comprenderlo como un acto comunicativo y de solidaridad entre jugadores y espectadores. La simplicidad del juego hace que pueda practicarse con cualquier instrumento que simule una pelota, en casi cualquier lugar. Además, la exposición constante a los medios de comunicación impulsó masivamente este deporte en la segunda mitad del siglo XX.\n\nEl autor aborda el tema con un tono ________ porque ________.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "optimista - invita a un sano ejercicio del deporte.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "engreído - cree saber mucho de fútbol.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "entusiasta - su equipo ha sido ganador de la copa del mundo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 30,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lea el texto y responda las preguntas asociadas. El futbol, ¿qué lo hace tan apasionante? El texto explica que la pasión por el balompié permea constantemente en el mundo. Entre los diversos estudios sociológicos que investigan este deporte y su impacto dentro de la población, afloran dos cuestiones fundamentales para comprender el apasionamiento como uno de los ejes estructurales del futbol: la colectividad y la simplicidad del deporte. La naturaleza colectiva del futbol permite comprenderlo como un acto comunicativo y de solidaridad entre jugadores y espectadores. La simplicidad del juego hace que pueda practicarse con cualquier instrumento que simule una pelota, en casi cualquier lugar. Además, la exposición constante a los medios de comunicación impulsó masivamente este deporte en la segunda mitad del siglo XX.\n\nEn el primer párrafo, el autor establece que la pasión por el fútbol...",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "es algo con lo que se nace.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "es algo que se aprende socialmente.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "se desarrolla desde temprana edad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 31,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con la opción escrita correctamente.\n\nEl concierto ____ dejó un pequeño malestar en ____ oído, por lo que ____ al médico.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "le – él – acudió",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "le – el – acudió",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el – le – acudía",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 32,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El profesor de biología encargó a tres alumnos la relatoría de la presentación de un libro que tuvo lugar en el auditorio principal del campus, ¿cuál de los alumnos cumplió con el objetivo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Hallazgos genéticos del lobo mexicano es una síntesis de la investigación que María Auxiliadora Álvarez Carrillo ha llevado a cabo a lo largo de ya dos décadas de dedicarse a la investigación de los cánidos. Sus hallazgos le han valido importantes premios y reconocimientos. Su libro ha sido particularmente laureado por sus hallazgos en lo que concierne a nuevas maneras de lograr la reproducción en cautiverio del lobo mexicano, animal que en estado salvaje se halla extinto desde hace años.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El 29 de septiembre del año en curso, esto es, la semana pasada, se llevó a cabo la presentación del libro Hallazgos genéticos del lobo mexicano de la autora María Auxiliadora Álvarez Carrillo. El evento, previsto para las 18:00, comenzó con un retraso debido a que la autora no había arribado a la hora prevista, sino media hora después. Sin embargo hubo un nutrido grupo de asistentes, en su mayoría estudiantes de la facultad y especialistas de la materia, quienes tuvieron un animado intercambio de opiniones con la autora al final.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "María Auxiliadora Álvarez Carrillo (Pachuca, Hidalgo, 1979) es licenciada en biología por la Universidad Autónoma del Estado de Hidalgo. Estudió una maestría en genética y un doctorado en la misma área en la Universidad Nacional Autónoma de México. Se ha desempeñado como docente e investigadora, haciendo importantes hallazgos en cuanto a cánidos endémicos del territorio mexicano.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 33,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "En la presentación, el moderador se refirió a los ponentes con el debido respeto y formalidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Los curiosos pichones y palomas picoteaban el suelo buscando migas de pan.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El profesor mostró sus intensos indignación y enojo para con los alumnos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 34,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccione las palabras cuyo significado se opone en la oración.\n\nLos programadores son personas muy inteligentes, pero también un poco rezagados en el aspecto social, suelen ser gente tímida y prefieren estar solos ya que les cuesta trabajo socializar, no son muy sociables.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Tímidos – sociables",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Inteligentes – Tímida",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Rezagados – Trabajo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 35,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración puntuada de manera correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La constitución política, fue promulgada setenta años después de la anterior.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "¿Cuál será la contraseña? no puedo adivinarla.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Lo más difícil de viajar por trabajo: estar lejos de casa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 36,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con la opción escrita correctamente.\n\nCuando hallamos a ____ niños estaban muy asustados, pero fue ____ culpa por distraerse mientras estábamos en ____ supermercado.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "unos – su – él",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "los – su – él",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "los – su – el",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 37,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con las grafías correctas.\n\nJugar en línea puede no ser la mejor experien_ia cuando tu cone_ión a internet no tiene la velo_idad adecuada para lograr un desempeño óptimo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "s – x – s",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "c – x – c",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "c – cc – c",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 38,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con la opción escrita correctamente.\n\nA ____ me han dicho muchas veces que ____ té de tilo es bueno para dormir, pero no he podido probarlo, aunque es posible que ____ intente la próxima vez que me ____ insomnio.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "mí – el – lo – dé",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "mi – él – lo – de",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mi – él – lo – dé",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 39,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Jorge compró unos cojines y una colcha gris.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Hoy Eli comerá sandía y jícama frescas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "A Karen le gustan los zapatos ni las blusas anaranjadas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 40,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccione la opción cuyo significado es opuesto a la palabra marcada en negritas.\n\nLa opacidad del proceso no sólo lo dejaba lejos de ser transparente o justo, sino que se trataba de una afrenta al tiempo y esfuerzo de los aspirantes que participaron en él.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Injusto.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Cristalino.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Turbio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 41,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el enunciado con la expresión que le da sentido.\n\nPienso que salir de viaje el próximo mes puede ser ideal para relajarse un poco luego de tanto trabajo, aunque, ________, también pienso que podría ser mejor quedarse en casa para ahorrar un poco.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "En cambio",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Por otro lado",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Por supuesto",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 42,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración puntuada de manera correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La mayoría de los invitados (la fiesta era informal) llevaban ropa casual, pero algunos iban de gala.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La mayoría de los invitados llevaban ropa casual (la fiesta era informal), pero algunos iban de gala.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La mayoría (la fiesta era informal) de los invitados llevaban ropa casual, pero algunos iban de gala.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 43,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración que está escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El sabio escosés vivía sobre la colina, bastante cerca del castillo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El sabio escocéz vivía sobre la colina, bastante cerca del castillo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El sabio escocés vivía sobre la colina, bastante cerca del castillo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 44,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con las grafías correctas.\n\nLos hombres escoce_es utili_an unas faldas masculinas llamadas “kilt”, una prenda tradi_ional que actualmente sólo se emplea en oca_iones especiales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "c – z – c – s",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "s – z – c – s",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "z – s – c – s",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 45,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un profesor de preparatoria dejó a sus alumnos escribir un artículo de opinión sobre el mundial de fútbol, ¿cuál de los siguientes tres casos resulta mejor?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El fútbol es bien aburrido. Yo sé que es el deporte más jugado a nivel mundial, pero eso no significa que le guste a todo mundo. Es cierto que hacer deporte es importante para mantenerse saludable, pero más allá de ello no veo por qué tanto alboroto por veinte monitos corriendo detrás de una pelota. No digo que sea malo pero me pregunto si no hay mejores espectáculos ni asuntos más importantes a los cuales prestarles atención.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El fútbol es un deporte de dioses, pero también los humanos lo podemos jugar, y, por ocasiones, nos acercamos a ser divinos. Yo desde chiquito ya jugaba futbol, y siempre he sido bueno para jugarlo, además, mi videojuego favorito es FIFA. A mi papá y a mi abuelo igual les encanta, somos grandes aficionados y desde hace generaciones le vamos a las Chivas. Cuando hay mundial, en mi casa no se va al trabajo ni a la escuela, sólo se ve, se come y se respira el fut, el mejor deporte del mundo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El fútbol es sin duda el deporte más importante por ser el más popular. Opiniones aparte, esto resulta un fenómeno interesante y un espectáculo ciertamente disfrutable. Sin embargo, el fútbol es una especie de rehén aunque nadie lo perciba: es un rehén mediático que nos es puesto en la cara para perder de vista otros asuntos y es un rehén del capitalismo, que encontró en él a una de sus varias gallinas de los huevos de oro. En todo caso, el fútbol no es algo que ocurre exclusivamente en la cancha del mundial o en una carísima playera oficial, sino una forma en que se manifiesta la pasión de la gente, su amor al deporte y al juego.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 46,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Señale la oración acentuada de forma correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La manzana es una fruta que presenta una diversidad única.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La manzána es una fruta que presenta una diversidad única.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La manzana es una fruta que presenta una diversidad unica.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 47,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Señale la oración acentuada de forma correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La encuesta mostro un resultado contrario al que se esperaba.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El 80% de los estudiantes de preparatoria no sabe que carrera quiere estudiar.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Llegado el momento, es difícil tomar una decisión tan trascendental.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 48,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con la opción escrita correctamente.\n\nCuando te ________ resaca, lo más importante es rehidratarte, es por ________ que ________ sentimos tan mal cuando ocurre, porque estamos deshidratados.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "dé – esto – lo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "de – eso – nos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "dé – ello – nos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 49,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Señale la oración acentuada de forma correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El ganador del mejor álbum del año dejo insatisfechos a muchos fans.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Es increíble lo que se puede lograr con un poco de esfuerzo y dedicación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El color amarillo tipico de los canarios es uno de los mas bellos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 50,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccione la opción cuyo significado es equivalente a la palabra marcada en negritas.\n\nLa dificultad de la prueba fue superior a la de cualquier otra que hubiera enfrentado antes, incluida la de admisión, salió de allí orando no por un cien, sino por no haber reprobado, o no muy drásticamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Intento.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Examen.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ensayo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 51,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con la opción escrita correctamente.\n\n____ pastel de cumpleaños que compraron para ____ estaba delicioso, pero más que ____ pastel fue la sorpresa lo que le ____.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El – el – el – encantaba",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El – él – el – encantó",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Él – el – él – encanto",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 52,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración que está escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Crecer en un orfelinato no había sido fácil, pero tampoco fue tan complicado como para otras personas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Crecer en un horfelinato no había sido fácil, pero tampoco fue tan complicado como para otras personas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Crecer en un orfelinato no había sido fásil, pero tampoco fue tan complicado como para otras personas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 53,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Hoy vi una película y leí un libro muy aburridos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Karla tiene un hámster y un perro adorable.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Me enfermé por comer una nieve y una paleta que estaban helados.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 54,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración puntuada de manera correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ana, Lucía, Itzel, vengan por favor.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ana, Lucía, Itzel. Vengan por favor.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ana, Lucía, Itzel vengan, por favor.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 55,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el enunciado con la expresión que le da sentido.\n\nHay algunas cosas que solemos hacer de manera errónea pero nadie lo sabe, ________, acostumbramos servir la leche de cartón al revés de como es debido.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Más bien",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Por ejemplo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "En cambio",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 56,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccione las palabras cuyo significado se opone en la oración.\n\nEl tono satinado (que es brillante) en el acabado de instrumentos musicales como guitarras y bajos es más popular que el tono mate (que es opaco), sin embargo el tono mate me parece más elegante.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Popular – Elegante",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Guitarras – Bajos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Satinado – Mate",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 57,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Complete el fragmento con las grafías correctas.\n\nEl resultado del a__idente no puede resumirse sino en una sola palabra: atro__. El desla_e provocó que varios vehículos quedasen atrapados bajo kilos de gra_a; por fortuna, las pérdidas fueron sólo materiales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "cc – s – v – b",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "x – z – b – v",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "cc – z – v – v",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 58,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Se puso un pantalón y un saco café.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Esta noche usaré una pijama y una cobija muy calientitas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Eché a lavar una cobija y una colcha sucia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 59,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elija la oración puntuada de manera correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "No me gustan los nopales; sin embargo, puedo llegar a comerlos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "A la mayoría de las personas; les gustan mucho los perros.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aunque no lo creas; yo también me equivoco a veces.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 60,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Señale la oración acentuada de forma correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La secuencia numerica del examen fue sumamente dificil de resolver.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La secuencia numérica del examen fue sumamente dificil de resolver.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La secuencia numérica del examen fue sumamente difícil de resolver.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 61,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué opción es equivalente a la expresión \\(8(a-b)(a+b)\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": " \\(2(2a-2b)(2a+2b)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4(2a-2b)^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2(2a-2b)^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 62,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica las siguientes operaciones:\n\n\\[2+3(4\\cdot 2-1)-2^{2}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "22",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "27",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "19",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 63,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un boleto de la lotería costó \\($10\\) y fue premiado con \\($27,000\\). Si para comprarlo Juan, Jesús y Pedro aportaron a razón de \\(2:3:5\\). ¿Cuánto recibirá Pedro si lo repartirán proporcionalmente a lo aportado?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$18,000",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$13,500",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$8,100",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 64,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuántos ejes de simetría tiene la siguiente figura?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p064.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "8",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "10",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 65,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Camilo salió de su casa rumbo a la escuela. Después de haber caminado 200 metros, su amigo José, quien iba en automóvil, se ofrece a llevarlo a la escuela. Si José le ahorró caminar el \\(60\\%\\) del camino a Camilo, ¿cuántos metros son de la casa de Camilo a la escuela?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "300 metros",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "400 metros",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "500 metros",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 66,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es la función matemática representada en la siguiente gráfica?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p066.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f(x)=x^{2}-6x+10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f(x)=x^{2}+6x+10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f(x)=-x^{2}-6x+10\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 67,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la solución de las siguientes ecuaciones?\n\n\\[\\begin{cases}x-y=1\\\\2x-3y=40\\end{cases}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=-37, y=38\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=-37, y=-38\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=37, y=-38\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 68,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un agricultor vende el maíz en \\($20.00\\) por kilogramo a un distribuidor mayorista, quien aumenta el precio un \\(10\\%\\) y lo vende a un distribuidor minorista, quien aumenta el precio un \\(30\\%\\) y lo vende al cliente final. ¿Cuánto termina pagando el cliente final por un kilo de maíz?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$15.00",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$28.00",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$28.60",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 69,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Considerando los siguientes polinomios:\n\n\\[A=x+1\\qquad B=x-2\\qquad C=x+3\\]\n\n¿Cuál es el resultado de \\(ABC\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^{3}+3x^{2}-5x-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{3}+2x^{2}-5x-6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{3}+2x^{2}-5x+6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 70,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Lea el planteamiento y responda. Martín compró un terreno de \\(80\\,m^{2}\\) de superficie en \\($48,000\\). Las medidas se presentan a continuación. ¿Cuál fue el costo del metro cuadrado de terreno?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p070.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$60",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$600",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$6000",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 71,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Con base en el plano del terreno, ¿cuál es la expresión que representa el área del patio?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p071.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(5x^{2}-21x+110\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(25x^{2}-21x+110\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(25x^{2}-105x+110\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 72,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es la mediana de los puntajes obtenidos por cinco competidores en un concurso?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p072.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "11",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "16",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 73,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La gráfica siguiente muestra la cantidad de personas que entraron a la sala VIP de un cine diariamente. Calcula el promedio diario.",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p073.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "60",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "12",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "18",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 74,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "A continuación se presenta una tabla de frecuencias con información sobre un conjunto de puntuaciones \\((x_i)\\). ¿Cuál es el nombre de la frecuencia cuya columna es C?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p074.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Frecuencia absoluta",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Frecuencia acumulada",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Frecuencia relativa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 75,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Seleccione la puntuación \\(x_i\\) que se encuentra en el percentil 40.",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p075.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=7\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 76,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(\\sec\\alpha=\\frac{5}{4}\\), calcule \\(\\tan\\alpha\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{4}{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{4}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{3}{4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 77,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "En el menú de un restaurante hay dos bebidas posibles para elegir: jugo de piña y de uva; y como plato principal de carnes, pollo y pescado, además sirven unos exquisitos postres: los pasteles y los helados. ¿Cuál es el diagrama de árbol correcto que representa las posibles formas que tiene una persona al combinar su menú?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p077_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p077_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p077_opcion_c.png"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 78,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El costo de la renta de un automóvil es de \\($450\\) diarios más \\($20\\) por cada kilómetro recorrido. ¿Cuál es la expresión del costo que representa \\(x\\) kilómetros recorridos, si estos se desplazaron en un día?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(450+20x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(450x+20\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(450+20+x\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 79,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La imagen muestra el triángulo que forma una escalera de \\(5\\,m\\) de longitud descansando sobre una pared. Calcule el seno del ángulo de inclinación \\(p\\).",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p079.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "0.8",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "0.6",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1.25",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 80,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Calcule la superficie, en unidades cuadradas, de la figura ABCD del siguiente plano.",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p080.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(28\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(26\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(22.5\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 81,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Joaquín y Julián pidieron el mismo crédito en el mismo banco. Por los \\($8,000\\) que pidió, Joaquín tuvo que pagar \\($8,400\\) debido a los intereses. Si Julián pidió \\($15,000\\), ¿cuánto terminó pagando?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\($14,250\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\($15,750\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\($15,800\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 82,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "En la tabla se muestra la cantidad de bebés y los meses de nacido de cada uno de ellos. Calcule el decil \\(6\\).",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p082.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(9\\) meses",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(10\\) meses",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(11\\) meses",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 83,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "En la siguiente figura, el radio del círculo es \\(4\\) cm. ¿Cuánto mide el área sombreada? \\(\\pi = 3.14\\)",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p083.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(14.86\\,cm^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(18.22\\,cm^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(13.76\\,cm^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 84,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con la siguiente figura, ¿cuál es la relación entre \\(x\\) y \\(y\\)?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p084.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y = 4x - 10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y = x - 6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y = 6x - 12\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 85,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si se lanzan dos dados normales, ¿cuál es la probabilidad de que en ambos caiga el mismo número?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{1}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{1}{6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{1}{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 86,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La presión de las llantas de un auto debe estar entre \\(28\\) y \\(35\\) libras. ¿Qué inecuación representa la presión correcta de las llantas del vehículo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(28 < p < 35\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(35 < p < 28\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(28 \\leq p \\leq 35\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 87,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la siguiente expresión: \\[(n^{-2})(n^{-4})(n^{3})\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{1}{n^{3}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(n^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(n^{-4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 88,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Marco es profesor de matemáticas. Él le imparte clases a los grupos A, B y C, y en cada uno hace una encuesta para identificar las estaturas, en centímetros, de cada grupo. Con las estaturas, Marco calcula la desviación estándar de cada grupo. Los resultados se presentan a continuación. ¿Cuál de las siguientes opciones es verdadera?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p088.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Las estaturas del grupo A son las más dispersas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Las estaturas del grupo B son las menos dispersas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Las estaturas del grupo C están más cercanas al promedio grupal",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 89,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La siguiente gráfica presenta la trayectoria de las exportaciones de petróleo de tres países. ¿Qué país exporta menos petróleo?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p089.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "País A",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "País B",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "País C",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 90,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La siguiente gráfica presenta información sobre la cantidad de libros en algunas categorías que dispone una biblioteca. ¿Qué información representa la gráfica de barras?",
+        "imagen": "imagenes_universidad/exani_ii/aritmetica_matematicas_financieras/simulador_1/p090.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Porcentaje de libros de cada categoría",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Frecuencia acumulada de las 4 categorías",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Frecuencia absoluta de los diferentes temas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}

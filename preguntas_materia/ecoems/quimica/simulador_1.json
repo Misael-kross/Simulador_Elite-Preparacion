@@ -1,0 +1,424 @@
+{
+  "nombre": "Simulador Química ECOEMS 1",
+  "nivel": "Preparatoria",
+  "institucion": "ECOEMS",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los distintos modelos de átomo han sido elaborados para",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "cuantificar las sustancias en una reacción.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "explicar el comportamiento de la materia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "representar los fenómenos naturales.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "comunicar los resultados de sus experimentos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Propiedades físicas de los líquidos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Volumen definido y adoptan la forma del recipiente.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Volumen propio y forma definida.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Compresibilidad y difusibilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Difusibilidad y expansibilidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Propiedades que permiten cuantificar los materiales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Masa y volumen.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Peso y solubilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Longitud y tiempo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Densidad y temperatura.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se tienen \\(100\\) gramos de hielo a \\(-10^{\\circ}C\\) en un recipiente cerrado. Se eleva la temperatura hasta alcanzar, primero, los \\(20^{\\circ}C\\); después la temperatura llega a \\(110^{\\circ}C\\).\n\nIndica cuántos gramos de agua en estado líquido se han obtenido a la temperatura de \\(20^{\\circ}C\\), y cuántos gramos de vapor se han producido al alcanzarse la temperatura de \\(110^{\\circ}C\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(120\\,g\\) de agua y \\(220\\,g\\) de vapor.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(120\\,g\\) de agua y \\(120\\,g\\) de vapor.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(100\\,g\\) de agua y \\(100\\,g\\) de vapor.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(100\\,g\\) de agua y \\(120\\,g\\) de vapor.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Partículas subatómicas responsables de que ocurran las reacciones químicas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Neutrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Electrones internos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Protones.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Electrones externos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un átomo con \\(Z = 20\\) y \\(40\\) neutrones, tiene ___ protones.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(60\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(20\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(40\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La representación \\(H\\cdot\\) corresponde a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ion hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "átomo de hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la molécula de hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "ion hidronio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los elementos se ubican en la Tabla Periódica de acuerdo con el orden creciente de su",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "número atómico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "tamaño.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "número de masa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la opción en la que aparecen solamente características de los metales.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Alta temperatura de fusión, conductividad eléctrica y maleabilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Baja densidad, conductividad eléctrica y ductibilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Alta densidad, conductividad térmica y baja temperatura de fusión.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Maleabilidad, conductividad y baja densidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ecuación que indica que el agua interviene como reactivo es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2H_{2}O_{2} \\rightarrow 2H_{2}O + O_{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2H_{2} + O_{2} \\rightarrow 2H_{2}O\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(NaOH + HCl \\rightarrow NaCl + H_{2}O\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(CO_{2} + H_{2}O \\rightarrow H_{2}CO_{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Con base en el Sistema Internacional de unidades (SI), la cantidad de sustancia se asocia con",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "mol.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "kilogramo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "candela.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "litro.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la siguiente ecuación \\(Zn + CuSO_{4} \\rightarrow Cu + ZnSO_{4}\\) el ________ se reduce y el ________ se oxida.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(Cu - Zn\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(Zn - Cu\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(S - O\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(O - S\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}

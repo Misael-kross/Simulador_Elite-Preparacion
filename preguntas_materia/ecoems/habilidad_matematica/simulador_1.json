@@ -1,0 +1,560 @@
+{
+  "nombre": "Simulador Habilidad Matematica",
+  "nivel": "Preparatoria",
+  "institucion": "ECOEMS",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el término que falta en la siguiente sucesión? \\(1, 3, 6, \\_, 15, 21, \\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(11\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(13\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 77."
+    },
+    {
+      "id": 2,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el término que sucede a la serie? \\(7, 3, 13, 10, 19, 17, 25, \\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(23\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(24\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(31\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(33\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 78."
+    },
+    {
+      "id": 3,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es el que sigue?",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p003.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p003_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p003_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p003_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p003_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 79. Las opciones son figuras."
+    },
+    {
+      "id": 4,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Seleccione la imagen que completa la serie.",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p004.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p004_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p004_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p004_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p004_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 80. Las opciones son figuras."
+    },
+    {
+      "id": 5,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuántos triángulos negros se forman con \\(18\\) triángulos blancos?",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p005.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(9\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 81."
+    },
+    {
+      "id": 6,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El primer término de una progresión geométrica es \\(a\\), el segundo término es \\(ar\\), el tercer término es \\(ar^{2}\\), el cuarto es \\(ar^{3}\\). Y así sucesivamente. El término vigésimo tercero es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(ar^{21}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(ar^{22}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(ar^{21}r\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a^{22}r\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 82."
+    },
+    {
+      "id": 7,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el término que continua en la sucesión? \\(10, 12, 9, 11, 8, 10, \\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(13\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(12\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(7\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 83."
+    },
+    {
+      "id": 8,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es el número de cubos que tiene el octavo término de la serie?",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p008.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(28\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(38\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(36\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(26\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 84."
+    },
+    {
+      "id": 9,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Un dado está en equilibrio cuando la suma de los números de las caras opuestas es siete. ¿Con qué figura se formaría uno así?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p009_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p009_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p009_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p009_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 85. Las opciones son desarrollos de dados."
+    },
+    {
+      "id": 10,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es el volumen de la siguiente figura si el lado de cada cubo mide \\(1\\,cm\\)?",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p010.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(10\\,cm^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(8\\,cm^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(12\\,cm^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(11\\,cm^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 86."
+    },
+    {
+      "id": 11,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si un corredor recorre \\(3\\) kilómetros en un cuarto de hora, ¿Cuánto recorrerá en \\(90\\) minutos?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(15\\) Kilómetros.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(9\\) Kilómetros",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(18\\) Kilómetros",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(21\\) Kilómetros",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 87."
+    },
+    {
+      "id": 12,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Luis le compra \\(5\\frac{1}{4}\\) metros de tela, si el metro cuesta \\($17.00\\) ¿Cuánto le regresaran de cambio si paga con un billete de \\($100.00\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\($10.75\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\($10.25\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\($9.75\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\($8.75\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 88."
+    },
+    {
+      "id": 13,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuántos cubos hay en la figura si se intersectaron dos ejes como se muestra en la figura?",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p013.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(21\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(22\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(24\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(25\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 89."
+    },
+    {
+      "id": 14,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Si la cara \\(c9\\) corresponde a \\(C5\\) y la \\(C8\\) a \\(C4\\), ¿A qué carta corresponde \\(C6\\)?",
+        "imagen": "imagenes_materia/ecoems/habilidad_matematica/simulador_1/p014.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "C1",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "C3",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "C7",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "C5",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 90. Las opciones no son visibles en la imagen proporcionada."
+    },
+    {
+      "id": 15,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si una persona empaca \\(1,300\\,kg\\) en \\(24\\) cajas, unas con capacidad de \\(60\\,kg\\) y otras con capacidad de \\(40\\,kg\\). ¿Cuántas cajas de \\(40\\,kg\\) utilizo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(13\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(19\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 91."
+    },
+    {
+      "id": 16,
+      "materia": "HABILIDAD MATEMÁTICA",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Con \\(25\\) pesos se van a comprar timbres postales, cuyos precios son de \\($2\\) y \\($5\\). Si se quieren comprar \\(8\\) timbres en total, ¿Cuántos de cada precio deben pedirse?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(5\\) de \\($5\\) y \\(0\\) de \\($2\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(10\\) de \\($2\\) y \\(1\\) de \\($5\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\) de \\($2\\) y \\(4\\) de \\($5\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(5\\) de \\($2\\) y \\(3\\) de \\($5\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 92."
+    }
+  ]
+}

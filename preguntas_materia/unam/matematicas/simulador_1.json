@@ -1,0 +1,832 @@
+{
+  "nombre": "Simulador UNAM 1 - Matemáticas",
+  "nivel": "Universidad",
+  "institucion": "UNAM",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(\\frac{(a^{2} + b)^{\\frac{3}{2}}}{a^{2} + b}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{(a^{2} + b)^{5}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((a^{2} + b)^{-\\frac{3}{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{a^{2} + b}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((a^{2} + b)^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Factoriza la siguiente expresión. \\(n^{6} - 3n^{3} - 18\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((n^{3} + 3)(n^{3} - 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((n^{3} - 3)(n^{3} + 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((n^{3} - 3)(n^{3} - 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((n^{3} + 3)(n^{3} + 6)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la expresión que corresponde a una ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\operatorname{sen}(x) = \\frac{1}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\operatorname{sen}(x)\\operatorname{csc}(x) = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\operatorname{sen}^{2}(x) + \\cos^{2}(x) = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\sec^{2}(x) - \\tan^{2}(x) = 1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los valores \\(0\\) y \\(-2\\) son las raíces o soluciones de la ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x(x - 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((x + 2)(x - 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x(x + 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{2} - 4 = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la desigualdad que tiene por solución al siguiente conjunto. \\([\\frac{1}{3}, \\infty)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3x - 1 \\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3x - 1 \\leq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-3x + 1 \\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-3x + 1 \\leq 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A partir del siguiente sistema de ecuaciones obtén el valor de \\(x\\). \\[\\begin{cases} 5x = 4y + 19 \\\\ 7x + 3y = 18 \\end{cases}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x = -3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = -1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x = 3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La función de la siguiente gráfica está dada por",
+        "imagen": "imagenes/unam/simulador_1/p052.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f(x) = -\\sqrt{-8x - 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f(x) = \\sqrt{-8x - 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f(x) = -\\sqrt{-8x + 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f(x) = \\sqrt{-8x + 16}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En términos de \\(\\operatorname{sen}\\theta\\) y \\(\\cos\\theta\\), \\(\\tan\\theta\\) es igual a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{2\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para encontrar la medida de los ángulos internos de un triángulo oblicuángulo cuando se conocen las medidas de sus lados se utiliza",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la ley de los cosenos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la ley de los senos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el teorema de Pitágoras.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la razón trigonométrica tangente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el rango de la siguiente función \\(y = e^{5x - 1} + 5\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((\\frac{1}{5}, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((5, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((-5, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\([-\\frac{1}{5}, \\infty)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "La expresión exponencial se transcribió según el OCR disponible; revisar contra imagen si se requiere precisión absoluta."
+    },
+    {
+      "id": 11,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la distancia entre los puntos \\(P(2, 5)\\) y \\(Q(4, -1)\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\sqrt{10}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\sqrt{10}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determina el centro de la circunferencia cuyo diámetro es el segmento \\(A(-3, 2)\\), \\(B(7, 8)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(P(2, 5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(P(5, 5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(P(5, 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(P(-2, 3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La ecuación ordinaria de la mediatriz del siguiente triángulo trazada desde el lado AB es",
+        "imagen": "imagenes/unam/simulador_1/p058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y = -3x + 6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y = -3x + 7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y = -2x + 5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y = -2x + 6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 14,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica las coordenadas del centro de la circunferencia cuya ecuación general es \\(3x^{2} + 3y^{2} + 12x + 30y + 6 = 0\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C(-4, -10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(C(-2, -5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(C(4, 10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(C(2, 5)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la ecuación de la parábola con foco \\(F(1, 0)\\), valor del parámetro \\(P = 1\\) y eje focal paralelo al eje \\(Y\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^{2} + 4y = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y^{2} - 4x = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2} - 4y = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y^{2} + 4x = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 16,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la ecuación general de la siguiente elipse \\(\\frac{x^{2}}{16} + \\frac{y^{2}}{4} = 1\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4x^{2} + y^{2} - 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2} + 4y^{2} + 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2} + 4y^{2} - 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4x^{2} + 4y^{2} + 16 = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 17,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para la ecuación de la siguiente hipérbola, si \\(c = 41\\), ¿cuánto vale \\(a\\)? \\(\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{9^{2}} = 1\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a = 1024\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a = 1600\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a = 32\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a = 40\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si en la ecuación \\(Ax^{2} + Bxy + Cy^{2} + Dx + Ey + F = 0\\) el discriminante \\(B^{2} - 4AC\\) es positivo, entonces la ecuación representa una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "circunferencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "parábola.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "elipse.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "hipérbola.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La condición que debe cumplir \\(x\\) cuando se aproxima a \\(b\\) para que en \\(f(x)\\) exista el límite \\(L\\) es que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x \\neq b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x > b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x \\geq b\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La derivada de \\(y = (2x^{3} + 5)^{4}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y\\prime = 12x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y\\prime = 6x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y\\prime = 8x^{2}(2x^{3} + 5)^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y\\prime = 24x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La posición de una partícula expresada en unidades \\(u\\) está dada por la función de tiempo \\(s\\) \\(f(t) = t^{3} - t + 1\\). Considerando \\(t = 3\\), ¿cuál es su aceleración en \\(u/s^{2}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(24\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(26\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(17\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(18\\ u/s^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 22,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La expresión \\(f(t) = \\cos(2t + 3)\\) es una función de posición de movimiento armónico. La expresión para la aceleración es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a(t) = -4\\cos(2t - 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a(t) = \\cos(2t + 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a(t) = -\\cos(2t + 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a(t) = -4\\cos(2t + 3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con la siguiente imagen ¿qué características de la función nos permite determinar si es integrable o no?",
+        "imagen": "imagenes/unam/simulador_1/p068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "No es integrable porque está acotada pero su número de discontinuidades es infinito.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Sí es integrable porque está acotada y su número de discontinuidades es finito.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Sí es integrable porque está acotada y su número de discontinuidades es finito.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "No es integrable porque no está acotada aun cuando su número de discontinuidades es finito.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La opción B y C aparecen muy similares en el OCR; revisar la imagen para confirmar el texto exacto."
+    },
+    {
+      "id": 24,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La integral \\(\\int(2\\operatorname{sen}x + 3\\cos x)\\,dx\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\operatorname{sen} x + \\cos x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\operatorname{sen} x - \\cos x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2\\cos x + 3\\operatorname{sen} x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-2\\cos x + 3\\operatorname{sen} x + C\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}

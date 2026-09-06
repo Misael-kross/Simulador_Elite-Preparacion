@@ -1,0 +1,4306 @@
+{
+  "nombre": "Simulador UAM1",
+  "nivel": "Universidad",
+  "institucion": "UAM",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El propósito principal de este texto es:",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p001.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "explicar algunos conceptos de la economía",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "describir la situación económica de un país",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "discutir los aspectos prioritarios y los negativos del desarrollo económico",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "demostrar que la situación económica influye sobre la vida de un pueblo",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "regular la actividad económica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes sería el título más apropiado para la lectura?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La bonanza del país",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El ingreso per cápita y la productividad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "México y el desarrollo económico",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El desarrollo social",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Desarrollo y crecimiento económicos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "De acuerdo con la lectura, ¿cuál de los siguientes enunciados expresa cuantitativamente la economía de un país?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "formación de capital",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "aumento del ingreso real per cápita",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mejorar los niveles de vida día con día",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "los cambios cuantitativos en la economía",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "acciones que aplica el Estado",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La lectura sugiere que todas las siguientes opciones están implícitas, excepto que:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el desarrollo económico es significativo en un país",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el manejo de estos conceptos es polémico",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "explica el proceso mediante el cual los países pasan de un estado atrasado a uno avanzado en su economía",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la economía crece cualitativamente",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "la población mejora sus condiciones de vida",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La posición del autor de este texto es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "explicar las diferencias entre desarrollo y crecimiento económicos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "informar de los avances económicos de un país",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "explicar el proceso mediante el cual los países pasan de un estado atrasado a uno avanzado en su economía",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "hablar de la expansión del capital",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "criticar el desarrollo económico Comunicación escrita Instrucciones: Selecciona, entre las cinco opciones la respuesta correcta.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Del fragmento, Platero y yo, de Juan Ramón Jiménez, identifica los monosílabos que lleven acento. \"Platero es pequeño, peludo, suave; tan blanco por fuera, que se diría todo de algodón que no lleva huesos. Sólo los espejos de azabache de sus ojos son duros cual dos escarabajos de cristal negro\"",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Todos los monosílabos, excepto tan",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La palabra se",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La palabra de",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ninguno, ya que los monosílabos no se acentúan ortográficamente",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Todos los monosílabos, excepto que",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "De acuerdo al uso de la regla ortográfica completa la siguiente oración: Los agentes de seguridad o_ser_a_an a los que entra_an y salían del camerino.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "b - b - v - b",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "b - v - b - v",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "b - v - b - b",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "b - v - v - b",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "v - b - b - b",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica los signos de puntuación que deben ir en los espacios en blanco de las siguientes oraciones; “A” para signos de Admiración e “I” para signos de Interrogación. 1. Luis, __ pusiste las cosas que te encargué en mi cuarto__ 2. __Qué impresionante lluvia cayó ayer por la tarde__ 3. __Me prestas dinero__, es que necesito comprar un litro de leche. 4. __Qué hermoso está ese vestido negro__ 5. Cuando supo el precio del carro gritó: __ Lo compro__ 6. No escuché el mensaje, __ tú sabes qué me quiso decir__",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "A, I, A, I, I, A",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "I, A, I, I, A, I",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "A, A, I, I, A, I",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "I, I, I, A, A, A",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "I, A, I, A, A, I",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Indica de las siguientes oraciones las palabras con errores ortográficos.",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p009.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1:h,m; 2:h,i; 3:d,j",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1:e, f; 2:h; 3:c,d,k",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1:c,h,m; 2:f; 3:c,k",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1:e,i,l; 2:h; 3:d,k",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "1:c,j; 2:f,h; 3:c,d,k",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La pregunta contiene una tabla con oraciones y columnas identificadas por letras; se requiere imagen para conservarla fielmente."
+    },
+    {
+      "id": 10,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica qué palabra debe estar escrita con \"J\":",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "legible",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "legiones",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "gestión",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "legía",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "legislatura",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "\"Yo poeta lo digo nunca de allá nos vino nada sin que tuviera el suave gusto del pan amigo, el sabor generoso de la voz camarada\". Después de la palabra \"digo\", se debe poner:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "un punto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "dos puntos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "un guión doble",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "un signo de exclamación",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "una coma",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las voces terminadas en -JE, -JERO, -JERIA, se escriben con -J-. Hay una excepción a esta regla en la siguiente lista de palabras:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "paje",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "cerrajero",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "relojería",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mensajero",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "esfinje",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Decide si se debe escribir \"b\" o \"v\"; \"c\", \"z\" o \"s\" en los espacios en blanco que aparecen en el siguiente texto: Entre los espectáculos que se dan actualmente en París, figura uno que alcan a muy rillante éxito y que sin duda se reprodu irá durante la expo i ión. Se trata de un inematógrafo especial que reprodu e los actos de la ida pú lica y pri ada de su Santidad el Papa.",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p013.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "z, v, s, s, s, c, z, b, b, v",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "s, b, z, c, s, c, c, b, v, b",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "z, b, s, s, c, c, c, b, v, v",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "z, b, c, s, c, c, c, v, b, v",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "z, v, s, s, c, c, c, v, v, v",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "El enunciado contiene un recuadro con espacios en blanco; se conserva como imagen de apoyo."
+    },
+    {
+      "id": 14,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elije la letra que complete los siguientes enunciados. 1. ll 2. y 3. g 4. j a. Intentó abrir con la __ave equivocada b. Todo el día juega con su __oyo c. El vuelo del á__uila es impresionante d. El es un hombre e__emplar e. Lo anotó en su a__enda f. No me quiso a__udar g. Nos diri__imos hacia a__á",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1:b, e, g; 2:d, f; 3:a, g; 4:c",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1:d; 2:b, e, g; 3:c, f; 4:a, g",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1:a, g; 2:b, f; 3:c, e, g; 4:d",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1:g; 2:c, f, g; 3:a, e; 4:b, d",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "1:c, f; 2:d, e, g; 3:b, g; 4:a",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Escribe la letra adecuada para completar las palabras correspondientes (s, c, z). Nuestro pariente inglé es alegrí imo, si ien ve es abre la boca para de ir algo, las mismas que te ha e reír. Él es siempre sorpre ivo.",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p015.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "s, c, c, c, c, s, s",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "s, s, c, c, c, c, s",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "s, s, c, c, c, c, z",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "z, s, c, s, s, c, s",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "z, z, s, c, c, c, s",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "El enunciado contiene un recuadro con espacios en blanco; se conserva como imagen de apoyo."
+    },
+    {
+      "id": 16,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Completa cada oración con la palabra que falta en el espacio en blanco. Oraciones a b 1. El maestro solo __________ las libretas al revisarnos la tarea. ojeó hojeó 2. __________ si nos ponemos de acuerdo para organizar la fiesta. A ver Haber 3. En el norte del país, la ganadería __________ es la principal fuente de ingresos. bovina bobina 4. El poema es ________ y armonioso. bello vello 5. Mi amiga es muy exigente para _________ los colores de su ropa. convinar combinar 6. El fotógrafo __________ sus rollos cada semana. rebela revela 7. El pintor dejó ________ la copa de vino al terminar su obra. vacía bacía",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p016.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1:b; 2:a; 3:a; 4:a; 5:b; 6:b; 7:a",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1:a; 2:a; 3:b; 4:a; 5:b; 6:a; 7:b",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1:b; 2:b; 3:a; 4:b; 5:a; 6:b; 7:b",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1:a; 2:b; 3:b; 4:b; 5:a; 6:a; 7:a",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "1:b; 2:a; 3:b; 4:b; 5:b; 6:a; 7:a",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "La pregunta contiene una tabla de oraciones y opciones a/b; se requiere imagen para conservar el formato."
+    },
+    {
+      "id": 17,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Clasifica los siguientes pares de palabras, según sean Sinónimas (1), Antónimas (2) o Ninguna de las dos (3). 1. Sinónimas 2. Antónimas 3. Ninguna de las dos a. Auténtico- refrendado b. Espurio- legítimo c. Camino- ranchar d. Trompicar- tropezar e. Dilapidar- atesorar f. Infortunio -querella g. Hábito- personalidad h. Cavilar- distraerse i. Urna- artefacto j. Efebo- adolescente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1:b, e, h; 2: a, d, j; 3:c, f, g, i",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1:b, e, j; 2: a, d, h; 3:c, f, g, i",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1:b, c, d; 2:a, e, h, j; 3:f, g, i",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1:b, d, f, h; 2:c, g, j; 3:a, e, i",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "1: a, d, j; 2: b, e, h; 3:c, f, g, i",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona el par de palabras cuyo significado sea opuesto. 1. Emigración- repatriación 2. Felón- pérfido 3. Circunvecino- remoto 4. Soberbio- arrogante 5. Ribete- cenefa 6. Amedrentar- apocar 7. Comparecencia- ausencia",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3 y",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1, 2 y",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "6 y",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "3, 6 y",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "1, 3 y",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La palabra cuyo significado es opuesto a Fuero es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "fruto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "ganancia",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "castigo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "ímpetu",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "privilegio",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La palabra cuyo significado es opuesto a Fuga es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "composición",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "aprehensión",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "fundación",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "escapatoria",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "fusión",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Completa en el espacio vacío el prefijo que va a formar la palabra. acelerar, muros, luz, selección, dictador, misor",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p021.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "des, intra, contra, pre, ex, trans",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "des, intra, trans, pre, ex, contra",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "des, pre, contra, ex, trans, intra",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "pre, ex, intra, trans, contra, des",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "pre, contra, intra, ex, pre, trans",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "El enunciado contiene un recuadro con espacios en blanco; se conserva como imagen de apoyo."
+    },
+    {
+      "id": 22,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identifica la base de derivación que conforma la palabra \"vanagloriar\"",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sufijo más raíz",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Raíz más sufijo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Palabra primitiva más sufijo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Palabra derivada más sufijo",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Palabra compuesta más sufijo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Interpreta el significado del siguiente refrán o dicho. “A grande caballo grandes espuelas”",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Indica que toda causa es proporcional al efecto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dicho de una persona que es muy eficaz para cierta área o disciplina",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Se usa en situaciones en que se da u ofrece algo a quien ya tiene",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Enuncia situaciones en las que se busca enaltecer a alguien",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Expresa en forma sentenciosa que todo mundo busca su propio provecho",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 24,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Cinco niños tienen como mascotas un sapo, un perro, un gato, un conejo y un pez, si les han puesto como nombres Ramiro, Mark, Dany, Tomy, Alan. Se sabe que a Dany le cambian el agua cada semana, Tomy no ladra, Alan no croa, Ramiro maúlla y Mark come zanahorias, ¿cómo se llama el perro?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Mark",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Alan",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Tomy",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ramiro",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Dany",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 25,
+      "materia": "Razonamiento verbal",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Completa el siguiente enunciado: Todas las mujeres son seres inteligentes, alegres y mortales, entonces ninguna mujer es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "inmortal",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "intelectual",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "cordial",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "irracional",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "animal Razonamiento matemático Las instrucciones son las siguientes: Lee cuidadosamente la pregunta Resuelve el problema que se te plantea Busca entre las opciones la respuesta que obtuviste Elige la respuesta correcta",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 26,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la sucesión numérica 8, 7, 11, 10, 14, ..., los dos números siguientes son:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "13,",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "18,",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "13,",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "18,",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "15,",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 27,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la sucesión numérica 75, 74, 72, 71, ..., los dos números siguientes son:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "69,",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "69,",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "68,",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "69,",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "15,",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 28,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la sucesión numérica 6, 18, __, 360, 2160, el número que falta es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 29,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la sucesión numérica 9, 17, 11, 19, …, el número que sigue es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "27",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 30,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la sucesión numérica 13, 18, 24, 29,..., los dos números que siguen son:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "34 ,",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "34 ,",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "35 ,",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "35 ,",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "35 ,",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 31,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la opción que ROMPE la regularidad.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "DEFG",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "KLMN",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "PQRS",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "WXYZ",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "HIKL",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 32,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si se traducen las letras y números a otro código se puede obtener una interpretación nueva. Elije la opción que da sentido al conjunto de caracteres. LX 9X7W1X 3S 9W163WO",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "AL PRIMER PATRIOTA",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "LO PRIMERO ES ULTIMO",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "MI FRASE NO ENTIENDO",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "LA PATRIA ES PRIMERO",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "SE MEJORA EL CONSUMO",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 33,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué se obtiene al doblar la siguiente figura por la línea punteada?",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p033.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p033_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p033_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p033_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p033_opcion_d.png"
+        },
+        {
+          "inciso": "E",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p033_opcion_e.png"
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": "La pregunta y sus opciones dependen de figuras; se requieren imágenes para el enunciado y cada inciso."
+    },
+    {
+      "id": 34,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El siguiente desarrollo corresponde al volumen:",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p034.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p034_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p034_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p034_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p034_opcion_d.png"
+        },
+        {
+          "inciso": "E",
+          "texto": "",
+          "imagen": "imagenes_universidad/uam/cbi/simulador_1/p034_opcion_e.png"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "La pregunta y sus opciones dependen de figuras; se requieren imágenes para el enunciado y cada inciso."
+    },
+    {
+      "id": 35,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es el número máximo de triángulos distintos que puedes encontrar en la siguiente figura?",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p035.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "La pregunta depende de una figura geométrica."
+    },
+    {
+      "id": 36,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si formas un tetraedro a partir de un triángulo equilátero, ¿cuántos triángulos equiláteros menores obtienes?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 37,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una botella tiene una capacidad total de \\(\\frac{9}{5}\\) litros y contiene aceite en \\(\\frac{5}{9}\\) de su capacidad. ¿Cuánto aceite, en litros, hay en la botella?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "0.555",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{56}{45}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{25}{81}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(\\frac{81}{25}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 38,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un grupo de \\(60\\) alumnos, cierto día \\(\\frac{1}{10}\\) del grupo es atacado por una infección; \\(\\frac{2}{3}\\) de los infectados deciden permanecer en cama, mientras que el resto de todo el grupo asiste a clase. El número de alumnos que asistieron a clase es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "6",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "40",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "54",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "56",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "58",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 39,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La lista de números \\(1, 6, -1\\) se obtiene al sustituir respectivamente \\(n = 1, 2, 3\\) en la expresión:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1 - 3(n - 1) + n\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2(n - 1) - 4 + n\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((n - 1) + 2n\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2(n - 1) + 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(-3(n - 1) + 5n\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": "La expresión original se reconstruyó a partir del texto extraído del PDF; revisar contra la imagen si se requiere máxima fidelidad."
+    },
+    {
+      "id": 40,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Juan tiene el \\(75\\%\\) de $1650, Antonio el \\(48\\%\\) de $625 y Roberto el \\(33\\%\\) de $827, ¿Cuánto dinero tienen entre los tres?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$1400.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$1539.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$1700.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "$1810.",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "$1901.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 41,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un auto puede recorrer 180 km con 12 litros de gasolina. ¿Qué distancia puede recorrer con 20 litros de gasolina?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "350 km",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "280 km",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "325 km",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "300 km",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "200 km",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 42,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si el \\(55\\%\\) de los habitantes de la ciudad tienen automóvil y las \\(\\frac{2}{5}\\) partes de ellos no lo utilizan el fin de semana. ¿Qué porcentaje de los habitantes sí utilizan auto el fin de semana?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(45\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(88\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(22\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(33\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(67\\%\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 43,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un banco da el 5% de interés semestral. ¿Cuánto esperas tener en el banco en un año si depositaste $1000.00 y no retiraste los intereses?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$1050.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$1102.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$1100.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "$1210.",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "$1100.50",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 44,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si en un polígono se trazan desde un sólo vértice todas las diagonales posibles, se observa que el número de diagonales es igual al número de lados:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "menos dos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "menos tres",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "más tres",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "más dos",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "más cuatro",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 45,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Si \\(A\\) es el doble de \\(C\\) y \\(B\\) es el triple de \\(C\\), encuentra el valor del ángulo \\(A\\).",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p045.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(40^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(45^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(50^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(60^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(70^{\\circ}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "La pregunta depende de una figura geométrica con ángulos."
+    },
+    {
+      "id": 46,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El cuadrado de la suma de dos cantidades es igual al cuadrado de la primera más el duplo de la primera por la segunda más el cuadrado de la segunda, ¿cuál de las expresiones algebraicas siguientes representa lo anterior?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((a+b)^{2}=a^{2}+ab-b^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((a+b)^{2}=a^{2}+ab+b^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((a+b)^{2}=a^{2}+2ab+b^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((a+b)^{2}=a^{2}+2ab+b^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\((a+b)^{2}=a^{2}-2ab-b^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Las opciones C y D se ven muy similares por la extracción del PDF; revisar contra el documento original si se requiere máxima fidelidad."
+    },
+    {
+      "id": 47,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un hacendado ha comprado el doble número de gallos que de bueyes. Por cada gallo pagó \\(\\$70\\) y por cada buey \\(\\$85\\) y el importe total de la compra fue de \\(\\$2700\\). Si \\(x\\) es la cantidad de bueyes, ¿qué ecuación permite calcularla?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(85x + 70x = 2700\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(170x + 140x = 2700\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(85x + 140x = 2700\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(85x + 35x = 2700\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(170x + 70y = 2700\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 48,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si la edad de Pedro es el doble que la de Juan y hace \\(20\\) años la edad de Pedro era el triple que la de Juan, ¿qué ecuación permite calcular la edad de Juan?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2x - 20 = 3(x - 20)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2x - 20 = 3(x + 20)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2x - 20 = 3x + 20\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2x - 20 = 3x - 20\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(x - 20 = x + 20\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 49,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Expresa \\(85\\) como la suma de dos sumandos tales que el triple del menor equivalga al doble del mayor, ¿qué ecuación permite resolver el problema?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3x - 2 = 2(85 - x)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3x = 2(85 - x)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(3x = 2(85 + x)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(3 - 2x = 85 - x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(2(3x)=2(85-x)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Algunas opciones se reconstruyeron a partir del texto extraído; revisar contra el PDF si se requiere máxima fidelidad."
+    },
+    {
+      "id": 50,
+      "materia": "Razonamiento matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lidia compró cierto número de sacos de frijoles por la cantidad de \\(\\$240\\). Si ella hubiera comprado \\(3\\) sacos más por el mismo dinero, cada saco le habría costado \\(\\$4\\) menos, ¿qué ecuación permite calcular el precio \\(x\\) de un saco de frijoles?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\left(\\frac{240}{x}+3\\right)(x-4)=240\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{240}{x}=\\frac{240}{x-3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{240}{x}=\\frac{240}{x+3}-4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{240}{x}=\\frac{240}{x+3}-4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(3x+240=4x+240\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Algunas opciones se reconstruyeron a partir del texto extraído del PDF; revisar contra la imagen si se requiere máxima fidelidad."
+    },
+    {
+      "id": 51,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Es representante de la novela picaresca:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Amadís de Gaula",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ginés Pérez de Hita",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Francisco de Quevedo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Jorge de Montemayor",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Felixmarte de Hicarnia",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 52,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La llamada “Generación del 98” buscó a través de la literatura:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la explicación de la crisis española",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la exaltación del imperio español",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "los motivos del separatismo vasco",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la esencia española",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "los motivos del fracaso de la monarquía",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 53,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Escritor mexicano, autor de “Árbol adentro” y “Sor Juana Inés de la Cruz o las trampas de la fe”",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Octavio Paz",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Julio Cortázar",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Gabriel García Márquez",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Mario Vargas Llosa",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Jorge Luis Borges",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 54,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La fábula y la sátira forman parte del género literario llamado:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "épico",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "didáctico",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "poético",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "dramático",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "mixto",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 55,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La rama de la lingüística que estudia el significado de las palabras es la:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "sintaxis",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "ortografía",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "semántica",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "gramática",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "fonética",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 56,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El estudio de las reglas y principios que regula el uso de las lenguas y la organización de las palabras dentro de una oración, se le conoce como:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "sintaxis",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "gramática",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "ortografía",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "fonética",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "semántica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 57,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A los textos que estudian las realidades físicas del mundo y se caracterizan por la búsqueda de principios y leyes generales que posean cierta validez universal, los conocemos como:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "literarios",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "informativos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "científicos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "temáticos",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "didácticos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 58,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El principal exponente de la literatura clásica griega en el género épico es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Horacio",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Platón",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Cicerón",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Pitágoras",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Homero",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 59,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El principal exponente de la literatura náhuatl es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ixtlilxóchitl",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Nezahualcóyotl",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Quezalcóatl",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Tzitzitlini",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Ahuízotl",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 60,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El existencialismo que surge en la época contemporánea tiene como principales exponentes a:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Pablo Neruda y Octavio Paz",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Friedrich Nietzsche y Herbert Spencer",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Jean Paul Sartre y Albert Camus",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Antonio Machado y Rubén Darío",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "José Revueltas y Juan Rulfo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 61,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El Plan de Guadalupe fue propuesto por:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Pascual Orozco",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Venustiano Carranza",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Francisco I. Madero",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Francisco Villa",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Emiliano Zapata",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 62,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El periódico independiente de combate que se propuso acabar con la dictadura porfirista, denunció la explotación económica y su entrega al extranjero y que se convirtió en el medio de difusión del congreso del Partido Liberal fue:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El Diablito",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Regeneración",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El Ahuizote",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Aurora Democrática",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "El Colmillo Político",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 63,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El fundador del periódico El Despertador Americano, que aparece el 20 de diciembre de 1810, para promover la causa de la independencia es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ignacio López Rayón",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dr. Don Francisco Severo Maldonado",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Miguel Hidalgo y Costilla",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ignacio de Allende",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Don Pascasio Ortiz de Letona",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 64,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Presidente mexicano que creó el Partido Nacional Revolucionario (PNR):",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Plutarco Elías Calles",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Emilio Portes Gil",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Lázaro Cárdenas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Álvaro Obregón",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Adolfo de la Huerta",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 65,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Organizador del Partido Liberal Mexicano (PLM):",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Francisco I. Madero",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Francisco Villa",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Plutarco Elías Calles",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Pascual Orozco",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Ricardo Flores Magón",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 66,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La justificación ideológica de la dictadura porfiriana fue el:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "positivismo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "liberalismo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "magonismo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "capitalismo",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "inversionismo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 67,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El trabajo es un derecho que otorga:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el Poder Ejecutivo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el Poder Legislativo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el Poder Judicial",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la Constitución Mexicana",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "la ley del Seguro Social",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 68,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El Plan de Ayala fue propuesto por:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Pascual Orozco",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Francisco I. Madero",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Francisco Villa",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Emiliano Zapata",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Venustiano Carranza",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 69,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La actividad económica más importante en México durante la colonia fue:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la industria",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la ganadería",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la evangelización",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "los obrajes",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "la minería",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 70,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La sociedad romana estaba dividida en las siguientes clases sociales:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "nobles, plebeyos e ilotas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "patricios, plebeyos y esclavos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "patricios, nobles y burgueses",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "patricios y plebeyos",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "patricios, burgueses y obreros",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 71,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En 1492, además del descubrimiento de América por Cristóbal Colón, dos acciones caracterizaron el gobierno de los Reyes católicos, fueron:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "unificación del Reino de Portugal y la alianza con los germanos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "conquista castellana del Reino de Granada y expulsión de los jesuitas de los territorios hispánicos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "conquista del Reino de Marruecos y la expulsión de los tunecinos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "conquista castellana del Reino de Granada y la supresión del judaísmo",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "reconocimiento de las autonomías y confrontación con el papado",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 72,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Importante movimiento que se da en Inglaterra a finales del siglo XVIII:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Protestantismo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Renacimiento",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Despotismo Ilustrado",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Revolución Industrial",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Ilustración",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 73,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El momento histórico entre 1870 y 1914 en el cual distintos países europeos adoptaron políticas proteccionistas para incentivar la explotación directa de los recursos y el control político se llama:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "mercantilismo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "socialismo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "comunismo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "monopolismo",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "imperialismo colonial",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 74,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La rivalidad entre las potencias imperialistas por sus colonias provocó la:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Primera Guerra Mundial",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Guerra de Reforma",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Guerra del Opio",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Guerra de los Boxers",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Guerra Fría",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 75,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La derrota de Japón en la Segunda Guerra Mundial facilitó que en China se instaurara:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la República Popular China",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el Partido Comunista",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el gobierno de Lin Biao",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la China Nacionalista",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "el Manchukuo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 76,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dentro del contexto de la depresión mundial de la primera mitad del siglo XX, la política norteamericana del \"New Deal\" procuró fundamentalmente:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ayudar a las naciones más castigadas por la recesión económica",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "favorecer las exportaciones industriales a través de un programa de capitalización interno",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "aplicar un severo programa de limitación de gastos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "suscribir tratados comerciales con las grandes potencias",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "reanimar la economía mediante un plan destinado a aumentar el poder adquisitivo del mercado interno",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 77,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La llamada \"Gran Depresión\" tuvo lugar antes de la:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Primera Guerra Mundial",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Segunda Guerra Mundial",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Revolución Bolchevique",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Revolución Industrial",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Guerra Franco Prusiana",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 78,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La \"Declaración de los derechos del hombre y del ciudadano\" es una aportación de la Revolución:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Inglesa",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Mexicana",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Francesa",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Norteamericana",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Rusa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 79,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Iniciador de la filosofía empírica que llama ídolos a los falsos dioses del conocimiento:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Berkeley",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Bacon",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Hegel",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Locke",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Hume",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 80,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "\"Crítica de la razón pura\" y \"Crítica del juicio\" son obras de:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Kant",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Habbes",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Bacon",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Descartes",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Hegel",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 81,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Filósofo que plantea un método racional para llegar al conocimiento de la verdad y sistematizar los principios de la ciencia:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Leibniz",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "San Agustín",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Malebranche",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Vico",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Descartes",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 82,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "\"Lo que hace a una persona o una cosa digna de aprecio\", se refiere al concepto de:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "jerarquía",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "verdad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "valor",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "juicio",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "moral",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 83,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La Lógica ha sido definida como la ciencia de:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el estudio de los símbolos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el razonamiento",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el lenguaje",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "las falacias",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "el comportamiento",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 84,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La idea de la creación divina de todo lo existente es el eje de todo el pensamiento:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "filosófico",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "islámico",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "ético",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "retórico",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "cristiano",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 85,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "\"La teoría de la ideas\" y el bien como la más elevada de éstas, es parte de la filosofía de:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sócrates",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Platón",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aristóteles",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Aristófanes",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Jenofonte",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 86,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Filósofo que emplea el método dialéctico a lo largo de toda su obra para determinar el movimiento:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Hegel",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Platón",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Sócrates",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Aristófanes",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Marx",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 87,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La tesis filosófica “Nada existe; si algo existiera no podríamos conocerlo; si pudiéramos conocerlo no podríamos comunicarlo” es de:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Platón",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Protágoras",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aristófanes",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Gorgias",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Sócrates",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 88,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La teoría del significado “Lo que puede decirse, puede decirse claramente; donde no se puede hablar hay que callarse”, es parte del pensamiento filosófico de:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Cicerón",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Russell",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Wittgenstein",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Moore",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "Carnap",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 89,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La doctrina que sostiene que el alma es parte de la materia, carece de realidad sustancial y parece como la muerte del cuerpo es del:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "realismo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "espiritualismo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "relativismo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "empirismo",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "materialismo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 90,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dados los números \\(2, \\frac{1}{13}, \\frac{5}{4}, \\frac{9}{3}, \\frac{2}{8}\\), el de mayor valor es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{5}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{2}{13}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{1}{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{9}{8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "El listado de números se reconstruyó desde la extracción; revisar contra el PDF para máxima fidelidad."
+    },
+    {
+      "id": 91,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿De qué número es \\(196\\) el \\(0.56\\%\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "100000",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "35000",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "128000",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "19600",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "40000",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 92,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el valor numérico de la expresión \\(\\frac{m^{2}}{n^{3}}\\) con \\(m=3\\), \\(n=2\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{27}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{9}{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{27}{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{9}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(\\frac{12}{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "La expresión se reconstruyó a partir del formato extraído del PDF."
+    },
+    {
+      "id": 93,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Al eliminar los paréntesis en la expresión \\(-(a+b)+(2a-b)-(2a-b)\\), el resultado es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-a+b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a-2b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-a-b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a-b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(-a+2b\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La expresión se reconstruyó a partir del formato extraído del PDF."
+    },
+    {
+      "id": 94,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El resultado de la operación \\(-[-(-16+10)]\\) es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "26",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "16",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "-26",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(-16\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "La operación se reconstruyó a partir del formato extraído del PDF."
+    },
+    {
+      "id": 95,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La operación \\(\\frac{x+3}{x-1}+\\frac{2}{x+3}\\) es igual a:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{x+3}{x+4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{x+3}{2x}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{x^{2}+21}{x+1}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{x^{2}+3}{x^{2}-3x-2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(\\frac{x^{2}+2x+3}{x^{2}+3x-2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": "La operación y opciones se reconstruyeron desde la extracción; revisar contra el PDF si se requiere máxima fidelidad."
+    },
+    {
+      "id": 96,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las dos soluciones de la ecuación \\(x^{2}-4x+3=0\\) son:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=0;\\ x=4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=0;\\ x=3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=1;\\ x=4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x=0;\\ x=-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(x=1;\\ x=3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "La ecuación se reconstruyó a partir del formato extraído del PDF."
+    },
+    {
+      "id": 97,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(x \\neq y\\), entonces la expresión \\(\\frac{x^{3}-y^{3}}{x-y}-y^{2}\\) es igual a:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y^{2}-xy\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(xy-x^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2}+xy\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{2}-xy\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(x+xy\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La expresión se reconstruyó a partir del formato extraído del PDF."
+    },
+    {
+      "id": 98,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La solución del sistema de ecuaciones \\[\\begin{cases} 2x - 1 = 3 \\\\ x + y = 4 \\end{cases}\\] es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((-2,2);\\ (-2,6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((2,-2);\\ (-2,6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((2,2);\\ (-2,-6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((2,2);\\ (2,6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\((2,2);\\ (2,-6)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "El sistema y algunas opciones se reconstruyeron a partir del formato extraído del PDF."
+    },
+    {
+      "id": 99,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La expresión \\(x^{2}-5x+4\\) es igual a:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\left(x+\\frac{5}{2}\\right)^{2}+2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\left(x-\\frac{5}{2}\\right)^{2}-2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\left(x-\\frac{5}{2}\\right)^{2}+2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\left(x+\\frac{5}{2}\\right)^{2}-2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\((x-5)^{2}+2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La expresión se reconstruyó desde el texto extraído; revisar contra el PDF si se requiere máxima fidelidad."
+    },
+    {
+      "id": 100,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(3^{2}=8\\) entonces:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\log_{2} 8 = 3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\log_{8} 2 = 3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\log_{8} 3 = 2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\log_{2} 3 = 8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(\\log_{3} 2 = 8\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "La expresión original parece tener formato ambiguo en la extracción; se conservó una interpretación en LaTeX."
+    },
+    {
+      "id": 101,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La solución de la ecuación \\(\\log_{2} x = 4\\) es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=4^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2}=2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{2}=4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(x=2^{4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "E",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 102,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(m > n\\), el resultado de \\(m-n\\), es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "menor que \\(n\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "mayor que \\(m\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "menor que \\(m\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "igual a \\(n\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "igual a \\(m\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La operación entre m y n se reconstruyó como resta a partir del sentido de las opciones; revisar contra el PDF si se requiere máxima fidelidad."
+    },
+    {
+      "id": 103,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El logaritmo base \\(10\\) de \\(10\\) es igual a:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "100",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": ".01",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "10.10",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 104,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Al simplificar \\(\\frac{7^{4}}{\\frac{7^{2}}{7^{3}}}\\), obtenemos:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(7^{\\frac{4}{3}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(7^{\\frac{3}{4}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\sqrt[3]{7}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "1",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "La expresión se reconstruyó a partir del formato extraído del PDF."
+    },
+    {
+      "id": 105,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿De cuántas formas diferentes se pueden acomodar ocho personas en \\(8\\) sillas?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4!\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "8",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "64",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(8!\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(7!\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 106,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el número que es las \\(\\frac{2}{3}\\) partes de \\(\\frac{1}{2}\\) del doble de \\(6\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "6",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "2",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 107,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Por qué número se tiene que dividir \\(80\\) para que el resultado sea \\(\\frac{3}{5}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(123\\frac{1}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "130",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "129",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(133\\frac{1}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "143",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 108,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El Señor Gutiérrez recibe el \\(7\\%\\) anual por concepto de interés sobre una inversión que efectuó. Si al final del año sus intereses son \\(\\$350\\), ¿cuánto invirtió inicialmente?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\$500\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\$600\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\$2450\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\$5000\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(\\$50000\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 109,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La mitad de un tercio es igual a:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "un sexto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "dos tercios",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "un quinto",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "uno",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "tres medios",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 110,
+      "materia": "Conocimientos específicos para la División de Ciencias Sociales y Humanidades",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "En el siguiente triángulo rectángulo, señala cuál de las expresiones siguientes corresponde a la longitud de la hipotenusa.",
+        "imagen": "imagenes_universidad/uam/cbi/simulador_1/p110.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(h=2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(h=\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(h=\\sqrt{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(h=\\sqrt{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "E",
+          "texto": "\\(h=\\sqrt{1}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La pregunta depende de un triángulo rectángulo con lados señalados."
+    }
+  ]
+}

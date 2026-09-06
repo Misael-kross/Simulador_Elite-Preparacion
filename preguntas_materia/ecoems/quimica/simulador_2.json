@@ -1,0 +1,424 @@
+{
+  "nombre": "Simulador Química ECOEMS 2",
+  "nivel": "Preparatoria",
+  "institucion": "ECOEMS",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son dos propiedades físicas de los gases.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Difusibilidad y volumen propio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Volumen definido y maleabilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Volumen y forma indefinida.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Forma indefinida y maleabilidad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Propiedades físicas de las sustancias que permiten medir la cantidad de ellas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Temperatura de ebullición y solubilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Temperatura de fusión y densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Presión y densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Masa y volumen.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si cierta cantidad de agua pasa del estado sólido al estado líquido, permanece constante su",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "masa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "solubilidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "volumen.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "A partir de los siguientes modelos \\(X\\), \\(Q\\) y \\(Z\\) se puede afirmar que \\(X\\) es ________, \\(Q\\) ________ y \\(Z\\) ________.",
+        "imagen": "imagenes_materia/ecoems/quimica/simulador_2/p004.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "compuesto – mezcla – elemento",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "mezcla – compuesto – elemento",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "elemento – compuesto – mezcla",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mezcla – elemento – compuesto",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los ________ tienen carga ________ y se ubican dentro del núcleo del átomo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "electrones – negativa",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "neutrones – negativa",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "protones – positiva",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "neutrinos – positiva",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El número de masa de un elemento que tiene \\(34\\) protones y \\(45\\) neutrones es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "34",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "11",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "79",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "45",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la fórmula del \\(H_{2}O\\) existen \\(2\\) ________ de hidrógeno y \\(1\\) ________ de oxígeno.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "moléculas – átomo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "átomos – átomo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "moléculas – molécula",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "átomos – molécula",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la tabla periódica los elementos se clasifican en orden",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "creciente de masa atómica.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "decreciente de número de masa.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "creciente de número atómico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "decreciente de número atómico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los enlaces químicos están formados por fuerzas _________ que mantienen unidos a los átomos.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "eléctricas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "gravitacionales",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "químicas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "magnéticas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes ejemplos es un fenómeno químico?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Evaporación del agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Diluir un refresco.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Combustión de carbón.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sublimación del yodo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Interpreta la información de la siguiente ecuación química. \\[2SO_{2}(g) + O_{2}(g) \\rightarrow 2SO_{3}(g)\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\) mol de dióxido de azufre más \\(2\\) mol de oxígeno forman \\(3\\) mol de trióxido de azufre.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4\\) mol de dióxido de azufre más \\(2\\) mol de oxígeno forman \\(3\\) mol de trióxido de azufre.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\) mol de dióxido de azufre más \\(2\\) mol de oxígeno forman \\(6\\) mol de trióxido de azufre.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\) mol de dióxido de azufre más \\(1\\) mol de oxígeno forman \\(2\\) mol de trióxido de azufre.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son procesos de óxido–reducción.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La evaporación del agua, el empañamiento de la plata y quemar un papel.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La oxidación de la manzana, la corrosión de un clavo y la combustión de una vela.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El empañamiento de la plata, la oxidación de la manzana y romper un huevo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "La combustión de una vela, quemar un papel y evaporación del agua.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}

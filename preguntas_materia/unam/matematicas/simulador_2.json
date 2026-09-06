@@ -1,0 +1,900 @@
+{
+  "nombre": "Simulador UNAM 2 - Matemáticas",
+  "nivel": "Universidad",
+  "institucion": "UNAM",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si 127 es el dividendo y 11 es el divisor en la ecuación, ¿cuál es el valor del cociente \\(c\\) y el residuo \\(r\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(c = 13\\) y \\(r = -16\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(c = 12\\) y \\(r = -5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(c = 10\\) y \\(r = 17\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(c = 11\\) y \\(r = 6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 47"
+    },
+    {
+      "id": 2,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(\\frac{(a^{2}+b)^{\\frac{3}{2}}}{a^{2}+b}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{(a^{2}+b)^{6}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((a^{2}+b)^{-\\frac{1}{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{a^{2}+b}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a+b^{\\frac{1}{2}}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 48"
+    },
+    {
+      "id": 3,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Al desarrollar \\((x^{2}-3y)^{3}\\) se obtiene",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^{6}-9x^{4}y+27x^{2}y^{2}+27y^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{6}+9x^{4}y-27x^{2}y^{2}+27y^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{6}-9x^{4}y+27x^{2}y^{2}-27y^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{6}+9x^{4}y-27x^{2}y^{2}-27y^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 49"
+    },
+    {
+      "id": 4,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la siguiente fracción. \\(\\frac{-x^{2}-3x+40}{x+8}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x-5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-x+5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-x+8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x-8\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 50"
+    },
+    {
+      "id": 5,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la expresión que corresponde a una ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\operatorname{sen}(x)=\\frac{1}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\operatorname{sen}(x)=\\frac{1}{2}x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\operatorname{sen}^{2}(x)+\\cos^{2}(x)=1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\sec^{2}(x)-\\tan^{2}(x)=1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 51"
+    },
+    {
+      "id": 6,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los valores que satisfacen la ecuación \\(6x^{2}-11x-35=0\\), son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x_{1}=\\frac{5}{3};\\quad x_{2}=-\\frac{7}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x_{1}=-\\frac{5}{3};\\quad x_{2}=-\\frac{7}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x_{1}=-\\frac{5}{3};\\quad x_{2}=\\frac{7}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x_{1}=\\frac{5}{3};\\quad x_{2}=\\frac{7}{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 52"
+    },
+    {
+      "id": 7,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la desigualdad que tiene por solución al conjunto \\(( -\\infty,\\frac{1}{3}]\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3x-1\\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x-3\\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-3x+1\\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-x+3\\geq 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 53"
+    },
+    {
+      "id": 8,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Soluciona el sistema de ecuaciones \\[\\begin{cases}5x+2y-z=-7\\\\x-2y+2z=0\\\\3y+z=17\\end{cases}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=-2,\\ y=3,\\ z=5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=2,\\ y=4,\\ z=-5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=-2,\\ y=4,\\ z=5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x=2,\\ y=3,\\ z=-5\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 54"
+    },
+    {
+      "id": 9,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el valor de \\(y\\) en \\(x=-8\\) si \\(y=5x^{\\frac{2}{3}}+3x\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-44\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(16\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-4\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 55"
+    },
+    {
+      "id": 10,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es el seno del ángulo \\(A\\) en el siguiente triángulo rectángulo?",
+        "imagen": "imagenes_materia/unam/matematicas/simulador_2/p010.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{3}{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{4}{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{5}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{5}{4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 56"
+    },
+    {
+      "id": 11,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un triángulo rectángulo, la hipotenusa mide 10 unidades y uno de sus ángulos es de \\(30^\\circ\\). ¿Cuántas unidades mide el lado opuesto al ángulo dado?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{1}{20}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{15}{\\sqrt{3}}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 57"
+    },
+    {
+      "id": 12,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el rango de la siguiente función \\(y=e^{\\left(\\frac{-5x-1}{5}\\right)}+5\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\([\\frac{1}{5},\\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((5,\\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((-5,\\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\([\\frac{1}{5},\\infty)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 58"
+    },
+    {
+      "id": 13,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Encuentra las coordenadas del punto medio entre los puntos \\(P(0,2)\\) y \\(Q(4,6)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((2,3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((2,4)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((3,3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((3,4)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 59"
+    },
+    {
+      "id": 14,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La distancia del punto \\((-1,1)\\) a la recta dada por la ecuación \\(-3x+4y-8=0\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0.2\\) unidades.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(0.7\\) unidades.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1.2\\) unidades.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(1.4\\) unidades.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 60"
+    },
+    {
+      "id": 15,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un marco de referencia representado por un plano XY, se localiza un gasoducto sobre la recta \\(3x+4y=2\\) con una fábrica en el punto \\((6,6)\\). ¿Qué longitud, en metros, se requiere para conectar perpendicularmente a la fábrica con el gasoducto?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(7.8\\) m",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(8.4\\) m",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(8.0\\) m",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(7.4\\) m",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 61"
+    },
+    {
+      "id": 16,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica las coordenadas del centro de la circunferencia cuya ecuación general es \\(3x^{2}+3y^{2}+12x-30y+6=0\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C(-4,10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(C(-2,5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(C(4,-10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(C(2,-5)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "Pregunta original 62"
+    },
+    {
+      "id": 17,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la ecuación de la parábola con foco \\(F(1,0)\\), valor del parámetro \\(P=1\\) y eje focal paralelo al eje X.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^{2}+4y=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2}-4y=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y^{2}-4x=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y^{2}+4x=0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 63"
+    },
+    {
+      "id": 18,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lugar geométrico en el plano de un punto cualquiera, que la suma de las distancias a dos puntos fijos, llamados focos, es una cantidad constante.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Elipse.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Circunferencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Hipérbola.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Parábola.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 64"
+    },
+    {
+      "id": 19,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuánto vale \\(a\\) en la hipérbola con ecuación \\(\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{9^{2}}=1\\), si \\(c=41\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a=42\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a=36\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a=38\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a=40\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 65"
+    },
+    {
+      "id": 20,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Elige la ecuación que represente a la cónica de la figura.",
+        "imagen": "imagenes_materia/unam/matematicas/simulador_2/p020.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{(x-3)^{2}}{16}+\\frac{y^{2}}{9}=1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{(x-3)^{2}}{9}+\\frac{y^{2}}{16}=1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{(x+3)^{2}}{16}+\\frac{y^{2}}{9}=1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{(x+3)^{2}}{9}+\\frac{y^{2}}{16}=1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 66"
+    },
+    {
+      "id": 21,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el límite \\(\\displaystyle\\lim_{x\\to 0}\\frac{\\sqrt{2+x}-\\sqrt{2}}{x}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{\\sqrt{2}}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{2}{\\sqrt{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{4}{\\sqrt{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{\\sqrt{2}}{4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 67"
+    },
+    {
+      "id": 22,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de las siguientes expresiones corresponde para obtener la derivada \\(f(x)=x^{3}\\) en el punto \\(x=3\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f'(3)=\\lim_{h\\to 0}\\frac{f(3+h)-f(3)}{h}=\\lim_{h\\to 0}\\frac{(3+h)^{3}-3^{3}}{h}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f'(3)=\\lim_{h\\to 0}\\frac{f(3)-f(3+h)}{h}=\\lim_{h\\to 0}\\frac{3^{3}-(3+h)^{3}}{h}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f'(3)=\\lim_{h\\to 0}\\frac{f(3+h)+f(3)}{h}=\\lim_{h\\to 0}\\frac{(3+h)^{3}+3^{3}}{h}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f'(3)=\\lim_{h\\to 0}\\frac{f(3)-f(3-h)}{h}=\\lim_{h\\to 0}\\frac{3^{3}-(3-h)^{3}}{h}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Pregunta original 68"
+    },
+    {
+      "id": 23,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica las coordenadas de los puntos máximos y mínimos de la función \\(y=x(x-4)^{2}\\), con \\(0\\leq x\\leq 4\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\operatorname{Máx}(\\frac{10}{7},\\frac{36}{14}),\\ \\operatorname{mín}(4,0)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\operatorname{Máx}(\\frac{5}{7},\\frac{10}{13}),\\ \\operatorname{mín}(4,4)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\operatorname{Máx}(\\frac{8}{3},\\frac{128}{27}),\\ \\operatorname{mín}(4,4)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\operatorname{Máx}(\\frac{4}{3},\\frac{256}{27}),\\ \\operatorname{mín}(4,0)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 69"
+    },
+    {
+      "id": 24,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Se desea fabricar una caja sin tapa con una lámina de 10 cm x 15 cm. ¿Cuánto se deberá cortar en cada esquina de la lámina para obtener el volumen máximo?",
+        "imagen": "imagenes_materia/unam/matematicas/simulador_2/p024.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{25+5\\sqrt{7}}{6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{25+5\\sqrt{43}}{6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{25-5\\sqrt{43}}{6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{25-5\\sqrt{7}}{6}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 70"
+    },
+    {
+      "id": 25,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El valor de la integral definida \\(\\displaystyle\\int_{0}^{2}x^{2}\\,dx\\) es igual a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-\\frac{8}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{8}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(8\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "Pregunta original 71"
+    },
+    {
+      "id": 26,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La \\(\\displaystyle\\int(2x-1)^{3}\\,dx\\) es igual a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{(2x-1)^{2}}{6}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{(2x-1)^{4}}{4}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{(2x-1)^{2}}{2}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{(2x-1)^{4}}{8}+c\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": "Pregunta original 72"
+    }
+  ]
+}

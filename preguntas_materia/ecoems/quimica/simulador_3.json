@@ -1,0 +1,1648 @@
+{
+  "nombre": "Simulador Química ECOEMS",
+  "nivel": "Preparatoria",
+  "institucion": "ECOEMS",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los modelos atómicos se han propuesto principalmente para",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "explicar cómo está formada la materia y cómo se comporta.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "medir directamente la masa de cada sustancia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "sustituir el uso de la tabla periódica.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "nombrar los compuestos orgánicos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El modelo atómico que propuso un átomo con núcleo positivo y electrones alrededor corresponde a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Dalton.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Thomson.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Rutherford.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Demócrito.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una característica física de los gases es que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "tienen forma fija y volumen definido.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "adoptan la forma del recipiente y se expanden.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "son siempre visibles y de color definido.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "no pueden comprimirse.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una propiedad física que permite cuantificar una muestra de materia es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la combustión.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la oxidación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la masa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la fermentación.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Cuando una sustancia cambia de estado sólido a líquido, sin reaccionar químicamente, se conserva su",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "masa.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "color.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "densidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "forma.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El paso de líquido a gas por aumento de temperatura se llama",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "condensación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "fusión.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "evaporación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "solidificación.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si se tienen \\(80\\,g\\) de hielo en un recipiente cerrado y todo el hielo se funde, la cantidad de agua líquida obtenida será",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "menor que \\(80\\,g\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "igual a \\(80\\,g\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mayor que \\(80\\,g\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "imposible de determinar siempre.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las partículas subatómicas que participan principalmente en la formación de enlaces químicos son los",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "neutrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "protones del núcleo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "electrones de valencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "nucleones.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un átomo con número atómico \\(Z=17\\) tiene",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(17\\) protones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(17\\) neutrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(34\\) electrones externos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(17\\) números de masa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El número de masa de un átomo con \\(19\\) protones y \\(20\\) neutrones es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(19\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(20\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(39\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un átomo neutro con \\(12\\) protones, el número de electrones es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(12\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(24\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La representación de Lewis de un elemento sirve para mostrar principalmente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "el número de neutrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "los electrones de valencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la masa del núcleo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el volumen del átomo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la fórmula \\(CO_{2}\\), el subíndice \\(2\\) indica que hay",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "dos moléculas de carbono.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "dos átomos de oxígeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "dos compuestos diferentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "dos enlaces metálicos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 14,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la fórmula \\(NH_{3}\\) existen",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\) átomo de nitrógeno y \\(3\\) átomos de hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\) átomos de nitrógeno y \\(1\\) átomo de hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1\\) molécula de nitrógeno y \\(3\\) moléculas de hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4\\) átomos de nitrógeno.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la tabla periódica moderna, los elementos se ordenan de acuerdo con su",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "masa molecular.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "número atómico creciente.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "densidad decreciente.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "punto de fusión.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 16,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los elementos de un mismo grupo de la tabla periódica suelen tener propiedades semejantes porque",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "poseen igual número de niveles de energía.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "tienen el mismo número de electrones de valencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "presentan la misma masa atómica.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "se encuentran en el mismo periodo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 17,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son propiedades características de la mayoría de los metales:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "maleabilidad, conductividad eléctrica y brillo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "fragilidad, baja conductividad y opacidad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "solubilidad en agua, acidez y olor fuerte.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "baja temperatura de fusión y nula conductividad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un material que conduce electricidad y puede formar láminas delgadas se clasifica generalmente como",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "no metal.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "metal.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "gas noble.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mezcla heterogénea.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los enlaces químicos se forman por interacciones relacionadas principalmente con",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "fuerzas eléctricas entre partículas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "atracción gravitacional de planetas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "cambios climáticos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "propiedades ópticas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un enlace iónico se forma comúnmente cuando",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "dos no metales comparten electrones por igual.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "un metal transfiere electrones a un no metal.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "dos gases nobles reaccionan fácilmente.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "un líquido se evapora.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un ejemplo de fenómeno físico es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "quemar papel.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "oxidación de un clavo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "derretir hielo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "combustión de gasolina.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 22,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un ejemplo de fenómeno químico es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "romper vidrio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "evaporar alcohol.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "disolver azúcar en agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "cocinar un huevo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una reacción química, las sustancias que aparecen antes de la flecha se llaman",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "productos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "catalizadores finales.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "residuos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 24,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la ecuación \\[2H_{2} + O_{2} \\rightarrow 2H_{2}O\\] el agua es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "un reactivo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "un producto.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "un elemento.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "un catalizador.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 25,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ecuación que muestra al oxígeno como reactivo es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2H_{2}O \\rightarrow 2H_{2}+O_{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(C+O_{2} \\rightarrow CO_{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(NaCl \\rightarrow Na^{+}+Cl^{-}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(CaCO_{3} \\rightarrow CaO+CO_{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 26,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La unidad del Sistema Internacional asociada con la cantidad de sustancia es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "metro.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "kilogramo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mol.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "ampere.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 27,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La unidad del Sistema Internacional utilizada para medir masa es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "litro.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "kilogramo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mol.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "newton.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 28,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La densidad de una sustancia se obtiene mediante la relación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(d=\\frac{m}{V}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(d=mV\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(d=\\frac{V}{m}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(d=m+V\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 29,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si una muestra tiene masa de \\(40\\,g\\) y volumen de \\(10\\,mL\\), su densidad es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4\\,g/mL\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(0.25\\,g/mL\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(50\\,g/mL\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(400\\,g/mL\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 30,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la ecuación \\[Fe + CuSO_{4} \\rightarrow FeSO_{4} + Cu\\] el cobre pasa de estar combinado a aparecer libre. Esto indica que el cobre se",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "evapora.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "reduce.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "sublima.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "funde.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 31,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un proceso de óxido-reducción se reconoce porque ocurre",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "cambio de estado sin modificar sustancias.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "transferencia o cambio en electrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "separación física por tamaño.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mezcla de sólidos sin reacción.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 32,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La corrosión del hierro es un ejemplo de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "cambio físico reversible.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "proceso de oxidación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "fusión.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "filtración.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 33,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una combustión, generalmente participa",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "oxígeno como reactivo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "helio como producto obligatorio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "agua como único reactivo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "sal común como catalizador.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 34,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Interpreta la ecuación \\[CH_{4} + 2O_{2} \\rightarrow CO_{2} + 2H_{2}O\\].",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Un mol de metano reacciona con dos moles de oxígeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dos moles de metano producen un mol de agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El dióxido de carbono es reactivo principal.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El oxígeno se forma como producto.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 35,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la ecuación \\[N_{2} + 3H_{2} \\rightarrow 2NH_{3}\\], el coeficiente \\(3\\) indica",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "tres átomos de nitrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "tres moléculas o moles de hidrógeno que reaccionan.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "tres productos diferentes.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "tres enlaces metálicos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 36,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una mezcla homogénea se caracteriza porque",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "sus componentes se distinguen a simple vista.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "tiene composición uniforme.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "siempre es sólida.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "presenta capas visibles.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 37,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un ejemplo de mezcla heterogénea es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "agua con sal completamente disuelta.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "aire limpio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "agua con aceite.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "bronce.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 38,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una sustancia pura formada por un solo tipo de átomo se llama",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "compuesto.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "elemento.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mezcla.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "solución.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 39,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El agua, \\(H_{2}O\\), se clasifica como",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "elemento.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "compuesto.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "mezcla heterogénea.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "metal.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 40,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una mezcla está formada por",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "un solo tipo de átomo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "dos o más sustancias unidas físicamente.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "átomos con el mismo número atómico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "moléculas que no pueden separarse.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 41,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si un modelo representa partículas de dos tipos unidas en proporción fija, probablemente corresponde a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "un elemento.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "un compuesto.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "una mezcla heterogénea.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "un gas noble aislado.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 42,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Cuando se filtra una mezcla de arena y agua, se aprovecha principalmente una diferencia de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "tamaño de partícula.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "número atómico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "masa nuclear.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "reactividad química.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 43,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El método más adecuado para separar sal disuelta en agua es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "imantación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "evaporación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "tamizado.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "decantación de dos líquidos inmiscibles.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 44,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La temperatura de ebullición es una propiedad",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "física.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "nuclear.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "biológica.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "eléctrica únicamente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 45,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La solubilidad describe",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la cantidad de soluto que puede disolverse en un solvente.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la fuerza que mantiene unido el núcleo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el número de protones de un átomo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la masa total de una reacción.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 46,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si una sustancia tiene volumen definido, pero adopta la forma del recipiente, se encuentra en estado",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "sólido.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "líquido.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "gaseoso.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "plasma siempre.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 47,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un gas se diferencia de un líquido porque el gas",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "posee forma y volumen definidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "se expande para ocupar el volumen disponible.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "no tiene partículas.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "no presenta masa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 48,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ley de conservación de la masa establece que en una reacción química cerrada",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la masa de los productos es menor que la de los reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la masa total se mantiene constante.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "los átomos desaparecen.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la energía se convierte en masa visible.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}

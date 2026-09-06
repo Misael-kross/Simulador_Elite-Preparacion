@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Examen ELITE</title>
+  <link rel="stylesheet" href="css/styles.css?v=20260906_04" />
+
+  <!-- Motor para renderizar notación matemática en preguntas y respuestas.
+       Usa en los JSON: \(x^2\), \[\frac{a}{b}\], \(\sqrt{x}\), etc. -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        displayMath: [["\\[", "\\]"], ["$$", "$$"]],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logos/logo1.png" alt="Logo 1" class="logo" onerror="this.outerHTML='<div class=&quot;logo logo-placeholder&quot;>Logo 1</div>'">
+    <div class="titulo">
+      <h1>Bienvenido al simulador de examen de ingreso ELITE</h1>
+      <p>Biblioteca modular de simuladores académicos</p>
+    </div>
+    <img src="logos/logo2.png" alt="Logo 2" class="logo" onerror="this.outerHTML='<div class=&quot;logo logo-placeholder&quot;>Logo 2</div>'">
+  </header>
+  <main>
+    <section id="inicio" class="seccion">
+      <h2>Simulador de Examen de Ingreso</h2>
+      <button class="boton-principal" onclick="mostrarSeccion('biblioteca')">Ingresar a biblioteca de simuladores</button>
+    </section>
+    <section id="biblioteca" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('inicio')">Regresar</button>
+      <h2>Selecciona el nivel educativo</h2>
+      <div class="contenedor-botones">
+        <button class="boton-grande" onclick="mostrarSeccion('bachillerato')">Bachillerato</button>
+        <button class="boton-grande" onclick="mostrarSeccion('universidad')">Universidad</button>
+      </div>
+    </section>
+    <section id="bachillerato" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('biblioteca')">Regresar</button>
+      <h2>Simuladores de Bachillerato</h2>
+      <div class="lista-botones">
+        <button class="boton-lista" onclick="mostrarSimuladores('ECOEMS', 'bachillerato')">ECOEMS</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('CENEVAL EXANI I', 'bachillerato')">CENEVAL EXANI I</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('UACH Bachillerato', 'bachillerato')">UACH</button>
+      </div>
+    </section>
+    <section id="universidad" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('biblioteca')">Regresar</button>
+      <h2>Simuladores de Universidad</h2>
+      <div class="lista-botones">
+        <button class="boton-lista" onclick="mostrarAreasUniversidad('UNAM')">UNAM</button>
+        <button class="boton-lista" onclick="mostrarAreasUniversidad('IPN')">IPN</button>
+        <button class="boton-lista" onclick="mostrarAreasUniversidad('UAM')">UAM</button>
+        <button class="boton-lista" onclick="mostrarAreasUniversidad('EXANI II')">EXANI II</button>
+        <button class="boton-lista" onclick="mostrarAreasUniversidad('UACH Universidad')">UACH</button>
+      </div>
+    </section>
+    <section id="areasUniversidad" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('universidad')">Regresar</button>
+      <h2 id="tituloAreasUniversidad">Áreas / módulos</h2>
+      <div class="lista-botones" id="contenedorAreasUniversidad"></div>
+    </section>
+    <section id="materiasSimulador" class="seccion oculto">
+  <button class="boton-regresar" onclick="regresarDesdeMaterias()">Regresar</button>
+
+  <h2 id="tituloMateriasSimulador">Simulador por materia</h2>
+
+  <div class="lista-botones" id="contenedorMaterias"></div>
+</section>
+
+<section id="simuladoresMateria" class="seccion oculto">
+  <button class="boton-regresar" onclick="mostrarSeccion('materiasSimulador')">Regresar</button>
+
+  <h2 id="tituloSimuladoresMateria">Materia</h2>
+
+  <div class="lista-botones" id="contenedorSimuladoresMateria"></div>
+</section>
+    <section id="simuladores" class="seccion oculto">
+      <button class="boton-regresar" onclick="regresarCategoria()">Regresar</button>
+      <h2 id="tituloSimulador">Simuladores</h2>
+      <div class="lista-botones" id="contenedorSimuladores"></div>
+    </section>
+    <section id="configuracionExamen" class="seccion oculto">
+      <button class="boton-regresar" onclick="regresarDesdeConfiguracion()">Regresar</button>
+      <h2 id="tituloConfigExamen">Configuración del examen</h2>
+      <div class="panel-config">
+        <label class="switch-linea"><input type="checkbox" id="activarContador"> Activar contador regresivo</label>
+        <label class="switch-linea"><input type="checkbox" id="activarRespuestasOcultas" checked> Ocultar respuestas hasta presionar “Ver respuesta”</label>
+        <p id="duracionTexto">Duración: -- minutos</p>
+        <button class="boton-principal" onclick="iniciarExamenDesdeConfig()">Comenzar examen</button>
+      </div>
+    </section>
+    <section id="examen" class="examen-pantalla oculto">
+      <div class="franja-lateral"><span>ELITE</span><span>✦</span><span id="franjaInstitucion">SIM</span><span>✦</span><span>EXAMEN</span></div>
+
+      <aside class="panel-lateral-preguntas" aria-label="Navegación del examen">
+        <div class="cabecera-panel-preguntas">
+          <h2>Preguntas</h2>
+        </div>
+        <div class="indice-preguntas-contenedor">
+          <div id="indicePreguntas" class="indice-preguntas" aria-label="Índice de preguntas del examen"></div>
+        </div>
+      </aside>
+
+      <div class="hoja-examen">
+        <div id="contador" class="contador contador-examen-centro oculto">180:00</div>
+        <div class="encabezado-examen">
+          <div><h1 id="materiaActual">Materia</h1><p id="progresoPregunta">Pregunta -- de --</p></div>
+        </div>
+        <div id="contenidoVisible" class="zona-pregunta"></div>
+        <div class="zona-opciones" id="zonaOpciones"></div>
+        <div class="navegacion-estilo-examen">
+          <button onclick="preguntaAnterior()">◀◀ ANTERIOR</button>
+          <button onclick="preguntaSiguiente()">SIGUIENTE ▶▶</button>
+        </div>
+        <div class="zona-finalizar-examen">
+          <button class="boton-finalizar" onclick="finalizarExamen(false)">FINALIZAR</button>
+        </div>
+      </div>
+    </section>
+    <section id="resultados" class="seccion oculto">
+      <h2>Resultados del examen</h2>
+      <div id="resumenResultados"></div>
+      <h3>Resultados por materia</h3>
+      <div id="resultadosPorMateria"></div>
+      <button class="boton-principal" onclick="mostrarRevision()">Revisar respuestas</button>
+      <button class="boton-regresar" onclick="location.reload()">Volver al inicio</button>
+    </section>
+    <section id="revision" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('resultados')">Regresar a resultados</button>
+      <h2>Revisión del examen</h2>
+      <div id="contenedorRevision"></div>
+    </section>
+  </main>
+
+<footer class="footer-elite">
+  <div class="footer-contenido">
+    <div class="footer-bloque footer-marca">
+      <h3>Curso Elite</h3>
+      <p>Plataforma de simulación y preparación para exámenes de admisión.</p>
+      <p>Acolman, Estado de México, México.</p>
+    </div>
+
+    <div class="footer-bloque">
+      <h4>Contacto</h4>
+      <p><strong>WhatsApp:</strong> 55 2772 3492</p>
+      <p><strong>Instagram profesional:</strong> @profe_linus.31</p>
+      <p><strong>Instagram personal:</strong> @narcisisael_31</p>
+    </div>
+
+    <div class="footer-bloque">
+      <h4>Redes sociales</h4>
+      <p><strong>Facebook:</strong> Curso Elite</p>
+      <p><strong>Instagram:</strong> @profe_linus.31</p>
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <p>© 2026 Curso Elite. Todos los derechos reservados.</p>
+    <p class="footer-aviso">
+      Curso Elite es una plataforma independiente. Este sitio no pertenece, no representa y no está afiliado oficialmente con UNAM, IPN, UAM, CENEVAL, ECOEMS, UACH ni con ninguna institución mencionada. Los nombres de instituciones se usan únicamente como referencia académica.
+    </p>
+  </div>
+</footer>
+
+  <script src="js/script.js?v=20260906_04"></script>
+</body>
+</html>

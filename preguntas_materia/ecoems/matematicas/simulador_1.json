@@ -1,0 +1,424 @@
+{
+  "nombre": "Simulador Matematicas",
+  "nivel": "Preparatoria",
+  "institucion": "ECOEMS",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La suma de 3 números es 120. El primero número es el doble que el segundo, y el tercero, 4 unidades mayor que el segundo. ¿Cuál de las siguientes representaciones algebraicas corresponde al enunciado anterior?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((X+2)+X+(X+4)=120\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2X+X+4X=120\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2X+X+(X+4)=120\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((X+2)+X+4X=120\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Soluciona la siguiente ecuación. \\[\\frac{1}{2}m - \\frac{1}{4} = 2 - \\frac{1}{4}m\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(m=3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(m=-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(m=\\frac{5}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(m=\\frac{2}{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una barata Pili pago por un pantalón las tres cuartas partes del precio original, que era de \\($364.00\\). ¿Qué operación debo realizar para obtener el precio el pantalón?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Multiplicar el precio del pantalón por \\(4\\) y dividirlo entre \\(3\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dividir el precio del pantalón entre \\(4\\) y el resultado sumarlo \\(3\\) veces a \\(364\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Dividir el precio del pantalón entre \\(4\\) y el resultado multiplicarlo por \\(3\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Multiplicar el precio del pantalón por \\(3\\) y dividir el resultado entre \\(4\\), restar el valor obtenido a \\(364\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se sabe que en una población una de cada ocho personas es niño. Si en una fiesta de esa población hay \\(400\\) personas, ¿Cuántos niños están reunidos hay?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(40\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(80\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(50\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(60\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una fracción equivalente a \\(\\frac{45}{39}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{12}{13}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{30}{25}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{15}{16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{15}{13}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una caja que contiene \\(600\\) focos, \\(30\\) están rotos. ¿Cuál es el porcentaje de focos rotos?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(70\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(30\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(5\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(0.05\\%\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con los datos de la tabla, el número de donas ________ es _____ que el número de donas ________.",
+        "imagen": "imagenes_materia/ecoems/matematicas/simulador_1/p007.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Con adorno navideño-Mayor-Rellenas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Glaseadas-Menor- Con adornos navideños.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Rellenas-Mayor-De fresa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "De fresa-igual-Con adornos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El ángulo alfa de la figura mide.",
+        "imagen": "imagenes_materia/ecoems/matematicas/simulador_1/p008.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(120^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(130^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(150^{\\circ}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(160^{\\circ}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si un cuadrado mide \\(2x+5\\) en cada uno de sus lados. ¿Cuál de las siguientes expresiones representa su planteamiento y área?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2x^{2} - 20x + 25\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4x^{2} - 25\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4x^{2} + 20x + 25\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4x^{2} + 25\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La siguiente grafica muestra los resultados de una encuesta de intención de voto de cuatro partidos: PA, PB, PC y PD. Si los encuestados fueron \\(120\\) ¿Cuántos votaron por el partido PD?",
+        "imagen": "imagenes_materia/ecoems/matematicas/simulador_1/p010.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(21\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(12\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(18\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(15\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Indica el área de la parte sombreada de la siguiente figura.",
+        "imagen": "imagenes_materia/ecoems/matematicas/simulador_1/p011.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(8\\,cm^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6\\,cm^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(10\\,cm^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(27\\,cm^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "MATEMÁTICAS",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Calcula el volumen de un lingote de oro con forma de prisma de \\(40\\,cm\\) de altura con base en forma de trapecio cuya área es \\(1580\\,cm^{2}\\).",
+        "imagen": "imagenes_materia/ecoems/matematicas/simulador_1/p012.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(6,000\\,m^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3,000\\,m^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(5,000\\,m^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4,000\\,m^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "La unidad de las opciones aparece como metros cúbicos en la imagen, aunque el enunciado usa centímetros."
+    }
+  ]
+}

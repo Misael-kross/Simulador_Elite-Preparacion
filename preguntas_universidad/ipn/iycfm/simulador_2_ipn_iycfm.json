@@ -1,0 +1,4496 @@
+{
+  "nombre": "Simulador 1",
+  "nivel": "Universidad",
+  "institucion": "IPN",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar el octavo término de la sucesión. \\(\\frac{\\pi}{12},\\frac{\\pi}{6},\\frac{\\pi}{4},\\frac{\\pi}{3},\\frac{5\\pi}{12},\\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{\\pi}{8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\pi}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2\\pi}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{3\\pi}{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 2,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se tienen \\$255 distribuidos en 72 monedas de \\$5 y \\$2. ¿Cuántas monedas son de \\$2 y cuántas de \\$5, respectivamente?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "35 y 37",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "46 y 26",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "26 y 46",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "37 y 35",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 3,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántas aristas tiene un prisma pentagonal?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "15",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "20",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "25",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 4,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar los primeros cinco términos de la sucesión generada por la expresión: \\(a_n=\\frac{(-1)^{n+1}\\cdot 2n}{3n-2}\\) para los valores \\(n=1,2,3,4,5,\\ldots\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2,-1,\\frac{6}{7},-\\frac{4}{5},\\frac{10}{13},\\ldots\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(1,-2,\\frac{6}{7},-\\frac{2}{5},\\frac{8}{13},\\ldots\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-2,1,-\\frac{6}{7},\\frac{4}{5},-\\frac{10}{13},\\ldots\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2,-\\frac{4}{3},\\frac{6}{7},-\\frac{8}{5},\\frac{10}{13},\\ldots\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 5,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplificar la expresión: \\(\\frac{x^2-4}{x^4-16}\\cdot\\frac{x^2+2x+4}{x-4}\\cdot\\frac{2x^2+8}{x^3-8}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{2}{x^2-6x+8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{2}{x^2+2x-8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2}{x^2-4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{2}{x^2-4x+4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 6,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Racionalizar el denominador en la expresión: \\(\\frac{4\\sqrt{3}}{\\sqrt{3x^2-12}+\\sqrt{3x^2+12}}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{x^2+4}-\\sqrt{x^2-4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\sqrt{x^2-4}-\\sqrt{x^2+4}}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{\\sqrt{x^2+4}-\\sqrt{x^2-4}}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{\\sqrt{x^2-4}-\\sqrt{x^2+4}}{4}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 7,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplificar la expresión. \\(\\frac{x^3y^{2/3}z^4}{y^{8/3}z^{-2}x^{-1}}+2\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{x^4z^6+2y^2}{y^2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{x^2z^2+2y^2}{y^2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{x^4+2y^2z^6}{y^2z^6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{z^6+2x^4y^2}{x^4y^2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 8,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Factorizar el polinomio: \\(12x^3y^3z^2-18x^4y^5z+30xyz^4\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(6xyz(2x^2y^2z-3x^3y^4z+5z^3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6xyz(2x^2y^2z-3x^3y^4z+5yz^3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(6xyz(2x^2y^2z-3x^3y^4+5xz^3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(6xyz(2x^2y^2z-3x^3y^4+5z^3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 9,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La suma de los cuadrados de dos números pares consecutivos es 164. Calcular el producto de dichos números.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "18",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "48",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "80",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "120",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 10,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Representar con exponentes fraccionarios la expresión: \\(\\sqrt[6]{x^{4/3}}-\\sqrt[5]{y^{6/7}}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^8-y^{30/7}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2/18}-y^{30/7}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2/9}-y^{6/35}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{1/9}-y^{6/35}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 11,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el valor de \\(\\tan 240^{\\circ}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\sqrt{3}}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-\\frac{2\\sqrt{3}}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 12,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar la gráfica que corresponde a la función \\(f(x)=3\\sin x\\)",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_012.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "a",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "b",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "c",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "d",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 13,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Si la longitud del lado del cuadrado exterior de la figura es igual a 4 unidades, calcular el área que corresponde a la región sombreada.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_013.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\sqrt{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\sqrt{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(8\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 14,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplificar la expresión trigonométrica: \\(\\frac{\\sin^3 x\\cot x+\\cos^3 x\\tan x}{\\sin x\\cos x}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sin x+\\cos x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\csc x+\\sec x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\tan x+1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\cot x+1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 15,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar la recta que es paralela a la recta \\(5x+3y+7=0\\) y que pasa por el punto \\((1,5)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(5x+3y-20=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(5x+3y-34=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(3x-5y+22=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(3x-5y=0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 16,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determinar la ecuación general de la circunferencia con centro en \\(C(-2,3)\\) y radio \\(r=4\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^2+y^2+4x-6y-3=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^2+y^2-4x+6y-3=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^2+y^2+4x-6y-23=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^2+y^2-4x+6y-23=0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 17,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determinar el valor de \\(k\\), si el punto \\(P(3,-2)\\) se encuentra en la parábola: \\(x^2+6x-7y+k=0\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(k=-13\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(k=13\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(k=-41\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(k=41\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 18,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determinar la ecuación de la circunferencia que pasa por el punto \\(P(3,2)\\) y tiene su centro en \\(C(-1,3)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^2+y^2+2x-6y-7=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^2+y^2-2x+6y-19=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^2+y^2+2x-6y-19=0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^2+y^2-2x+6y-7=0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 19,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resolver la desigualdad: \\(\\left|x+\\frac{4}{5}\\right|\\leq\\frac{2}{7}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\left[\\frac{18}{35},\\frac{38}{35}\\right]\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\left[-\\frac{18}{35},\\frac{38}{35}\\right]\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\left[-\\frac{38}{35},\\frac{18}{35}\\right]\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\left[-\\frac{38}{35},-\\frac{18}{35}\\right]\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 20,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular el valor del límite: \\(\\lim_{x\\to -2}\\frac{x^2+5x+6}{(x+2)(x^2+4)}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{1}{8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-\\frac{1}{8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{3}{8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-\\frac{3}{8}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 21,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular el valor del límite: \\(\\lim_{x\\to\\infty}\\frac{3-2x+(-2x)^3}{4x^3-5}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 22,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular la derivada de la función: \\(f(x)=-5xe^{7x}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f'(x)=-5e^{7x}+35xe^{7x}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f'(x)=-5e^{7x}-35xe^{7x}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f'(x)=-5e^{7x}-5xe^{7x}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f'(x)=-35e^{7x}+5xe^{7x}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 23,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular la derivada de la función: \\(f(x)=2x\\ln(3x)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f'(x)=2\\ln(3x)+1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f'(x)=2\\ln(3x)+2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f'(x)=6\\ln(3x)+1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f'(x)=6\\ln(3x)+2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 24,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular la derivada de la función: \\(f(x)=\\sqrt{4x^2-8x+3}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f'(x)=\\frac{8x-8}{\\sqrt{4x^2-8x+3}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f'(x)=\\frac{4x-4}{\\sqrt{4x^2-8x+3}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f'(x)=\\frac{2x-2}{\\sqrt{4x^2-8x+3}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f'(x)=-\\frac{1-x}{\\sqrt{4x^2-8x+3}}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 25,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resolver la desigualdad: \\(2x+7<\\frac{5x}{2}+9\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x>4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x<4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x<-4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x>-4\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 26,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Obtener la integral: \\(\\int\\frac{(x-7)(x+4)}{x}\\,dx\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{x^2}{2}-3x-28\\ln|x|+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{x^2}{2}-3x+28\\ln|x|+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{x^2}{2}+3x+8\\ln|x|+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{x^2}{2}-3x-8\\ln|x|+c\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 27,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular el valor de la integral definida: \\(\\int_1^4\\frac{x}{\\sqrt{x}}\\,dx\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-\\frac{14}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-\\frac{7}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{7}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{14}{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 28,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Al resolver la integral \\(\\int x(1-2x)^2\\,dx\\) se obtiene:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^4-4x^3+\\frac{x^2}{2}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^4-4x^3-\\frac{x^2}{2}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^4-\\frac{4x^3}{3}+\\frac{x^2}{2}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^4+\\frac{4x^3}{3}+\\frac{x^2}{2}+c\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 29,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Al resolver la integral \\(\\int 8xe^{2x}\\,dx\\) se obtiene:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(xe^{2x}-2e^{2x}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(xe^{2x}+2e^{2x}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4xe^{2x}-2e^{2x}+c\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4xe^{2x}-8e^{2x}+c\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 30,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué fórmula se utiliza para resolver la integral? \\(\\int\\frac{4x}{\\sqrt{9+x^2}}\\,dx\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\int\\frac{du}{u}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\int u^n\\,du\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\int\\frac{du}{a^2+u^2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\int\\frac{du}{\\sqrt{a^2+u^2}}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 31,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcular el valor de la integral definida: \\(\\int_1^3\\frac{x^2+2}{5}\\,dx\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{38}{15}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{5}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{14}{15}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{13}{15}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 32,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dados los conjuntos \\(U=\\{a,b,c,d,e,f,g\\}\\), \\(A=\\{a,b,c,d,e\\}\\) y \\(B=\\{d,e,f,g\\}\\); realizar la operación: \\((A-B)(B-A)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\{a,b,c,d,e\\}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\{a,b,c,f,e\\}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\{a,b,c,e,g\\}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\{a,b,c,f,g\\}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 33,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un evento se llevará a cabo en cuatro etapas: la primera puede ocurrir de 6 maneras; la segunda, de 4; la tercera, de 2 y la última, de una manera. ¿De cuántas maneras puede ocurrir el evento?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "60",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "48",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "24",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "19",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 34,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El siguiente gráfico muestra información sobre los años de antigüedad que tienen los trabajadores de una empresa. Determinar la moda y la mediana.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_034.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "12 y 11",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "12 y 10",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "22 y 18",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "18 y 20",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 35,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determinar la media de los siguientes datos: 0.2, 0.2, 0.3, 0.5, 0.6, 0.9, 0.3, 0.6, 0.7, 0.7",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "0.3",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "0.4",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "0.5",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "0.6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 36,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El siguiente gráfico muestra información sobre las edades de los trabajadores de una empresa. Identificar la moda y la mediana correspondientes a los datos individuales, respectivamente.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_036.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "42 y 47",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "42 y 42",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "47 y 47",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "47 y 52",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 37,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los profesores Efrén y Moisés desean formar un equipo de 4 alumnos cada uno a partir de un grupo de 12 alumnos. Si el profesor Efrén elige primero los integrantes de su equipo, ¿de cuántas maneras distintas podrá elegir el profesor Moisés a los integrantes de su equipo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "35",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "70",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "150",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "210",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 38,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccionar la opción que corrige el error de la siguiente oración: En el hospital del centro al niño le vacunaron de varicela a los dos meses de edad.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "En el hospital del centro, al niño lo vacunaron de varicela a los dos meses de edad",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "A los dos meses de edad, al niño lo vacunaron de varicela en el hospital del centro",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "En el hospital del centro, vacunaron al niño contra la varicela a los dos meses de edad",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Al niño, a los dos meses de edad, en el hospital del centro, le vacunaron contra la varicela",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 39,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indicar la opción escrita de manera incorrecta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "De ese modo fue que aprobó el examen",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Quien miente no tiene amigos verdaderos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Fue ahí donde nos conocimos hace dos años",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Está junto a la tienda de zapatos que te gusta",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 40,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Con respecto a la siguiente oración, ¿qué afirmación es correcta? Cinco mil asistentes es mucha gente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Es confusa debido al orden de las palabras",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La oración no presenta ningún tipo de error",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El registro lingüístico es demasiado informal",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Es incorrecta debido a un error de concordancia",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 41,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar la imagen que presenta un error de redacción.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_041.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "a",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "b",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "c",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "d",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 42,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿En qué ejemplo la información se presenta de lo particular a lo general?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Leticia comenzó a comer equilibradamente desde hace un mes. También, integró en su día a día una rutina de ejercicio muy completa. Últimamente se ha sentido mucho mejor, por lo que seguirá con este estilo de vida",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La particularidad de cada ser humano es lo que hace sumamente variada a la sociedad en la que vivimos. Es importante reconocer y respetar las diferencias entre cada uno de nosotros para poder enriquecernos a través de ellas y así evitar que surjan conflictos o desencuentros posteriormente",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los arándanos son frutos particulares porque contienen altos niveles de antioxidantes, así como vitamina C y vitamina K, por lo que promuevan la cicatrización. También, neutralizan algunos de los radicales libres que pueden dañar nuestro ADN y mejoran la memoria a corto plazo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El cuento es un subgénero literario que comúnmente es subestimado. Si bien es cierto que su característica principal es la brevedad, y por eso se considera poco complejo, los cuentos deben provocar un impacto emocional en el lector con pocas palabras, así que su escritura es más compleja de lo que creemos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 43,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El párrafo que se presenta a continuación tiene ___ ideas secundarias:<br><br><em>“Una pequeña esfera tornasol de dos o tres centímetros de diámetro es el espejo y centro de todas las cosas; ahí todo confluye a la vez y sin sobreposición: «Vi en el Aleph la tierra, y en la tierra otra vez el Aleph, y mi cara y mis vísceras y sentí vértigo y lloré, porque mis ojos habían visto ese objeto secreto y conjetural, cuyo nombre usurpan los hombres, pero que ningún hombre ha mirado: el inconcebible universo».”</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "5",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 44,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccionar la oración que tiene el mismo sentido que el siguiente enunciado debido a su conector textual:<br><br><em>Romina canta <u>mientras</u> se baña</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Juan toma apuntes durante sus clases",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Constantemente hace dos cosas a la vez",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Recientemente le gusta cantar y bañarse",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Los niños realizan tareas simultáneamente",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 45,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccionar la opción escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El próximo año José Luis cumple treintaiséis años",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Participaré en el vigésimocuarto certamen de escritura",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Este sábado se celebró el onceavo congreso de docentes",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El despacho de abogados se encuentra en el undécimo piso",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 46,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indicar la opción que expresa la misma idea que el fragmento resaltado en negritas de la siguiente oración:<br><br><em>Mi opinión es que Mónica se <strong>ahogó en un vaso con agua</strong>.</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Inquietó",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Exageró",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Preocupó",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Intranquilizó",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 47,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de las siguientes oraciones está bien escrita?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "De a ver sabido, mejor no salgo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Siempre halla la fuerza para seguir",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Quizá allá algo que podamos hacer",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Haber qué se trae entre manos ahora",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 48,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántas palabras deberían estar escritas con mayúscula en el siguiente párrafo y no lo están?<br><br><em>Márquez decía que hemingway tenía aprendida la técnica para sobrellevar el éxito en el oficio narrativo que él llamaba “carpintería literaria”. el colombiano contó en una entrevista en febrero de 1985 para la revista pluma que la breve vida de francis maccomber, a su gusto, era uno de los cuentos más perfectos que se han escrito.</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "6",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "7",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 49,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indicar el fragmento del siguiente párrafo que carece de errores de ortografía.<br><br><em>El día de ayer por la tarde, llendo hacia la casa de Damián [1], tomé la desición de ahorrar dinero mes con mes [2]. Al día siguiente fui al banco y expresé con impresición mis dudas [3], por lo que un cajero quiso atenderme de inmediato para que contratara la mejor opción para mí [4].</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "2",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "3",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "4",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 50,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar la opción escrita correctamente.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Acuérdate que hoy salimos temprano",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Tengo miedo que llegue tarde mañana",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Si te da fiebre, debes ir rápido al doctor",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Estás segura que aprobarás el examen",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 51,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccionar la opción que corrige el error de la siguiente oración:<br><br><em>Óscar nació en 1992, siendo el menor de sus 5 hermanos.</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "En 1992 nació Óscar; el menor de sus 5 hermanos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "En 1992 nació Óscar y fue el menor de sus 5 hermanos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Óscar nació en 1992 siendo el menor de sus 5 hermanos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Óscar nació en 1992 siendo de sus 5 hermanos, el menor",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 52,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Completar el siguiente texto con las palabras adecuadas:<br><br><em>Le dijo: “________ hiciste trampa en el examen. Ahora, dime ________ cara aceptarás tu calificación”.</em>",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Conque - con qué",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Con que - con que",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Conque - con que",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Con que - con qué",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 53,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccionar el párrafo mejor redactado.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "—¡Ah, qué bonitos!, viendo Los Simpson...— dice la mamá de los niños que llegó sin anunciarse.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "—¡Ha, qué bonitos!, Viendo Los Simpson...— Dice la mamá de los niños que llegó sin anunciarse.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "—¡Ah, que bonitos!, Viendo Los simpson...— Dice la mamá de los niños que llego sin anunciarse.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "—¡Ha, qué bonitos!, viendo Los simpson...— dice la mamá de los niños que llego sin anunciarse.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 54,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Seleccionar la opción que expresa la información usando el discurso científico.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_054.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "a",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "b",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "c",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "d",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 55,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las fichas de trabajo se utilizan para:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "evitar el uso de medios digitales",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "elaborar el temario de un trabajo de investigación",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "colocar los datos de las fuentes de información consultadas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "reconstruir la información obtenida en las fuentes consultadas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 56,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la parte del trabajo académico denominada ________ se muestra el resumen de los resultados obtenidos o la aportación personal al tema.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "portada",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "introducción",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "conclusiones",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "cuerpo del trabajo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 57,
+      "materia": "Competencia escrita",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Seleccionar la afirmación correcta con respecto al estilo APA.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El formato APA no está estandarizado en todo el mundo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El estilo APA es el más usado en el área de las humanidades",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El estilo APA facilita la lectura de los textos debido a sus normas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "La última versión de las normas APA corresponde a la décima edición",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 58,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con el texto, es posible afirmar que:",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "los coronavirus son, sobre todo, fábricas de proteínas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "gracias al ADN de los coronavirus, estos pueden reproducirse en un huésped",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "los coronavirus engañan a las células al hacerse pasar por un ribosoma humano",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el ARN mensajero está compuesto por ribosomas, los cuales son la fábrica de proteínas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 59,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar el párrafo en el que se encuentra la tesis del autor.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "[2]",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "[3]",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "[4]",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "[5]",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 60,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Puede inferirse que el texto fue escrito ________ de la pandemia por el virus SARS-CoV-2 del 2019.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "al final",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "al inicio",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "meses antes",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "meses después",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 61,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué inferencia se desprende del texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Únicamente los coronavirus utilizan el modelo de infección mostrado en el texto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Los coronavirus todavía son poco eficientes en la forma que infectan un cuerpo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Un buen sistema inmunológico frena la copia de los virus y detiene la infección",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "No es necesario que exista compatibilidad entre el huésped y el coronavirus",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 62,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál de las siguientes opciones se deduce a partir del texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La forma esférica de los coronavirus es determinante para su reproducción en el cuerpo de un huésped",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Para entender lo que son los virus, y en particular los coronavirus, vale la pena una breve explicación",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El éxito de infección de los virus radica en la rapidez y facilidad para copiarse en el huésped enfermo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Mientras más se copie un coronavirus, más se perfecciona y es más resistente a los anticuerpos y medicamentos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 63,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con el texto, ¿cuál de las siguientes afirmaciones es correcta?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los coronavirus destruyen las células que infectan",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Los coronavirus solo se reproducen para poder invadir a más personas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Las reuniones masivas son las causantes de que existan los coronavirus",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Las personas mayores de 65 años son las que menos quieren estar en casa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 64,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué forma de presentar la información se observa predominantemente en el párrafo [2] del texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Analogías",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Restricciones",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aseveraciones",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Respaldos de autoridad",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 65,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Seleccionar la idea que mejor sintetiza el texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Quédate en casa",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "No seamos viricopiadoras",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Vale la pena una breve explicación",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Nuestro ADN multiplica el coronavirus",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 66,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué tipología textual se observa predominantemente en el párrafo [5] del texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Narrativa",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Expositiva",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Descriptiva",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Argumentativa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 67,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué afirmación es correcta con respecto al texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La forma en la que está escrito el texto le resta seriedad y, por lo tanto, credibilidad",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La lectura está diseñada para explicar claramente cuál es el ciclo de vida de los coronavirus",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El texto únicamente está dirigido a un público joven y sin conocimientos profundos de química y biología",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El autor utiliza un lenguaje claro y sencillo para que a través de la comprensión se tomen las medidas necesarias y así evitar contagios por coronavirus",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 68,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De la siguiente lista, seleccionar las características que corresponden al texto.<br><br>1. Es una minificción.<br>2. Está escrito en prosa.<br>3. Expone una historia real.<br>4. Tiene una finalidad didáctica.<br>5. Se escribió para ser declamado.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1 y 2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "2 y 4",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "3 y 4",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1 y 5",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 69,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cuál es la intención del autor al escribir el texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Hablar de la muerte de los hijos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Expresar el deseo de tener un hijo varón",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Contar ampliamente una historia compleja",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Exponer el entorno socioeconómico de su país",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 70,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué idea se desprende del párrafo [4] de la lectura?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El narrador observa todo el tiempo a Rubén",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Rubén sangró debido a que sufrió una caída",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Rubén se encuentra muy limitado por el narrador",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El narrador no deja de ver a Rubén como a un niño",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 71,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar el párrafo en el que se encuentra el clímax del texto.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "[2]",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "[3]",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "[4]",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "[5]",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 72,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Elegir la inferencia que se desprende de la lectura.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La mamá de Rubén es quien está narrando la historia",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La historia se presenta a través de un narrador omnisciente",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El texto anterior puede ser considerado como un instructivo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "El narrador es un buen declamador debido al ritmo de la lectura",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 73,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Cómo es la personalidad de Rubén?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Rebelde",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Conflictiva",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Irreverente",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Extrovertida",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 74,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El narrador del texto se percibe ________ por Rubén.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ansioso",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "preocupado",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "aprehensivo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "obsesionado",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 75,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "El recurso retórico llamado ________ se encuentra a lo largo de la lectura.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "antítesis",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "metáfora",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "hipérbole",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "repetición",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 76,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Qué imagen es compatible con el párrafo [3] del texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "a",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "b",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "c",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "d",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 77,
+      "materia": "Competencia lectora",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "¿Quién es el protagonista del texto?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Rubén",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El narrador",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los guardias",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Los padres de Rubén",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 78,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Who is the youngest member of the family?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Aunt Fanny",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Jonny",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Jamie",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Leslie",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 79,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "How many brothers and sisters does the narrator have?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Three",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Four",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Five",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Six",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 80,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "How old is Grandma Patty?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Eighty-eight",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Eighteen",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Eighty",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sixty",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 81,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Who is Aunt Fanny related to?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Dad",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Mom",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Jonny",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Grandma",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 82,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "What is Jonny’s link to Leslie?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Half-brother",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Brother",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Cousin",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Uncle",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 83,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "How old is Katy?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Twenty-two",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Twenty-six",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Twenty",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Eighty",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 84,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Who in the family are the same age?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Jamie and Jane",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Jonny and Katy",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Jonny and Jamie",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Aunt Fanny and Grandma Patty",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 85,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Who is younger than Aunt Fanny?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Jane",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Katy",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Jonny",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Jamie",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 86,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "How many people live at this family’s house?",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Two",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Nine",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Seven",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Twelve",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 87,
+      "materia": "Inglés",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "In the family Jonny is:",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_077.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "the youngest",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "the middle child",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "one of the twins",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "older than the other siblings",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 88,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué es la Historia?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Estudio de la organización social",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ciencia que estudia el pasado de la humanidad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Periodificación y ordenamiento de los sucesos pasados",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ciencia que se encarga del análisis de la evolución del ser humano",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 89,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Asociar la corriente de interpretación histórica con sus características principales. <br><br><em>Se omite el texto largo de las corrientes y sus características.</em>",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_089.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1B, 2A, 3D, 4C",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1B, 2D, 3A, 4C",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1C, 2A, 3B, 4D",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1C, 2B, 3A, 4D",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 90,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar los elementos que caracterizan la estructura de Europa en los siglos XV y XVI.<br><br>1. Se estableció un movimiento intelectual que buscaba el conocimiento a través de la razón humana.<br>2. Creación de rutas comerciales para intercambios de metales preciosos, especias y seda.<br>3. La brújula y el astrolabio como instrumentos que facilitaron la navegación.<br>4. El teatro, la literatura, la música y las artes plásticas con estilo barroco.<br>5. La imposición del rey para profesar la misma religión que él.<br>6. La cartografía tuvo un importante desarrollo.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1, 2, 4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1, 3, 5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "2, 3, 6",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "2, 4, 6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 91,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Ordenar cronológicamente los factores que intervinieron en el proceso de conquista de México.<br><br>1. Enfrentamiento en zona maya donde la Malinche era compañera de Hernán Cortés.<br>2. Moctezuma recibe a Hernán Cortés con honores en Tenochtitlán.<br>3. Fundación de la Villa Rica de la Vera Cruz por los españoles.<br>4. Los españoles llegan a México arribando a las costas de la isla de Cozumel.<br>5. Unión de los tlaxcaltecas con Cortés para enfrentarse contra los aztecas.<br>6. El descubrimiento de América por Cristóbal Colón.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4, 1, 3, 5, 6, 2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4, 2, 3, 5, 6, 1",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "6, 3, 1, 2, 4, 5",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "6, 4, 1, 3, 5, 2",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 92,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Quién fue el primer virrey de la Nueva España que fue nombrado como la máxima autoridad y desplazó a la Real Audiencia de México?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Carlos III",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Hernán Cortés",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "José de Gálvez",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Antonio de Mendoza",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 93,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A las fases de expansión y contracción que sufren las actividades económicas de un país en un periodo determinado se les conoce como:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ciclo económico",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "modelo económico",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "etapas económicas",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "variables económicas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 94,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál fue una de las causas que propició la crisis bursátil de 1929 en Estados Unidos?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Restricción de los créditos por falta de liquidez financiera",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Saqueo de bancos por el aumento del desempleo y la delincuencia",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Exceso de endeudamiento de los países europeos destrozados por la guerra",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Intervención del Estado y su creación de políticas monetarias proteccionistas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 95,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Ordenar cronológicamente las confrontaciones ocurridas durante la Guerra Fría. <br><br><em>Se omite el texto largo de las confrontaciones.</em>",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_095.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "2, 1, 4, 3, 5, 6",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "3, 5, 4, 2, 6, 1",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "2, 3, 6, 4, 5, 1",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "3, 5, 2, 1, 4, 6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 96,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Asociar el Tratado internacional con su característica principal. <br><br><em>Se omite el texto largo de los tratados y sus características.</em>",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_096.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1D, 2B, 3C, 4A, 5E",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1C, 2D, 3B, 4A, 5E",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1D, 2C, 3A, 4E, 5B",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1C, 2E, 3A, 4D, 5B",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 97,
+      "materia": "Historia",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Relacionar el tipo de variable con sus ejemplos.<br><br><strong>Tipo de variable</strong><br>1. Económica<br>2. Social<br><br><strong>Ejemplos</strong><br>A. Pobreza<br>B. Producto Interno Bruto<br>C. Analfabetismo<br>D. Población Económicamente Activa",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1AB, 2CD",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1AD, 2BC",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1BC, 2AD",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1BD, 2AC",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 98,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las células progenitoras de un organismo diploide \\((2n=84)\\) realizan meiosis. Al final se producirán ___ células hijas con ___ cromosomas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "2 - 23",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4 - 23",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "2 - 42",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "4 - 42",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 99,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Durante el ciclo biogeoquímico del carbono, ¿cuál es la materia prima para la formación de compuestos orgánicos como la glucosa?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\mathrm{CO_2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\mathrm{CO}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\mathrm{CH_4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\mathrm{H_2O_2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 100,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Únicamente la célula vegetal cuenta con:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "glucocálix",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "lisosomas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "pared celular",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "mitocondrias",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 101,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se cruza una planta con semillas amarillas monohíbridas \\((Yy)\\) con otra de semillas verdes \\((yy)\\). De un total de 120 plantas hijas, ¿cuántas plantas serán de semillas verdes?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "50",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "60",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "90",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "120",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 102,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La importancia del proceso de meiosis radica en:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la regeneración celular",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el desarrollo embrionario",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la formación de gametos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "el crecimiento del cuerpo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 103,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La mitosis es un tipo de división en el que una célula ________ se divide en ___ células ________ con la finalidad de multiplicarse.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "haploide - 4 - haploides",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "diploide - 4 - haploides",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "haploide - 2 - diploides",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "diploide - 2 - diploides",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 104,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Son animales que presentan reproducción asexual por gemación.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Esponjas de mar e hidras",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Planarias y estrellas de mar",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Estrellas y esponjas de mar",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Esponjas de mar y planarias",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 105,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La unidad responsable de la transmisión de una característica hereditaria se denomina:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "gen",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "ADN",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "alelo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "cromosoma",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 106,
+      "materia": "Biología",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las características del cabello negro y el color marrón de los ojos se consideran dominantes ante las características del cabello castaño y ojos de color azul, por lo que si un hombre con cabello negro y ojos marrones (ambas características heterocigotas) tiene un hijo con una mujer de cabello castaño y ojos azules, los siguientes genotipos serán susceptibles de expresarse, EXCEPTO:<br><br>1. \\(nnpp\\)<br>2. \\(NnPp\\)<br>3. \\(Nnpp\\)<br>4. \\(nnPp\\)<br>5. \\(NnPP\\)<br>6. \\(NNPP\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1 y 3",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "2 y 6",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "5 y 6",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "4 y 3",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 107,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Relacionar el número del grupo con el nombre de la familia a la que pertenece.<br><br><strong>Número del grupo</strong><br>1. I-A<br>2. V-A<br>3. VII-A<br>4. VIII-A<br><br><strong>Nombre de la familia</strong><br>A. Nitrógeno<br>B. Halógenos<br>C. Gases nobles<br>D. Metales alcalinos",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1C, 2B, 3A, 4D",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1C, 2A, 3B, 4D",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1D, 2A, 3B, 4C",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1D, 2B, 3A, 4C",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 108,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar la configuración electrónica del yodo, según Kernel, si su número atómico es 53.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(_{36}[\\mathrm{Kr}]\\,5s^2\\,4d^{10}\\,5p^5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(_{36}[\\mathrm{Kr}]\\,5p^6\\,4d^{10}\\,5p^1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(_{36}[\\mathrm{Kr}]\\,4d^{10}\\,5s^2\\,5p^5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(_{36}[\\mathrm{Kr}]\\,4d^{14}\\,5s^2\\,5p^1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 109,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar el nombre IUPAC del siguiente compuesto:",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_109.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3 - isobutil - octano",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4 - etil - 2 - metil - octano",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "6 - etil - 8 - metil - nonano",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "4 - etil - 2 - metil - nonano",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 110,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar en la estructura química de la prostaglandina la función química que señala el número uno.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_110.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Cetonal",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Alcohol",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aldehído",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Ácido carboxílico",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 111,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué teoría postula que los gases están formados por moléculas en continuo movimiento, separadas a grandes distancias y sus choques son elásticos?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "De Lewis",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Atómica",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "De Arrhenius",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cinética molecular",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 112,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El ________ es un proceso natural que puede ocasionar niveles altos de contaminación del aire.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "efecto invernadero",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "calentamiento global",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "calentamiento terráqueo",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "efecto de inversión térmica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 113,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Identificar cuántos enlaces dobles se encuentran presentes en la estructura química del β-caroteno.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_113.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "9",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "10",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "11",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "12",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 114,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Ordenar en forma descendente el pOH de las siguientes sustancias:",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_114.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "2, 3, 1",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "2, 1, 3",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1, 2, 3",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1, 3, 2",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 115,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indicar el pH de una solución con concentración de \\(\\mathrm{H^+}\\) de \\([1\\times10^{-7}]\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "7",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "9",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "11",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 116,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Identificar la fórmula de conversión de grados Celsius a Kelvin.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(K={}^\\circ C+273.15\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(K={}^\\circ C-273.15\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(K={}^\\circ C\\times273.15\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(K={}^\\circ C/273.15\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 117,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ley de los gases ________ establece la relación que existe entre la presión, volumen, temperatura y número de mol de un gas.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "comprimidos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "expandidos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "diatómicos",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "ideales",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 118,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indicar la temperatura absoluta que deberá alcanzar una muestra de \\(4.3\\ L\\) de gas oxígeno a \\(45\\ ^{\\circ}C\\) para que aumente \\(5\\ L\\), tomando en cuenta la siguiente expresión matemática: \\(\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "273.48",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "369.76",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "418.01",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "688.1",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 119,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Seleccionar la reacción de oxidación parcial presente en los alcanos.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_119.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\mathrm{CH_3-CH_2-CH_3\\xrightarrow{400/600\\,{}^\\circ C}CH_4+CH_2{=}CH_2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\mathrm{CH_4+KMnO_4NaOH\\ CH_3-OH+MnO_2+KOH}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\mathrm{CH_3-CH_2-CH_3+Br_2\\xrightarrow{luz\\ uv}CH_3-CH-CH_3+HBr}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\mathrm{2CH_3-CH_3+7O_2\\ 4CO_2+6H_2O+energía}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 120,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determinar el peso equivalente \\((g/g\\text{-}eq)\\) del sulfato férrico \\(\\mathrm{Fe_2(SO_4)_3}\\).<br><br>Considerar: P.A. \\((g/mol)\\)<br>\\(\\mathrm{Fe}=56\\)<br>\\(\\mathrm{S}=32\\)<br>\\(\\mathrm{O}=16\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "56.88",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "66.66",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "200.36",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "400.00",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 121,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "“Si una reacción se efectúa en varias etapas, el calor liberado será igual a la suma de los cambios de calor para las etapas individuales” es un postulado del científico llamado:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Lavoisier-Laplace",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Rudolf Clausius",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Sadi Carnot",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Henri Hess",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 122,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el laboratorio se hicieron reaccionar \\(10\\ g\\) de aluminio con oxígeno, ¿cuál es el rendimiento de la reacción si se obtuvieron \\(15\\ g\\) de óxido de aluminio según \\(\\mathrm{Al+O_2\\rightarrow Al_2O_3}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "35.29 %",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "37.77%",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "73.25 %",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "79.40 %",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 123,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Calcular el valor de \\(\\Delta H_R^{\\circ}\\) en kJ para la siguiente reacción:",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_123.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "-1761.6",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "-57.5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "+86.3",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "+382.4",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 124,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Asociar el concepto con su representación gráfica.<br><br><strong>Concepto</strong><br>1. Material Óhmico<br>2. Bombilla eléctrica<br>3. Diodo",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_124.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1C, 2A, 3B",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1B, 2C, 3A",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1C, 2B, 3A",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1B, 2A, 3C",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 125,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las celdas electroquímicas secundarias pueden recargarse aplicándoles una ________ externa.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "fuente de calor",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "reacción química",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "energía eléctrica",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "energía mecánica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 126,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué tipo de arreglo entre diferentes pilas es el adecuado para aumentar el voltaje de suministro a un sistema?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "en serie - paralelo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "paralelo - en serie",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "en serie",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "paralelo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 127,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los polos magnéticos ________ se repelen y polos magnéticos ________ se atraen.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "iguales - diferentes",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "neutros - diferentes",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "diferentes - iguales",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "neutros - iguales",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 128,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un resorte realiza 50 vibraciones en \\(20\\ s\\). Calcular el período \\(T\\) y la frecuencia de la vibración \\(f\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(T=0.4\\,\\mathrm{s};\\ f=2.5\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(T=0.25\\,\\mathrm{s};\\ f=2.5\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(T=4\\,\\mathrm{s};\\ f=0.25\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(T=0.4\\,\\mathrm{s};\\ f=4\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 129,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la intensidad del campo eléctrico a \\(2\\ m\\) de la superficie de una esfera de \\(40\\ cm\\) de diámetro que tiene una densidad de carga superficial de \\(8\\ nC/m^2\\)?<br><br>Considerar: \\(\\varepsilon_0=8.85\\times10^{-12}\\ C^2/(N\\,m^2)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2.15\\,\\mathrm{N/C}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(7.35\\,\\mathrm{N/C}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(9.04\\,\\mathrm{N/C}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(15.35\\,\\mathrm{N/C}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 130,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si una fuente sonora estática tiene una frecuencia de \\(900\\,\\mathrm{Hz}\\) a una velocidad del sonido de \\(340\\,\\mathrm{m/s}\\), ¿cuánto escuchará una persona que se aleja de la fuente con una velocidad de \\(40\\,\\mathrm{m/s}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(35.6\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(75.58\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(106.2\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(794.1\\,\\mathrm{Hz}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 131,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Relacionar cada temperatura con su respectivo equivalente.<br><br><strong>Temperatura</strong><br>1. \\(0\\ ^{\\circ}C\\)<br>2. \\(39.2\\ ^{\\circ}C\\)<br>3. \\(212\\ ^{\\circ}F\\)<br>4. \\(378.15\\ K\\)<br><br><strong>Equivalente</strong><br>A. \\(102.6\\ ^{\\circ}F\\)<br>B. \\(105\\ ^{\\circ}C\\)<br>C. \\(273.15\\ K\\)<br>D. \\(100\\ ^{\\circ}C\\)",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_131.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1B, 2A, 3C, 4D",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1C, 2A, 3D, 4B",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1B, 2C, 3A, 4D",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1C, 2D, 3A, 4B",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B"
+    },
+    {
+      "id": 132,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La magnitud del vector \\(\\vec{a}=8\\hat{i}-6\\hat{j}\\) es:",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{7}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{80}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(10\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 133,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La expresión matemática \\(\\frac{1}{2}gt^2\\) representa la ________ en la caída libre.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "altura",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "rapidez",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "velocidad",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "aceleración",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 134,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Con base en la gráfica de velocidad \\(v\\ (m/s)\\) contra tiempo \\(t\\ (s)\\) de un objeto que se mueve a lo largo de una trayectoria, determinar el intervalo de tiempo en el que se desacelera.",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_134.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "0 a 10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "10 a 20",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "20 a 25",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "25 a 30",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 135,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Relacionar el concepto con su modelo matemático.<br><br><strong>Concepto</strong><br>1. Coeficiente de expansión superficial<br>2. Ecuación de dilatación superficial<br>3. Coeficiente de expansión volumétrica<br>4. Ecuación de dilatación lineal<br><br><strong>Modelo matemático</strong><br>A. \\(\\gamma=2\\alpha\\)<br>B. \\(\\beta=3\\alpha\\)<br>C. \\(\\Delta L=\\alpha L_0\\Delta T\\)<br>D. \\(\\Delta A=\\gamma A_0\\Delta T\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1D, 2C, 3A, 4B",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1D, 2A, 3B, 4C",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1A, 2D, 3C, 4B",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1A, 2D, 3B, 4C",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    },
+    {
+      "id": 136,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un cubo de \\(30\\ g\\) y que mide \\(0.02\\ m\\) por lado es atado al extremo de una cuerda para sumergirlo totalmente en agua. ¿Cuál es empuje \\((N)\\) sobre el cubo?<br><br>Considerar: \\(g=9.8\\ m/s^2\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "7.84",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "0.886",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "0.0784",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "0.00886",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 137,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El puente de acero New River George tiene una longitud de arco de \\(520\\ m\\). ¿Cuál es el cambio en su longitud entre las temperaturas extremas de \\(-15\\ ^{\\circ}C\\) a \\(41\\ ^{\\circ}C\\)?<br><br>Considerar: \\(\\alpha=11\\times10^{-6}\\ ^{\\circ}C^{-1}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0.32032\\ m\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(518.313\\ m\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(32.032\\ m\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(5183.1\\ m\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 138,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dos esferas conductoras idénticas están situadas a \\(0.20\\ m\\) de distancia una de la otra. Una tiene una carga de \\(10\\times10^{-9}\\ C\\) y la otra, de \\(-16\\times10^{-9}\\ C\\). ¿Cuál es la magnitud de la fuerza \\((N)\\) electrostática que ejerce una en la otra?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3.6\\times10^{-5}\\,\\mathrm{N}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6.4\\times10^{-4}\\,\\mathrm{N}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(7.9\\times10^{-5}\\,\\mathrm{N}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(9.7\\times10^{-4}\\,\\mathrm{N}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A"
+    },
+    {
+      "id": 139,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "Ordenar de menor a mayor las resistencias totales de los siguientes arreglos considerando que cada resistencia individual tiene un valor de \\(R=3\\ \\Omega\\)",
+        "imagen": "imagenes_universidad/ipn/iycfm/simulador_2/p_139.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4, 2, 3, 1",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1, 2, 4, 3",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "4, 3, 2, 1",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "1, 4, 2, 3",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C"
+    },
+    {
+      "id": 140,
+      "materia": "Física",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuánta energía \\((J)\\) necesita un cautín para funcionar un minuto si utiliza \\(3\\ A\\) a \\(120\\ V\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(50\\ J\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(120\\ J\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2600\\ J\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(21600\\ J\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D"
+    }
+  ]
+}
