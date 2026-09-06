@@ -1,0 +1,1356 @@
+:root {
+  --azul-unam: #003366;
+  --azul-medio: #0056a6;
+  --azul-claro: #e8f2ff;
+  --blanco: #ffffff;
+  --gris: #f4f6f8;
+  --dorado: #ffcc00;
+  --texto: #f8fafc;
+  --texto-oscuro: #111827;
+  --rojo: #b91c1c;
+  --verde: #047857;
+  --fondo-oscuro: #030712;
+  --fondo-morado: #12051f;
+  --card: rgba(255, 255, 255, 0.96);
+  --card-oscura: rgba(15, 23, 42, 0.92);
+  --borde-suave: rgba(255, 255, 255, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top center, #1c0b33 0%, #050816 42%, #000 100%);
+  color: var(--texto);
+  overflow-x: hidden;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.55);
+  color: var(--blanco);
+  padding: 22px 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--borde-suave);
+  backdrop-filter: blur(12px);
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  background: var(--blanco);
+  border-radius: 24px;
+  border: 3px solid var(--dorado);
+  padding: 8px;
+  box-shadow: 0 0 26px rgba(255, 204, 0, 0.25);
+}
+
+.logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--azul-unam);
+  font-weight: bold;
+}
+
+.titulo {
+  text-align: center;
+  flex: 1;
+  padding: 0 28px;
+}
+
+.titulo h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+  letter-spacing: -1px;
+}
+
+.titulo p {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+}
+
+main {
+  max-width: 1180px;
+  margin: 42px auto;
+  padding: 22px;
+}
+
+.seccion {
+  background: var(--card);
+  color: var(--texto-oscuro);
+  border-radius: 34px;
+  padding: 42px;
+  margin-bottom: 32px;
+  box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+.seccion h2 {
+  color: var(--azul-unam);
+  margin-bottom: 26px;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  font-weight: 800;
+  transition: 0.22s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.boton-principal {
+  background: var(--blanco);
+  color: #020617;
+  padding: 19px 40px;
+  font-size: 1.12rem;
+  border: 2px solid var(--blanco);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.boton-principal:hover {
+  background: var(--dorado);
+  border-color: var(--dorado);
+}
+
+.contenedor-botones,
+.lista-botones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.boton-grande,
+.boton-lista,
+.boton-simulador,
+.boton-simulador-materia {
+  background: #111827;
+  color: var(--blanco);
+  padding: 22px;
+  font-size: 1.12rem;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.22);
+}
+
+.boton-grande {
+  padding: 38px;
+  font-size: 1.45rem;
+}
+
+.boton-grande:hover,
+.boton-lista:hover,
+.boton-simulador:hover,
+.boton-simulador-materia:hover {
+  background: var(--azul-unam);
+  color: var(--blanco);
+}
+
+.boton-simulador:disabled {
+  background: #6b7280;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.boton-regresar {
+  background: var(--dorado);
+  color: #020617;
+  padding: 13px 28px;
+  margin-bottom: 22px;
+  font-size: 1rem;
+}
+
+.boton-materia-especial {
+  background: var(--dorado);
+  color: #020617;
+  padding: 24px;
+  font-size: 1.18rem;
+  border: 3px solid #020617;
+  grid-column: 1 / -1;
+}
+
+.boton-materia {
+  background: #111827;
+  border-left: 8px solid var(--dorado);
+}
+
+.oculto {
+  display: none !important;
+}
+
+.panel-config {
+  max-width: 540px;
+  margin: auto;
+  background: #f8fafc;
+  padding: 30px;
+  border-radius: 28px;
+  border: 1px solid #e5e7eb;
+}
+
+.switch-linea {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.examen-pantalla {
+  max-width: 1180px;
+  min-height: 620px;
+  margin: 30px auto;
+  background: var(--card);
+  color: var(--texto-oscuro);
+  border-radius: 28px;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  overflow: hidden;
+}
+
+.franja-lateral {
+  background: var(--azul-unam);
+  color: var(--blanco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 22px 6px;
+  font-size: 0.95rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border-right: 5px solid var(--dorado);
+}
+
+.franja-lateral span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.hoja-examen {
+  padding: 42px 54px;
+  position: relative;
+}
+
+.encabezado-examen {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.encabezado-examen h1 {
+  color: var(--azul-unam);
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
+}
+
+.encabezado-examen p {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.contador {
+  font-size: 1.35rem;
+  font-weight: 900;
+  background: var(--dorado);
+  color: #020617;
+  padding: 13px 20px;
+  border-radius: 14px;
+  min-width: 110px;
+  text-align: center;
+  box-shadow: 0 10px 22px rgba(255, 204, 0, 0.25);
+}
+
+.zona-pregunta {
+  min-height: 115px;
+  max-height: 430px;
+  overflow-y: auto;
+  margin: 18px 0 28px;
+  padding: 16px 10px;
+  font-size: 1.34rem;
+  line-height: 1.58;
+  font-weight: 800;
+}
+
+.zona-pregunta img {
+  max-width: 100%;
+  max-height: 340px;
+  object-fit: contain;
+  display: block;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+.boton-ver-pregunta {
+  background: var(--azul-claro);
+  color: var(--azul-unam);
+  border: 2px solid var(--azul-unam);
+  padding: 14px 24px;
+  border-radius: 999px;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.zona-opciones {
+  margin-top: 10px;
+  max-width: 850px;
+}
+
+.fila-opcion {
+  display: grid;
+  grid-template-columns: 42px 48px 210px 1fr;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  min-height: 52px;
+}
+
+.selector-opcion {
+  width: 31px;
+  height: 31px;
+  border: 3px solid var(--azul-unam);
+  border-radius: 50%;
+  background: var(--blanco);
+  cursor: pointer;
+}
+
+.selector-opcion.seleccionada {
+  background: radial-gradient(circle, var(--dorado) 0 42%, var(--blanco) 45% 100%);
+}
+
+.inciso-opcion {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.boton-ver-respuesta {
+  background: var(--blanco);
+  color: var(--azul-unam);
+  border: 2px solid #d0d7e2;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 1rem;
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+
+.boton-ver-respuesta:hover {
+  background: var(--azul-claro);
+}
+
+.boton-ver-respuesta::before {
+  content: "🔒";
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+.respuesta-desplegada {
+  background: var(--azul-claro);
+  border-left: 7px solid var(--azul-unam);
+  border-radius: 18px;
+  padding: 14px 18px;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  font-weight: 800;
+  min-height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.respuesta-desplegada img {
+  max-width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  margin-top: 10px;
+  border-radius: 14px;
+}
+
+.navegacion-estilo-examen {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 32px;
+  padding-top: 18px;
+}
+
+.navegacion-estilo-examen button {
+  background: var(--azul-unam);
+  color: var(--blanco);
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+
+/* Índice navegable de preguntas */
+.indice-preguntas-contenedor {
+  margin: 22px 0 28px;
+  padding: 18px;
+  background: #f8fafc;
+  border: 2px solid rgba(0, 51, 102, 0.18);
+  border-radius: 20px;
+}
+
+.titulo-indice-preguntas {
+  margin-bottom: 12px;
+  color: var(--azul-unam);
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.indice-preguntas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 9px;
+}
+
+.boton-indice-pregunta {
+  min-width: 44px;
+  min-height: 42px;
+  padding: 8px 6px;
+  border-radius: 10px;
+  background: #e5e7eb;
+  color: #111827;
+  border: 2px solid transparent;
+  box-shadow: none;
+}
+
+.boton-indice-pregunta:hover {
+  background: var(--azul-claro);
+  color: var(--azul-unam);
+}
+
+.boton-indice-pregunta.respondida {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.boton-indice-pregunta.actual {
+  background: var(--dorado);
+  color: #020617;
+  border-color: var(--azul-unam);
+  transform: translateY(-1px);
+}
+
+.zona-finalizar-examen {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4cm;
+}
+
+.zona-finalizar-examen .boton-finalizar {
+  background: var(--rojo);
+  color: var(--blanco);
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 0.95rem;
+}
+
+.resultado-card,
+.revision-card {
+  background: #f8fafc;
+  color: var(--texto-oscuro);
+  padding: 20px;
+  border-radius: 18px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.correcta {
+  border-left: 7px solid var(--verde);
+}
+
+.incorrecta {
+  border-left: 7px solid var(--rojo);
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #cbd5e1;
+  font-weight: bold;
+}
+
+/* Móvil */
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+  }
+
+  .titulo h1 {
+    font-size: 0.95rem;
+    line-height: 1.1;
+  }
+
+  .titulo p {
+    font-size: 0.75rem;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .seccion {
+    border-radius: 0;
+    padding: 28px 18px;
+    margin-bottom: 0;
+  }
+
+  .examen-pantalla {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    border-radius: 0;
+    display: block;
+  }
+
+  .franja-lateral {
+    display: none;
+  }
+
+  .hoja-examen {
+    padding: 20px 16px;
+    width: 100%;
+  }
+
+  .encabezado-examen {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .encabezado-examen h1 {
+    font-size: 2rem;
+  }
+
+  .encabezado-examen p {
+    font-size: 0.95rem;
+  }
+
+  .contador {
+    font-size: 1rem;
+    padding: 9px 14px;
+  }
+
+  .zona-pregunta {
+    font-size: 1rem;
+    line-height: 1.45;
+    max-height: 330px;
+    padding: 8px 2px;
+    margin-bottom: 18px;
+  }
+
+  .zona-pregunta img {
+    max-width: 100%;
+    max-height: none;
+  }
+
+  .zona-opciones {
+    width: 100%;
+    max-width: none;
+  }
+
+  .fila-opcion {
+    grid-template-columns: 34px 40px 1fr;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .inciso-opcion {
+    font-size: 1.25rem;
+  }
+
+  .boton-ver-respuesta {
+    font-size: 0.9rem;
+    padding: 9px 10px;
+  }
+
+  .respuesta-desplegada {
+    grid-column: 1 / -1;
+    margin-left: 0;
+    font-size: 0.95rem;
+  }
+
+  .respuesta-desplegada img {
+    max-height: 180px;
+  }
+
+  .navegacion-estilo-examen {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    padding: 12px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navegacion-estilo-examen button {
+    font-size: 0.8rem;
+    padding: 11px 12px;
+  }
+  /* =========================
+   ESTILO ELITE DARK LANDING
+   Pegar al FINAL de styles.css
+========================= */
+
+body {
+  background:
+    radial-gradient(circle at 50% 18%, rgba(48, 13, 88, 0.72) 0%, rgba(20, 5, 38, 0.75) 34%, rgba(0, 0, 0, 1) 78%),
+    linear-gradient(180deg, #07020f 0%, #000 100%);
+  color: #f8fafc;
+}
+
+header {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: none;
+  padding: 28px 52px 12px;
+}
+
+.logo {
+  width: 105px;
+  height: 105px;
+  border-radius: 28px;
+  border: 3px solid #ffcc00;
+  background: #ffffff;
+  padding: 8px;
+  box-shadow: 0 0 35px rgba(255, 204, 0, 0.25);
+}
+
+.titulo h1 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.titulo p {
+  color: #bcd7ff;
+  font-size: 1.05rem;
+}
+
+main {
+  max-width: 1220px;
+}
+
+.seccion {
+  background: rgba(255, 255, 255, 0.96);
+  color: #0f172a;
+  border-radius: 36px;
+  box-shadow: 0 35px 90px rgba(0, 0, 0, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+#inicio {
+  background: transparent;
+  box-shadow: none;
+  color: white;
+  padding-top: 42px;
+}
+
+#inicio h2 {
+  font-size: 4.6rem;
+  line-height: 0.95;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -3px;
+}
+
+#inicio h2::after {
+  content: " ELITE";
+  color: #ffcc00;
+}
+
+#inicio .boton-principal {
+  margin-top: 38px;
+  width: min(900px, 92%);
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 24px 34px;
+  font-size: 1.25rem;
+  border: none;
+}
+
+button {
+  border-radius: 999px;
+}
+
+.boton-principal,
+.boton-grande,
+.boton-lista,
+.boton-simulador,
+.boton-simulador-materia {
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.25);
+}
+
+.boton-grande,
+.boton-lista,
+.boton-simulador,
+.boton-simulador-materia {
+  background: #111827;
+  color: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+}
+
+.boton-grande:hover,
+.boton-lista:hover,
+.boton-simulador:hover,
+.boton-simulador-materia:hover {
+  background: #ffcc00;
+  color: #020617;
+}
+
+.boton-regresar,
+.boton-materia-especial {
+  background: #ffcc00;
+  color: #020617;
+}
+
+.examen-pantalla {
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: 34px;
+  box-shadow: 0 35px 90px rgba(0, 0, 0, 0.42);
+}
+
+.franja-lateral {
+  background: #020617;
+  border-right: 5px solid #ffcc00;
+}
+
+.encabezado-examen h1 {
+  color: #003366;
+  font-weight: 900;
+}
+
+.contador {
+  background: #ffcc00;
+  color: #020617;
+  border-radius: 16px;
+}
+
+.boton-ver-respuesta,
+.boton-ver-pregunta {
+  border-radius: 999px;
+}
+
+.navegacion-estilo-examen button {
+  border-radius: 14px;
+}
+
+.resultado-card,
+.revision-card,
+.panel-config {
+  border-radius: 24px;
+}
+
+/* Móvil */
+@media (max-width: 800px) {
+  header {
+    padding: 16px 12px;
+  }
+
+  .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+  }
+
+  .titulo h1 {
+    font-size: 1rem;
+  }
+
+  #inicio h2 {
+    font-size: 2.7rem;
+    letter-spacing: -1px;
+  }
+
+  #inicio .boton-principal {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .seccion {
+    border-radius: 0;
+  }
+
+  .examen-pantalla {
+    border-radius: 0;
+  }
+}
+}
+/* Opción de respuestas visibles desde el inicio */
+.fila-opcion-visible {
+  grid-template-columns: 42px 48px 1fr;
+}
+
+.respuesta-visible-directa {
+  background: rgba(232, 242, 255, 0.72);
+  border-left: 6px solid var(--dorado);
+}
+
+@media (max-width: 800px) {
+  .fila-opcion-visible {
+    grid-template-columns: 34px 40px 1fr;
+  }
+}
+
+
+/* =========================
+   FOOTER CURSO ELITE
+========================= */
+
+.footer-elite {
+  width: 100%;
+  margin-top: 48px;
+  padding: 34px 22px 24px;
+  background:
+    radial-gradient(circle at top center, rgba(255, 204, 0, 0.10), transparent 38%),
+    rgba(0, 0, 0, 0.62);
+  color: #e5e7eb;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+}
+
+.footer-contenido {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 24px;
+}
+
+.footer-bloque {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.22);
+}
+
+.footer-bloque h3,
+.footer-bloque h4 {
+  color: #ffcc00;
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+
+.footer-bloque h3 {
+  font-size: 1.45rem;
+}
+
+.footer-bloque h4 {
+  font-size: 1.08rem;
+}
+
+.footer-bloque p {
+  margin: 8px 0;
+  line-height: 1.45;
+}
+
+.footer-elite a {
+  color: #bfdbfe;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.footer-elite a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+.footer-legal {
+  max-width: 1180px;
+  margin: 22px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  color: #cbd5e1;
+  font-size: 0.92rem;
+}
+
+.footer-aviso {
+  margin-top: 10px;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .footer-elite {
+    margin-top: 0;
+    padding: 28px 14px 22px;
+  }
+
+  .footer-contenido {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .footer-bloque {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .footer-legal {
+    font-size: 0.82rem;
+  }
+
+  .footer-aviso {
+    font-size: 0.78rem;
+  }
+    .simulador-disponible {
+  opacity: 1;
+  filter: none;
+}
+
+.simulador-pendiente {
+  opacity: 0.45;
+  filter: grayscale(0.6);
+}
+
+.simulador-pendiente:hover {
+  opacity: 0.7;
+}
+}
+
+/* Formato HTML dentro de preguntas y respuestas */
+.texto-pregunta {
+  line-height: 1.6;
+}
+
+.texto-pregunta p {
+  margin: 0 0 18px;
+}
+
+.texto-pregunta p:last-child {
+  margin-bottom: 0;
+}
+
+.numero-pregunta {
+  font-weight: 900;
+}
+
+.texto-pregunta u,
+.texto-opcion u {
+  text-underline-offset: 3px;
+}
+
+.texto-opcion {
+  line-height: 1.5;
+}
+
+.texto-opcion p {
+  margin: 0 0 10px;
+}
+
+.texto-opcion p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .indice-preguntas {
+    grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+    gap: 7px;
+  }
+
+  .boton-indice-pregunta {
+    min-width: 38px;
+    min-height: 38px;
+    font-size: 0.85rem;
+  }
+
+  .zona-finalizar-examen {
+    margin-top: 3cm;
+    justify-content: center;
+  }
+}
+
+
+/* Áreas y módulos de exámenes universitarios */
+.boton-area-universidad {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: left;
+  line-height: 1.25;
+}
+
+.boton-area-universidad strong {
+  font-size: 1.03em;
+}
+
+.boton-area-universidad span {
+  font-size: 0.88em;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+
+/* =========================================================
+   MODIFICACIÓN 2 · REORGANIZACIÓN DE PANTALLA DE EXAMEN
+   ========================================================= */
+
+/* El examen se divide en franja institucional + panel de preguntas + hoja */
+.examen-pantalla {
+  max-width: 1500px;
+  width: min(96vw, 1500px);
+  grid-template-columns: 62px minmax(190px, 20%) minmax(0, 1fr);
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.panel-lateral-preguntas {
+  width: 100%;
+  max-width: 20vw;
+  min-width: 190px;
+  padding: 28px 16px 24px;
+  background: #f8fafc;
+  border-right: 2px solid rgba(0, 51, 102, 0.14);
+  box-sizing: border-box;
+  align-self: stretch;
+}
+
+.cabecera-panel-preguntas {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.cabecera-panel-preguntas h2 {
+  margin: 0;
+  color: var(--azul-unam);
+  font-size: 1.15rem;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.panel-lateral-preguntas .contador {
+  min-width: 0;
+  padding: 8px 9px;
+  font-size: 0.94rem;
+  border-radius: 11px;
+  white-space: nowrap;
+}
+
+.panel-lateral-preguntas .indice-preguntas-contenedor {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  max-height: calc(100vh - 190px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+}
+
+.panel-lateral-preguntas .indice-preguntas {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 5px;
+}
+
+.panel-lateral-preguntas .boton-indice-pregunta {
+  width: 100%;
+  min-width: 0;
+  min-height: 30px;
+  padding: 5px 1px;
+  border-radius: 7px;
+  font-size: clamp(0.68rem, 0.78vw, 0.82rem);
+}
+
+.hoja-examen {
+  min-width: 0;
+  padding: 42px 48px;
+}
+
+/* Ya no existe el cronómetro en el encabezado principal */
+.encabezado-examen {
+  justify-content: flex-start;
+}
+
+/* Anterior/Siguiente a la derecha y Finalizar inmediatamente debajo */
+.navegacion-estilo-examen {
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.zona-finalizar-examen {
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+/* Áreas/módulos universitarios centrados */
+#contenedorAreasUniversidad {
+  justify-items: center;
+}
+
+#contenedorAreasUniversidad .boton-area-universidad {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#contenedorAreasUniversidad .boton-area-universidad strong,
+#contenedorAreasUniversidad .boton-area-universidad span {
+  width: 100%;
+  text-align: center;
+}
+
+/* Simulador por materia: compacto, centrado y al final */
+#contenedorAreasUniversidad .boton-materia-especial {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: auto;
+  min-width: 230px;
+  max-width: 320px;
+  padding: 12px 24px;
+  margin-top: 14px;
+  font-size: 0.98rem;
+  text-align: center;
+  background: var(--dorado);
+  color: #020617;
+}
+
+@media (max-width: 1100px) {
+  .examen-pantalla {
+    width: 98vw;
+    grid-template-columns: 54px minmax(180px, 20%) minmax(0, 1fr);
+  }
+
+  .panel-lateral-preguntas {
+    min-width: 180px;
+    padding: 22px 12px;
+  }
+
+  .panel-lateral-preguntas .indice-preguntas {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 4px;
+  }
+
+  .hoja-examen {
+    padding: 34px 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .examen-pantalla {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+
+  .franja-lateral {
+    display: none;
+  }
+
+  .panel-lateral-preguntas {
+    max-width: none;
+    min-width: 0;
+    width: 100%;
+    padding: 16px;
+    border-right: 0;
+    border-bottom: 2px solid rgba(0, 51, 102, 0.14);
+  }
+
+  .panel-lateral-preguntas .indice-preguntas-contenedor {
+    max-height: 180px;
+  }
+
+  .panel-lateral-preguntas .indice-preguntas {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .panel-lateral-preguntas .boton-indice-pregunta {
+    min-height: 34px;
+    font-size: 0.8rem;
+  }
+
+  .hoja-examen {
+    padding: 26px 18px;
+  }
+
+  .zona-finalizar-examen {
+    margin-top: 12px;
+    justify-content: flex-end;
+  }
+}
+
+/* =========================================================
+   MODIFICACIÓN 2.1 · PANEL INDEPENDIENTE + HOJA CENTRADA
+   ========================================================= */
+@media (min-width: 801px) {
+  /* El contenedor general deja de ser la tarjeta blanca. Sirve únicamente
+     como lienzo para colocar el panel lateral y centrar la hoja. */
+  #examen.examen-pantalla {
+    position: relative;
+    display: block;
+    width: 100vw;
+    max-width: none;
+    min-height: 680px;
+    /* Sacar el lienzo del contenedor central y alinearlo con el viewport real. */
+    margin: 28px 0 38px;
+    margin-left: calc(50% - 50vw);
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  /* Franja institucional pegada al extremo izquierdo del panel. */
+  #examen .franja-lateral {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    bottom: 0;
+    width: 58px;
+    min-height: 680px;
+    box-sizing: border-box;
+    border-radius: 22px 0 0 22px;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  /* Panel de preguntas como tarjeta independiente. */
+  #examen .panel-lateral-preguntas {
+    position: absolute;
+    left: 70px;
+    top: 0;
+    width: clamp(205px, 18vw, 285px);
+    max-width: 18vw;
+    min-width: 205px;
+    min-height: 680px;
+    padding: 26px 14px 22px;
+    background: rgba(255, 255, 255, 0.97);
+    border: 0;
+    border-radius: 0 22px 22px 0;
+    box-shadow: 0 24px 62px rgba(0, 0, 0, 0.32);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  #examen .panel-lateral-preguntas .indice-preguntas-contenedor {
+    max-height: 590px;
+  }
+
+  /* La hoja se centra contra la ventana completa, no contra el espacio
+     restante después del panel lateral. */
+  #examen .hoja-examen {
+    width: min(900px, 64vw);
+    min-height: 680px;
+    margin: 0 auto;
+    padding: 42px 48px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 30px;
+    box-shadow: 0 35px 90px rgba(0, 0, 0, 0.42);
+    box-sizing: border-box;
+  }
+}
+
+/* En resoluciones medianas reducimos ambas tarjetas sin perder el centro. */
+@media (min-width: 801px) and (max-width: 1180px) {
+  #examen .franja-lateral {
+    left: 10px;
+    width: 50px;
+  }
+
+  #examen .panel-lateral-preguntas {
+    left: 60px;
+    width: clamp(190px, 19vw, 225px);
+    max-width: 19vw;
+    min-width: 190px;
+    padding: 22px 11px;
+  }
+
+  #examen .hoja-examen {
+    width: min(720px, 64vw);
+    padding: 34px 30px;
+  }
+}
+
+
+/* =========================================================
+   MODIFICACIÓN 2.2 · ALTURAS SIMÉTRICAS + CRONÓMETRO CENTRAL
+   ========================================================= */
+@media (min-width: 801px) {
+  /* El panel blanco ocupa exactamente la misma altura del lienzo/hoja.
+     No modifica ancho ni posición horizontal. */
+  #examen .panel-lateral-preguntas {
+    top: 0;
+    bottom: 0;
+    min-height: 0;
+    height: auto;
+  }
+
+  /* La franja azul comparte exactamente los mismos límites verticales. */
+  #examen .franja-lateral {
+    top: 0;
+    bottom: 0;
+    min-height: 0;
+    height: auto;
+  }
+
+  /* El cronómetro vive dentro de la hoja principal y queda centrado arriba. */
+  #examen .hoja-examen {
+    position: relative;
+  }
+
+  #examen .contador-examen-centro {
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    min-width: 110px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  #examen .contador-examen-centro {
+    position: static;
+    transform: none;
+    width: fit-content;
+    margin: 0 auto 18px;
+  }
+}
