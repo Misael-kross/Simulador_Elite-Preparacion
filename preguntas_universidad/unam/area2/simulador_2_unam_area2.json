@@ -1,0 +1,4096 @@
+{
+  "nombre": "Simulador UNAM 1",
+  "nivel": "Universidad",
+  "institucion": "UNAM",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 180,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes ejemplos corresponde a una mezcla homogénea?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Agua y aceite.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Aire limpio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Arena y agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Granito.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 2,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El cambio que ocurre cuando el agua líquida se transforma en vapor, sin alterar su composición, se clasifica como",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "reacción de combustión.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "cambio químico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "cambio físico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "reacción de descomposición.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 3,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un átomo tiene número atómico \\(Z=17\\) y número de masa \\(A=35\\). ¿Cuántos neutrones contiene su núcleo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(18\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(17\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(35\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(52\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 4,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántos electrones posee un átomo eléctricamente neutro cuyo número atómico es \\(13\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(26\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(14\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(12\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(13\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 5,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los isótopos de un mismo elemento se caracterizan por tener",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "distinto número de protones y de electrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "igual número de protones y distinto número de neutrones.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "igual número de neutrones y distinto número de protones.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "distinto número atómico e igual número de masa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 6,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la configuración electrónica del oxígeno en estado fundamental, cuyo número atómico es \\(8\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1s^{2}\\,2s^{2}\\,2p^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(1s^{2}\\,2s^{2}\\,2p^{6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1s^{2}\\,2s^{2}\\,2p^{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(1s^{2}\\,2s^{1}\\,2p^{5}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 7,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El azufre pertenece al grupo 16 de la tabla periódica. ¿Cuántos electrones de valencia tiene en su estado fundamental?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(16\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 8,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El tipo de enlace predominante en el compuesto \\(NaCl\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "covalente no polar.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "metálico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "covalente coordinado.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "iónico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 9,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La molécula de agua, \\(H_{2}O\\), es polar principalmente porque",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "presenta una estructura lineal con enlaces idénticos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "sus enlaces son polares y su geometría molecular es angular.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "contiene únicamente enlaces iónicos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "los átomos de hidrógeno tienen mayor electronegatividad que el oxígeno.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 10,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes elementos tiene la mayor electronegatividad?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sodio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Magnesio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Flúor.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Carbono.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 11,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El compuesto \\(MgO\\) recibe el nombre de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "óxido de magnesio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "hidróxido de magnesio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "peróxido de magnesio.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "ácido magnésico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 12,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el nombre del compuesto \\(Ca(OH)_{2}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Óxido de calcio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Cloruro de calcio.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ácido de calcio.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Hidróxido de calcio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 13,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el resultado de la operación \\((2 + 3i) + (4 - 5i)\\), donde \\(i^{2}=-1\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(6 + 8i\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6 - 2i\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-2 + 8i\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-2 - 2i\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 14,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El valor de la expresión \\(27^{\\frac{2}{3}}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(18\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 15,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(\\sqrt{50}-\\sqrt{8}\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3\\sqrt{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(7\\sqrt{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{42}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(5\\sqrt{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 16,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El desarrollo del binomio \\((2x-3)^{2}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4x^{2}-9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4x^{2}+12x+9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2x^{2}-12x+9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4x^{2}-12x+9\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 17,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el residuo al dividir \\(P(x)=x^{3}-2x+5\\) entre \\(x-2\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(13\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-9\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 18,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica \\(\\frac{x^{2}-9}{x-3}\\), considerando que \\(x\\neq 3\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2}+3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x+3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x+9\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 19,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resuelve la ecuación \\(\\frac{3x-5}{2}=8\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=\\frac{11}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x=\\frac{7}{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 20,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuáles son las raíces de la ecuación \\(x^{2}-7x+12=0\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-3\\) y \\(-4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\) y \\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-2\\) y \\(-6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(3\\) y \\(4\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 21,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El conjunto solución de la desigualdad \\(-2x+5<11\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x<-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x>-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x<3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x>3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 22,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para el sistema \\(2x+y=7\\) y \\(x-y=2\\), el valor de \\(x\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 23,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En general, en la tabla periódica los elementos con mayor carácter metálico se ubican en",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "los periodos superiores.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "los periodos inferiores.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "las columnas de la izquierda.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "las columnas de la derecha.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 24,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántos gramos equivalen a \\(0.5\\ mol\\) de ácido fosfórico, \\(H_{3}PO_{4}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "49",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "96",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "98",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "48",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 25,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Sustancias que al estar en disolución donan protones.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Óxidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ácidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Bases.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Sales.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 26,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En cierto laboratorio, se determinó que la disolución \\(Z\\) tiene un valor de \\(pH = 3\\), por lo cual podemos decir que presenta una concentración de iones \\(H^{+}\\) ______ y una concentración de iones \\(OH^{-}\\) = ______.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\) y \\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\) y \\(11\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(10^{-11}\\) y \\(10^{-3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(10^{-3}\\) y \\(10^{-11}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 27,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una botella de brandy de 946 mL tiene una concentración del 38% en volumen de alcohol. Los mL de alcohol presentes en la botella son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "24.84",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "38.00",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "359.48",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "586.52",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 28,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La oxidación de un elemento no metálico genera",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "oxisales.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "óxidos básicos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "hidróxidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "óxidos ácidos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 29,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de las siguientes ecuaciones químicas representa una reacción que favorece la formación de la lluvia ácida?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C + 2H_{2} \\rightarrow CH_{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(SO_{3} + H_{2}O \\rightarrow H_{2}SO_{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(CO_{2} \\rightarrow C + O_{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(N_{2} + 3H_{2} \\rightarrow 2NH_{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 30,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Nutrimentos que se consumen en forma de almidones y azúcares.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Lípidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Vitaminas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Carbohidratos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Proteínas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 31,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los triglicéridos son un grupo de lípidos caracterizados por tener el grupo funcional",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "éter.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "éster.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "amida.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "alcohol.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 32,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un valor de constante de equilibrio mayor que 1 indica que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "hay mayor formación de productos que de reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "hay mayor formación de reactivos que de productos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el equilibrio se desplaza hacia los reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la reacción química está en equilibrio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 33,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La función principal de un catalizador en una reacción química es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "aumentar la energía de activación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "favorecer la pureza de los productos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "disminuir la energía de activación.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "aumentar la temperatura de los reactivos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 34,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La siguiente estructura representa a un",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p034.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "alqueno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "aromático.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "alquino.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "alcano.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 35,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes compuestos es un ácido carboxílico?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(CH_{3}–C(=O)–OH\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_a.png"
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(CH_{3}–C(=O)–NH_{2}\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_b.png"
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(CH_{3}–CH_{2}–CH_{3}\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_c.png"
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(CH_{3}–C(=O)–OCH_{2}CH_{3}\\)",
+          "imagen": "imagenes_universidad/unam/area2/simulador_1/p035_opcion_d.png"
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": "Las opciones aparecen como estructuras químicas; el texto se transcribió en fórmula condensada."
+    },
+    {
+      "id": 36,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el ácido sulfúrico, \\(H_{2}SO_{4}\\), el número de oxidación del azufre es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(+4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(+6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(+2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 37,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántos moles de agua hay en \\(36\\ g\\) de \\(H_{2}O\\)? Considera una masa molar de \\(18\\ g/mol\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0.5\\ mol\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(1\\ mol\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2\\ mol\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(18\\ mol\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 38,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuántas moléculas hay aproximadamente en \\(0.5\\ mol\\) de \\(CO_{2}\\)? Considera \\(N_{A}=6.022\\times 10^{23}\\ mol^{-1}\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3.011\\times 10^{23}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6.022\\times 10^{23}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1.2044\\times 10^{24}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(1.5055\\times 10^{23}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 39,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se disuelven \\(0.25\\ mol\\) de soluto para preparar \\(0.50\\ L\\) de disolución. ¿Cuál es su concentración molar?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0.125\\ M\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2.0\\ M\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(0.25\\ M\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(0.50\\ M\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 40,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se toman \\(100\\ mL\\) de una disolución \\(2.0\\ M\\) y se agrega agua hasta completar \\(400\\ mL\\). La concentración final es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(8.0\\ M\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(0.50\\ M\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2.0\\ M\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(0.25\\ M\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 41,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una disolución contiene \\(10\\ g\\) de sal disueltos en \\(90\\ g\\) de agua. ¿Cuál es su porcentaje en masa de sal?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(9\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(11.1\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(10\\%\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(90\\%\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 42,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La elevada temperatura de ebullición del agua, comparada con la de otras moléculas de masa similar, se explica principalmente por",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la formación de puentes de hidrógeno entre moléculas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la presencia de enlaces metálicos entre moléculas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la ausencia de fuerzas intermoleculares.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la existencia de enlaces covalentes entre distintas moléculas de agua.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 43,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una reacción completa entre \\(HCl\\) y \\(NaOH\\) en cantidades estequiométricas, los productos principales son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(Na_{2}O\\) y \\(H_{2}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(Cl_{2}\\) y \\(NaH\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(NaOH\\) y \\(H_{2}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(NaCl\\) y \\(H_{2}O\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 44,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A \\(25\\ ^{\\circ}C\\), una disolución acuosa tiene \\(pH=12\\). ¿Cuál es su \\(pOH\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(12\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(14\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 45,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de las siguientes sustancias se clasifica como un ácido fuerte en disolución acuosa diluida?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(CH_{3}COOH\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(H_{2}CO_{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(HCl\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(NH_{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 46,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(\\frac{(a^{2} + b)^{\\frac{3}{2}}}{a^{2} + b}\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{(a^{2} + b)^{5}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((a^{2} + b)^{-\\frac{3}{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{a^{2} + b}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((a^{2} + b)^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 47,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Factoriza la siguiente expresión. \\(n^{6} - 3n^{3} - 18\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((n^{3} + 3)(n^{3} - 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((n^{3} - 3)(n^{3} + 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((n^{3} - 3)(n^{3} - 6)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((n^{3} + 3)(n^{3} + 6)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 48,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la expresión que corresponde a una ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\operatorname{sen}(x) = \\frac{1}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\operatorname{sen}(x)\\operatorname{csc}(x) = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\operatorname{sen}^{2}(x) + \\cos^{2}(x) = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\sec^{2}(x) - \\tan^{2}(x) = 1\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 49,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los valores \\(0\\) y \\(-2\\) son las raíces o soluciones de la ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x(x - 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((x + 2)(x - 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x(x + 2) = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x^{2} - 4 = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 50,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la desigualdad que tiene por solución al siguiente conjunto. \\([\\frac{1}{3}, \\infty)\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3x - 1 \\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3x - 1 \\leq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-3x + 1 \\geq 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-3x + 1 \\leq 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 51,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "A partir del siguiente sistema de ecuaciones obtén el valor de \\(x\\). \\[\\begin{cases} 5x = 4y + 19 \\\\ 7x + 3y = 18 \\end{cases}\\]",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x = -3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = -1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x = 1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x = 3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 52,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La función de la siguiente gráfica está dada por",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p052.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(f(x) = -\\sqrt{-8x - 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(f(x) = \\sqrt{-8x - 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(f(x) = -\\sqrt{-8x + 16}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(f(x) = \\sqrt{-8x + 16}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 53,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En términos de \\(\\operatorname{sen}\\theta\\) y \\(\\cos\\theta\\), \\(\\tan\\theta\\) es igual a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{2\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 54,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para encontrar la medida de los ángulos internos de un triángulo oblicuángulo cuando se conocen las medidas de sus lados se utiliza",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la ley de los cosenos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la ley de los senos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "el teorema de Pitágoras.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "la razón trigonométrica tangente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 55,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el rango de la siguiente función \\(y = e^{5x - 1} + 5\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((\\frac{1}{5}, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((5, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((-5, \\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\([-\\frac{1}{5}, \\infty)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": "La expresión exponencial se transcribió según el OCR disponible; revisar contra imagen si se requiere precisión absoluta."
+    },
+    {
+      "id": 56,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la distancia entre los puntos \\(P(2, 5)\\) y \\(Q(4, -1)\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\sqrt{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\sqrt{10}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\sqrt{10}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 57,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Determina el centro de la circunferencia cuyo diámetro es el segmento \\(A(-3, 2)\\), \\(B(7, 8)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(P(2, 5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(P(5, 5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(P(5, 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(P(-2, 3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 58,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "La ecuación ordinaria de la mediatriz del siguiente triángulo trazada desde el lado AB es",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p058.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y = -3x + 6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y = -3x + 7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y = -2x + 5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y = -2x + 6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 59,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Indica las coordenadas del centro de la circunferencia cuya ecuación general es \\(3x^{2} + 3y^{2} + 12x + 30y + 6 = 0\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C(-4, -10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(C(-2, -5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(C(4, 10)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(C(2, 5)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 60,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la ecuación de la parábola con foco \\(F(1, 0)\\), valor del parámetro \\(P = 1\\) y eje focal paralelo al eje \\(Y\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x^{2} + 4y = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y^{2} - 4x = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2} - 4y = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y^{2} + 4x = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 61,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la ecuación general de la siguiente elipse \\(\\frac{x^{2}}{16} + \\frac{y^{2}}{4} = 1\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4x^{2} + y^{2} - 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x^{2} + 4y^{2} + 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x^{2} + 4y^{2} - 16 = 0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4x^{2} + 4y^{2} + 16 = 0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 62,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para la ecuación de la siguiente hipérbola, si \\(c = 41\\), ¿cuánto vale \\(a\\)? \\(\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{9^{2}} = 1\\)",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a = 1024\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a = 1600\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a = 32\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a = 40\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 63,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si en la ecuación \\(Ax^{2} + Bxy + Cy^{2} + Dx + Ey + F = 0\\) el discriminante \\(B^{2} - 4AC\\) es positivo, entonces la ecuación representa una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "circunferencia.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "parábola.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "elipse.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "hipérbola.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 64,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La condición que debe cumplir \\(x\\) cuando se aproxima a \\(b\\) para que en \\(f(x)\\) exista el límite \\(L\\) es que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x \\neq b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x = b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x > b\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x \\geq b\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 65,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La derivada de \\(y = (2x^{3} + 5)^{4}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y\\prime = 12x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y\\prime = 6x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y\\prime = 8x^{2}(2x^{3} + 5)^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y\\prime = 24x^{2}(2x^{3} + 5)^{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 66,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La posición de una partícula expresada en unidades \\(u\\) está dada por la función de tiempo \\(s\\) \\(f(t) = t^{3} - t + 1\\). Considerando \\(t = 3\\), ¿cuál es su aceleración en \\(u/s^{2}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(24\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(26\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(17\\ u/s^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(18\\ u/s^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 67,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La expresión \\(f(t) = \\cos(2t + 3)\\) es una función de posición de movimiento armónico. La expresión para la aceleración es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(a(t) = -4\\cos(2t - 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(a(t) = \\cos(2t + 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(a(t) = -\\cos(2t + 3)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(a(t) = -4\\cos(2t + 3)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 68,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "mixta",
+        "contenido": "De acuerdo con la siguiente imagen ¿qué características de la función nos permite determinar si es integrable o no?",
+        "imagen": "imagenes_universidad/unam/area2/simulador_1/p068.png"
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "No es integrable porque está acotada pero su número de discontinuidades es infinito.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Sí es integrable porque está acotada y su número de discontinuidades es finito.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Sí es integrable porque está acotada y su número de discontinuidades es finito.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "No es integrable porque no está acotada aun cuando su número de discontinuidades es finito.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": "La opción B y C aparecen muy similares en el OCR; revisar la imagen para confirmar el texto exacto."
+    },
+    {
+      "id": 69,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La integral \\(\\int(2\\operatorname{sen}x + 3\\cos x)\\,dx\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\operatorname{sen} x + \\cos x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\operatorname{sen} x - \\cos x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2\\cos x + 3\\operatorname{sen} x + C\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(-2\\cos x + 3\\operatorname{sen} x + C\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 70,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(x+y+z=6\\), \\(x-y=2\\) y \\(y+z=4\\), entonces el valor de \\(x\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 71,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Sean \\(f(x)=2x+1\\) y \\(g(x)=x^{2}-3\\). Calcula \\((f\\circ g)(2)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 72,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el dominio real de la función \\(f(x)=\\sqrt{x-4}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((4,\\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\([4,\\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((-\\infty,4]\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\mathbb{R}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 73,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El rango de la función \\(f(x)=-(x-2)^{2}+5\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\([5,\\infty)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((-\\infty,5)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((-\\infty,5]\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\mathbb{R}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 74,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La medida de un ángulo de \\(150^{\\circ}\\) expresada en radianes es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{5\\pi}{6}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{3\\pi}{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2\\pi}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{5\\pi}{3}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 75,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(\\operatorname{sen}\\theta=\\frac{3}{5}\\) y \\(\\theta\\) es un ángulo agudo, entonces \\(\\cos\\theta\\) es igual a",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{3}{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{5}{4}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{5}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{4}{5}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 76,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dos lados de un triángulo miden \\(5\\) y \\(7\\) unidades, y el ángulo comprendido entre ellos es de \\(60^{\\circ}\\). ¿Cuánto mide el tercer lado?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\sqrt{74}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\sqrt{39}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\sqrt{24}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 77,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el periodo fundamental de la función \\(f(x)=\\operatorname{sen}(3x)\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3\\pi\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{\\pi}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{2\\pi}{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(6\\pi\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 78,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El valor de \\(\\log_{2}32\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(16\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 79,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resuelve la ecuación \\(\\log_{3}(x-1)=2\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=9\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x=10\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 80,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(2^{x+1}=16\\), ¿cuál es el valor de \\(x\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(5\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 81,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula la pendiente de la recta que pasa por \\(A(-2,1)\\) y \\(B(4,7)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(-1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{1}{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 82,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ecuación de la recta que pasa por \\((1,3)\\) y tiene pendiente \\(-2\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y=-2x+5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y=2x+1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y=-2x+1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y=2x+5\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 83,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la distancia del punto \\(P(3,-1)\\) a la recta \\(3x+4y-12=0\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{3}{5}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{5}{7}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{7}{5}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 84,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la ecuación de la circunferencia con centro \\(C(2,-3)\\) y radio \\(4\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((x+2)^{2}+(y-3)^{2}=16\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((x-2)^{2}+(y+3)^{2}=16\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((x-2)^{2}+(y+3)^{2}=4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((x+2)^{2}+(y-3)^{2}=4\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 85,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La parábola con vértice \\(V(1,-2)\\) y foco \\(F(1,0)\\) tiene por ecuación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\((y+2)^{2}=8(x-1)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\((x-1)^{2}=4(y+2)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\((x-1)^{2}=8(y+2)\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\((x+1)^{2}=8(y-2)\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 86,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la elipse \\(\\frac{x^{2}}{25}+\\frac{y^{2}}{9}=1\\), la distancia del centro a cada foco es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\sqrt{34}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 87,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las asíntotas de la hipérbola \\(\\frac{x^{2}}{16}-\\frac{y^{2}}{9}=1\\) son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y=\\pm\\frac{4}{3}x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y=\\pm\\frac{9}{16}x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y=\\pm\\frac{16}{9}x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(y=\\pm\\frac{3}{4}x\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 88,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el proceso \\(Fe^{2+}\\rightarrow Fe^{3+}+e^{-}\\), el ion hierro experimenta una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "oxidación, porque pierde un electrón.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "reducción, porque gana un electrón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "neutralización, porque cede un protón.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "precipitación, porque forma un sólido.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 89,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la ecuación balanceada \\(\\square\\,Al+\\square\\,Cl_{2}\\rightarrow\\square\\,AlCl_{3}\\), los coeficientes de \\(Al\\) y \\(Cl_{2}\\), respectivamente, son",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\) y \\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\) y \\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(3\\) y \\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(2\\) y \\(3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 90,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la combustión completa del metano, \\(CH_{4}+\\_\\,O_{2}\\rightarrow CO_{2}+2H_{2}O\\), el coeficiente que corresponde al oxígeno molecular es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(4\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 91,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes compuestos se clasifica como un óxido básico?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(CO_{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(SO_{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(CaO\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(N_{2}O_{5}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 92,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La reacción \\(SO_{2}+H_{2}O\\rightarrow H_{2}SO_{3}\\) produce",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "ácido sulfuroso.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "ácido sulfúrico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "ácido sulfhídrico.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "sulfato de hidrógeno.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 93,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el gas más abundante en el aire seco de la atmósfera terrestre?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Oxígeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dióxido de carbono.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Argón.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Nitrógeno.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 94,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La toxicidad del monóxido de carbono se relaciona principalmente con su capacidad para",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "aumentar directamente el oxígeno disuelto en sangre.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "unirse a la hemoglobina y dificultar el transporte de oxígeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "producir enlaces peptídicos en los pulmones.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "transformarse inmediatamente en ozono dentro de la sangre.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 95,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una reacción exotérmica, a presión constante, se caracteriza por tener",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\Delta H>0\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\Delta H=0\\) necesariamente.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\Delta H<0\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\Delta H=\\Delta S\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 96,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En muchas reacciones químicas, un aumento de temperatura incrementa la rapidez de reacción debido a que",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "una mayor proporción de choques supera la energía de activación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "el número de átomos de cada molécula disminuye.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la energía de activación de la reacción siempre se anula.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "los productos se transforman necesariamente en catalizadores.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 97,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En el equilibrio gaseoso \\(N_{2}+3H_{2}\\rightleftharpoons 2NH_{3}\\), ¿qué ocurre al aumentar la presión mediante una disminución del volumen a temperatura constante?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Se favorece la formación de reactivos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Se elimina el equilibrio químico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "No cambia la posición de equilibrio.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Se favorece la formación de amoniaco.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 98,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para la reacción \\(A+2B\\rightleftharpoons C\\), todas las especies en fase gaseosa, la expresión de \\(K_{c}\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{[A][B]^{2}}{[C]}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{[C]}{[A][B]^{2}}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac{[C]^{2}}{[A][B]}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{[A]+2[B]}{[C]}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 99,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de los siguientes compuestos es un monosacárido?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sacarosa.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Almidón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Glucosa.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Celulosa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 100,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El enlace que une dos aminoácidos para formar parte de una cadena proteica se denomina",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "peptídico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "glucosídico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "éster.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "fosfodiéster.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 101,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La ecuación \\(4x^{2}+9y^{2}-36=0\\) representa una",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "hipérbola.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "elipse.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "parábola.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "recta.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 102,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula \\(\\displaystyle\\lim_{x\\to 3}\\frac{x^{2}-9}{x-3}\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(9\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 103,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Sea \\(f(x)=x+1\\) si \\(x<2\\), y \\(f(x)=k\\) si \\(x\\geq 2\\). ¿Qué valor debe tomar \\(k\\) para que la función sea continua en \\(x=2\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(1\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(0\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 104,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La derivada de la función \\(y=3x^{4}-5x^{2}+1\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(12x^{4}-10x^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(7x^{3}-5x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(12x^{3}-5x\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(12x^{3}-10x\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 105,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Obtén la derivada de \\(f(x)=(x^{2}+1)^{3}\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(3(x^{2}+1)^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6x(x^{2}+1)^{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(6x(x^{2}+1)^{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(3x(x^{2}+1)^{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 106,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(x^{2}+y^{2}=25\\), entonces la derivada \\(\\frac{dy}{dx}\\) en los puntos con \\(y\\neq 0\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac{x}{y}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-\\frac{y}{x}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-\\frac{x}{y}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(\\frac{y}{x}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 107,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula el valor de la integral \\(\\displaystyle\\int_{0}^{2}3x^{2}\\,dx\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(8\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(12\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(24\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 108,
+      "materia": "Matemáticas",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿En qué valor de \\(x\\) la función \\(f(x)=-x^{2}+6x-5\\) alcanza su máximo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x=-3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x=6\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x=5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(x=3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 109,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La saponificación de un triglicérido con una base fuerte produce principalmente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "aminoácidos y agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "monosacáridos y alcoholes.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "proteínas y sales minerales.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "glicerol y sales de ácidos grasos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 110,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿A qué grupo funcional pertenece el compuesto \\(CH_{3}-O-CH_{3}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Alcohol.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Éter.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aldehído.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "Cetona.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 111,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En la molécula de eteno, \\(CH_{2}=CH_{2}\\), cada átomo de carbono presenta hibridación",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(sp\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(sp^{3}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(sp^{2}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(sp^{3}d\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 112,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La fórmula general de los alcanos acíclicos saturados es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(C_{n}H_{2n+2}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(C_{n}H_{2n}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(C_{n}H_{2n-2}\\).",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(C_{n}H_{n}\\).",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 113,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El nombre sistemático del compuesto \\(CH_{3}-CH_{2}-CH_{2}-OH\\) es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "propan-2-ol.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "propanal.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "propanoato de metilo.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "propan-1-ol.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 114,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El butano y el 2-metilpropano, ambos con fórmula molecular \\(C_{4}H_{10}\\), son ejemplos de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "isótopos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "isómeros de cadena.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "isómeros geométricos cis-trans.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "alótropos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 115,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La adición de \\(HBr\\) a una molécula de eteno, \\(CH_{2}=CH_{2}\\), produce principalmente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "etano.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "bromoformo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "bromoetano.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "etanol.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 116,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La deshidratación intramolecular del etanol, en condiciones adecuadas, forma principalmente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "eteno y agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "etano y oxígeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "ácido etanoico e hidrógeno.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "metano y dióxido de carbono.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 117,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La oxidación controlada de un alcohol primario como el etanol puede producir inicialmente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "propanona.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "eteno.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "etano.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "etanal.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "D",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 118,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál de las siguientes fórmulas corresponde a una cetona?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(CH_{3}-CHO\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(CH_{3}-CO-CH_{3}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(CH_{3}-CH_{2}-OH\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "\\(CH_{3}-COOH\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 119,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La reacción de ácido etanoico con etanol, en presencia de un catalizador ácido, produce principalmente",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "metanol y dióxido de carbono.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "etanal y agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "etanoato de etilo y agua.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "ácido propanoico y metano.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "",
+      "observaciones": ""
+    },
+    {
+      "id": 120,
+      "materia": "Química",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El polímero que se obtiene por polimerización por adición de numerosas moléculas de eteno es",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "polietileno.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "almidón.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "nailon 6,6.",
+          "imagen": null
+        },
+        {
+          "inciso": "D",
+          "texto": "celulosa.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "",
+      "observaciones": ""
+    }
+  ]
+}
