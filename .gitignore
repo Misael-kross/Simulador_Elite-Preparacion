@@ -1,0 +1,44 @@
+# ============================================
+# Plataforma ELITE V2
+# Archivos que NO deben subirse al repositorio
+# ============================================
+
+# Variables y secretos
+.env
+.env.*
+!.env.example
+secrets.*
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Django
+*.log
+*.sqlite3
+staticfiles/
+
+# Archivos cargados dinámicamente por usuarios/aplicación
+/media/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.tmp
+*.temp
+*.bak
+*~
