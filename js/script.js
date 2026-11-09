@@ -15,6 +15,20 @@ let respuestasOcultasActivadas = true;
 let respuestaVisible = null;
 let configuracionEsPorMateria = false;
 
+/* ==========================================
+   PROTECCIÓN CONTRA SALIDA ACCIDENTAL
+   ========================================== */
+
+let examenEnCurso = false;
+
+window.addEventListener("beforeunload", function (event) {
+  if (!examenEnCurso) return;
+
+  event.preventDefault();
+  event.returnValue = true;
+});
+
+
 const rutasBase = {
   ECOEMS: "preguntas/ecoems/",
   "CENEVAL EXANI I": "preguntas/ceneval_exani_i/",
@@ -548,9 +562,12 @@ function iniciarExamenDesdeConfig() {
     document.getElementById("contador").classList.add("oculto");
   }
 
-  mostrarSeccion("examen");
-  crearIndicePreguntas();
-  cargarPregunta();
+examenEnCurso = true;
+
+mostrarSeccion("examen");
+crearIndicePreguntas();
+cargarPregunta();
+
 }
 
 function actualizarVistaContador() {
@@ -826,8 +843,12 @@ function finalizarExamen(finalizadoPorTiempo) {
     contenedorMaterias.appendChild(div);
   });
 
-  renderizarMatematicas(document.getElementById("resultados"));
-  mostrarSeccion("resultados");
+renderizarMatematicas(document.getElementById("resultados"));
+
+examenEnCurso = false;
+
+mostrarSeccion("resultados");
+
 }
 
 function mostrarRevision() {
