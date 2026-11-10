@@ -29,6 +29,7 @@ services:
 
     volumes:
       - ../backend:/app
+      - ../media:/media
 
     ports:
       - "8001:8000"
