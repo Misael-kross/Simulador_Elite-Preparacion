@@ -1,10 +1,11 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.views import LoginView
-from django.db.models import Q
 from django.shortcuts import render
-from django.utils import timezone
 
-from access_control.models import AccessGrant
+from access_control.services import (
+    get_valid_access_grants,
+    user_has_product,
+)
 
 
 class EliteLoginView(LoginView):
@@ -12,22 +13,9 @@ class EliteLoginView(LoginView):
     redirect_authenticated_user = True
 
 
-def get_current_access_grants(user):
-    now = timezone.now()
-
-    return AccessGrant.objects.filter(
-        user=user,
-        is_active=True,
-        starts_at__lte=now,
-    ).filter(
-        Q(expires_at__isnull=True)
-        | Q(expires_at__gt=now)
-    ).select_related("product")
-
-
 @login_required
 def dashboard(request):
-    access_grants = get_current_access_grants(
+    access_grants = get_valid_access_grants(
         request.user
     )
 
@@ -41,12 +29,11 @@ def dashboard(request):
 
 
 @login_required
-def protected_content(request):
-    access_grants = get_current_access_grants(
-        request.user
-    )
-
-    if not access_grants.exists():
+def bachillerato(request):
+    if not user_has_product(
+        request.user,
+        "BACHILLERATO",
+    ):
         return render(
             request,
             "accounts/access_denied.html",
@@ -55,8 +42,23 @@ def protected_content(request):
 
     return render(
         request,
-        "accounts/protected_content.html",
-        {
-            "access_grants": access_grants,
-        },
+        "accounts/bachillerato.html",
+    )
+
+
+@login_required
+def universidad(request):
+    if not user_has_product(
+        request.user,
+        "UNIVERSIDAD",
+    ):
+        return render(
+            request,
+            "accounts/access_denied.html",
+            status=403,
+        )
+
+    return render(
+        request,
+        "accounts/universidad.html",
     )

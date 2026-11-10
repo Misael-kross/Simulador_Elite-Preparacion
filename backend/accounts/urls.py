@@ -3,9 +3,11 @@ from django.urls import path
 
 from .views import (
     EliteLoginView,
+    bachillerato,
     dashboard,
-    protected_content,
+    universidad,
 )
+
 
 urlpatterns = [
     path(
@@ -13,19 +15,28 @@ urlpatterns = [
         EliteLoginView.as_view(),
         name="login",
     ),
+
     path(
         "logout/",
         LogoutView.as_view(),
         name="logout",
     ),
+
     path(
         "",
         dashboard,
         name="dashboard",
     ),
+
     path(
-        "contenido/",
-        protected_content,
-        name="protected_content",
+        "bachillerato/",
+        bachillerato,
+        name="bachillerato",
+    ),
+
+    path(
+        "universidad/",
+        universidad,
+        name="universidad",
     ),
 ]

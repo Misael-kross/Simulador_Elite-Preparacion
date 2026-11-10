@@ -20,45 +20,52 @@
         <strong>{{ user.username }}</strong>
     </p>
 
-    <h2>Accesos vigentes</h2>
+<h2>Accesos vigentes</h2>
 
-    {% if access_grants %}
+{% if access_grants %}
 
-        <ul>
-            {% for grant in access_grants %}
+    <ul>
 
-                <li>
+        {% for grant in access_grants %}
+
+            <li>
+
+                <strong>
                     {{ grant.product.name }}
+                </strong>
 
-                    {% if grant.expires_at %}
-                        — vence:
-                        {{ grant.expires_at }}
-                    {% else %}
-                        — sin vencimiento
-                    {% endif %}
-                </li>
+                {% if grant.expires_at %}
+                    — vence {{ grant.expires_at }}
+                {% else %}
+                    — sin vencimiento
+                {% endif %}
 
-            {% endfor %}
-        </ul>
+                {% if grant.product.code == "BACHILLERATO" %}
+                    — <a href="/bachillerato/">Entrar</a>
+                {% endif %}
 
-        <p>
-            <a href="/contenido/">
-                Entrar al contenido
-            </a>
-        </p>
+                {% if grant.product.code == "UNIVERSIDAD" %}
+                    — <a href="/universidad/">Entrar</a>
+                {% endif %}
 
-    {% else %}
+            </li>
 
-        <p>
-            Actualmente no tienes accesos vigentes.
-        </p>
+        {% endfor %}
 
-        <p>
-            Tu cuenta permanece disponible para
-            consultar resultados históricos.
-        </p>
+    </ul>
 
-    {% endif %}
+{% else %}
+
+    <p>
+        Actualmente no tienes accesos vigentes.
+    </p>
+
+    <p>
+        Tu cuenta permanece disponible para
+        consultar resultados históricos.
+    </p>
+
+{% endif %}
 
     <hr>
 
