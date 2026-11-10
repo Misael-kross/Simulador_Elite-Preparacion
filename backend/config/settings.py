@@ -37,7 +37,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
-    "accounts",
+    "accounts.apps.AccountsConfig",
     "access_control",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -53,6 +53,9 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+
+    'accounts.middleware.SingleActiveSessionMiddleware',
+
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
