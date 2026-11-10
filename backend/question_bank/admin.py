@@ -134,6 +134,11 @@ class QuestionAdmin(admin.ModelAdmin):
         "status",
     )
 
+    search_fields = (
+        "id",
+        "versions__content",
+    )
+
     inlines = (
         QuestionContextInline,
     )

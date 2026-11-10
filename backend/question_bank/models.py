@@ -225,7 +225,8 @@ class QuestionContext(models.Model):
                     "subject",
                     "unit",
                 ],
-                name="unique_question_academic_context",
+                 name="unique_question_academic_context",
+                 nulls_distinct=False,
             ),
         ]
 
@@ -249,7 +250,7 @@ class QuestionVersion(models.Model):
     )
 
     version = models.PositiveIntegerField(
-        default=1,
+        default=1
     )
 
     question_type = models.CharField(
@@ -267,15 +268,23 @@ class QuestionVersion(models.Model):
     )
 
     explanation = models.TextField(
-        blank=True,
+        blank=True
     )
 
     observations = models.TextField(
-        blank=True,
+        blank=True
+    )
+
+    needs_review = models.BooleanField(
+        default=False
+    )
+
+    review_notes = models.TextField(
+        blank=True
     )
 
     created_at = models.DateTimeField(
-        auto_now_add=True,
+        auto_now_add=True
     )
 
     class Meta:
@@ -291,7 +300,7 @@ class QuestionVersion(models.Model):
                     "version",
                 ],
                 name="unique_question_version",
-            ),
+            )
         ]
 
     def __str__(self):

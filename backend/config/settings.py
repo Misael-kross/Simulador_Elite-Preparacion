@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",
     "access_control",
     "question_bank",
+    "exam_engine",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
