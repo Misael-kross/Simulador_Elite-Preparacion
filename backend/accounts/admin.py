@@ -1,7 +1,25 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
+from access_control.models import AccessGrant
 from .models import ActiveSession, User
+
+
+class AccessGrantInline(admin.TabularInline):
+    model = AccessGrant
+    extra = 1
+
+    autocomplete_fields = (
+        "product",
+    )
+
+    fields = (
+        "product",
+        "starts_at",
+        "expires_at",
+        "is_active",
+        "notes",
+    )
 
 
 @admin.register(User)
@@ -24,6 +42,10 @@ class EliteUserAdmin(UserAdmin):
 
     search_fields = ("username",)
     ordering = ("username",)
+
+    inlines = (
+        AccessGrantInline,
+    )
 
 
 @admin.action(description="Forzar cierre de las sesiones seleccionadas")

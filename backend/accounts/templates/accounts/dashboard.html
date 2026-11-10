@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Mi cuenta | ELITE</title>
+</head>
+
+<body>
+
+    <h1>Plataforma ELITE</h1>
+
+    <p>
+        Sesión iniciada como:
+        <strong>{{ user.username }}</strong>
+    </p>
+
+    <h2>Accesos vigentes</h2>
+
+    {% if access_grants %}
+
+        <ul>
+            {% for grant in access_grants %}
+
+                <li>
+                    {{ grant.product.name }}
+
+                    {% if grant.expires_at %}
+                        — vence:
+                        {{ grant.expires_at }}
+                    {% else %}
+                        — sin vencimiento
+                    {% endif %}
+                </li>
+
+            {% endfor %}
+        </ul>
+
+        <p>
+            <a href="/contenido/">
+                Entrar al contenido
+            </a>
+        </p>
+
+    {% else %}
+
+        <p>
+            Actualmente no tienes accesos vigentes.
+        </p>
+
+        <p>
+            Tu cuenta permanece disponible para
+            consultar resultados históricos.
+        </p>
+
+    {% endif %}
+
+    <hr>
+
+    <p>
+        Resultados:
+        <em>se implementarán en una fase posterior.</em>
+    </p>
+
+    <form
+        method="post"
+        action="/logout/"
+    >
+        {% csrf_token %}
+
+        <button type="submit">
+            Cerrar sesión
+        </button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Acceso | Simulador ELITE</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #081525;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-card {
+            width: min(420px, 92%);
+            padding: 36px;
+            background: #10243d;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #f4c542;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #b8c7da;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 16px;
+            margin-bottom: 6px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #365274;
+            border-radius: 8px;
+            background: #091a2d;
+            color: white;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 24px;
+            padding: 13px;
+            border: 0;
+            border-radius: 8px;
+            background: #1c6ca1;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2584c3;
+        }
+
+        .error {
+            padding: 10px;
+            border-radius: 8px;
+            background: #6d1e26;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="login-card">
+
+    <h1>Simulador ELITE</h1>
+
+    <p class="subtitle">
+        Acceso a la plataforma
+    </p>
+
+    {% if form.errors %}
+        <div class="error">
+            Usuario o contraseña incorrectos.
+        </div>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+
+        <label for="id_username">
+            Usuario
+        </label>
+
+        {{ form.username }}
+
+        <label for="id_password">
+            Contraseña
+        </label>
+
+        {{ form.password }}
+
+        {% if next %}
+            <input
+                type="hidden"
+                name="next"
+                value="{{ next }}"
+            >
+        {% endif %}
+
+        <button type="submit">
+            Ingresar
+        </button>
+    </form>
+
+</div>
+
+</body>
+</html>

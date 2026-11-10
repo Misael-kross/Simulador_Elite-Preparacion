@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contenido | ELITE</title>
+</head>
+
+<body>
+
+    <h1>Contenido autorizado</h1>
+
+    <p>
+        Usuario:
+        <strong>{{ user.username }}</strong>
+    </p>
+
+    <h2>Productos disponibles</h2>
+
+    <ul>
+        {% for grant in access_grants %}
+            <li>
+                {{ grant.product.name }}
+            </li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        Aquí conectaremos posteriormente
+        la biblioteca del simulador.
+    </p>
+
+    <p>
+        <a href="/">
+            Regresar
+        </a>
+    </p>
+
+</body>
+</html>
