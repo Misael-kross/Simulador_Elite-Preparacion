@@ -42,3 +42,5 @@ Thumbs.db
 *.temp
 *.bak
 *~
+# Reportes generados
+/reports/*.json

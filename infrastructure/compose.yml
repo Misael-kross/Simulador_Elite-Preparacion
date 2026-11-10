@@ -28,8 +28,10 @@ services:
       - ../.env
 
     volumes:
-      - ../backend:/app
-      - ../media:/media
+    - ../backend:/app
+    - ../media:/media
+    - ../frontend:/legacy_frontend:ro
+    - ../reports:/reports
 
     ports:
       - "8001:8000"
