@@ -1,0 +1,4018 @@
+{
+  "nombre": "Simulador 1 UAEH Administración EXANI-II (sin inglés)",
+  "nivel": "Universidad",
+  "institucion": "UAEH",
+  "version": "1.0",
+  "configuracion": {
+    "duracion_minutos": 270,
+    "contador_permitido": true,
+    "contador_activo_por_defecto": false,
+    "cerrar_automaticamente": true,
+    "permitir_revision": true,
+    "mostrar_resultados_por_materia": true
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una fábrica estudia los movimientos de cada operario, estandariza tareas y paga incentivos según el rendimiento. ¿Qué enfoque administrativo predomina?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Relaciones humanas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Administración científica",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Teoría de sistemas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La administración científica de Frederick Taylor analiza métodos, tiempos y movimientos para elevar la eficiencia del trabajo. El enfoque de relaciones humanas prioriza factores sociales y el de sistemas considera interdependencias de toda la organización.",
+      "observaciones": "Subárea: Fundamentos | Tema: Enfoques de la administración | Dificultad orientativa: Media"
+    },
+    {
+      "id": 2,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un gerente considera que un cambio en compras afecta producción, inventarios y ventas, y que debe analizarse la empresa como un conjunto interrelacionado. ¿Qué teoría aplica?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Administración científica",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Teoría de sistemas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Teoría burocrática",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El enfoque de sistemas concibe la organización como partes interdependientes que interactúan entre sí y con el entorno. Una decisión en compras puede modificar otras áreas; no se limita a reglas formales ni a tareas individuales.",
+      "observaciones": "Subárea: Fundamentos | Tema: Enfoques de la administración | Dificultad orientativa: Media"
+    },
+    {
+      "id": 3,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una organización establece reglas escritas, división clara de funciones y autoridad basada en los cargos para disminuir decisiones arbitrarias. ¿Qué enfoque se identifica?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Escuela conductual",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Teoría de relaciones humanas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Modelo burocrático",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La burocracia propuesta por Max Weber enfatiza normas formales, jerarquías y funciones definidas para dar previsibilidad. Las relaciones humanas se concentran en el grupo y la motivación, no principalmente en la formalización.",
+      "observaciones": "Subárea: Fundamentos | Tema: Enfoques de la administración | Dificultad orientativa: Media"
+    },
+    {
+      "id": 4,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una empresa privada produce y vende muebles con el propósito de obtener utilidades. Según la finalidad de sus operaciones, es una organización",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "gubernamental",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "no lucrativa",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "lucrativa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Una organización lucrativa busca obtener excedentes para sus propietarios mediante actividades económicas. Una asociación no lucrativa puede ingresar recursos, pero no distribuye utilidades como objetivo central; una institución gubernamental pertenece al sector público.",
+      "observaciones": "Subárea: Fundamentos | Tema: Clasificación de las organizaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 5,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una cooperativa pertenece a sus socios, quienes participan en la toma de decisiones y distribuyen excedentes conforme a sus reglas. ¿Qué criterio la distingue de una empresa individual?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sector económico",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Forma de propiedad y organización",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ubicación geográfica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La cooperativa es una forma de organización y propiedad colectiva de sus socios. No se define por trabajar exclusivamente en un sector económico o por localizarse en una región determinada.",
+      "observaciones": "Subárea: Fundamentos | Tema: Clasificación de las organizaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 6,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una panificadora detecta retrasos por falta de harina y modifica la recepción y transformación de insumos. ¿Qué área funcional debe dirigir la mejora?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Recursos humanos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Producción",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Mercadotecnia",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Producción administra la transformación de insumos en bienes y el flujo operativo necesario. Mercadotecnia analiza mercados y ventas; recursos humanos atiende la gestión del personal.",
+      "observaciones": "Subárea: Fundamentos | Tema: Áreas funcionales | Dificultad orientativa: Media"
+    },
+    {
+      "id": 7,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una empresa necesita evaluar el flujo de efectivo y elegir entre financiar maquinaria con un crédito o con recursos propios. ¿Qué área lidera el análisis?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Finanzas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Mercadotecnia",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Producción",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Finanzas planea y administra los recursos monetarios, la liquidez y las fuentes de financiamiento. Producción se ocupa de fabricar y Mercadotecnia de atender el mercado y comercializar.",
+      "observaciones": "Subárea: Fundamentos | Tema: Áreas funcionales | Dificultad orientativa: Media"
+    },
+    {
+      "id": 8,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para disminuir la rotación, una empresa diseña un programa de inducción, evaluación de desempeño y capacitación. ¿Qué área es responsable?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Operaciones comerciales",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Finanzas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Recursos humanos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Recursos humanos se encarga del reclutamiento, la integración, la capacitación y el desarrollo del personal. Las otras áreas pueden aportar información, pero no son las principales responsables de esas tareas.",
+      "observaciones": "Subárea: Fundamentos | Tema: Áreas funcionales | Dificultad orientativa: Media"
+    },
+    {
+      "id": 9,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Antes de abrir una cafetería, una emprendedora entrevista a clientes potenciales, compara competidores y comprueba si pagarían por su propuesta. ¿Qué actividad realiza?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Validación de mercado",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Estandarización de procesos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Auditoría financiera",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Validar el mercado implica comprobar una necesidad real, la aceptación de la propuesta y la disposición a pagar antes de invertir a gran escala. Estandarizar procesos o auditar finanzas corresponde a otras etapas.",
+      "observaciones": "Subárea: Fundamentos | Tema: Emprendimiento | Dificultad orientativa: Media"
+    },
+    {
+      "id": 10,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una persona crea un negocio que ofrece productos reutilizables y busca simultáneamente ingresos y una reducción verificable de residuos. ¿Qué orientación emprendedora ilustra?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Franquicia exclusivamente comercial",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Emprendimiento con impacto ambiental",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Intraemprendimiento dentro de una empresa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Combina viabilidad económica con la búsqueda deliberada de un beneficio ambiental medible. No se indica que use una franquicia ni que el proyecto se desarrolle como iniciativa dentro de una empresa existente.",
+      "observaciones": "Subárea: Fundamentos | Tema: Emprendimiento | Dificultad orientativa: Media"
+    },
+    {
+      "id": 11,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una empresa fija como meta reducir 12 % las devoluciones en seis meses e identifica acciones, recursos y responsables. ¿Qué etapa del proceso administrativo predomina?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Dirección",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Control",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Planeación",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "En la planeación se definen objetivos futuros y los medios para alcanzarlos. El control compara resultados con metas después o durante la ejecución, y la dirección moviliza a las personas para actuar.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Planeación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 12,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La administración de una tienda decide que su prioridad es ofrecer atención rápida y confiable durante los próximos cinco años. Ese enunciado expresa principalmente su",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "presupuesto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "procedimiento",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "visión",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La visión describe una situación futura deseada y orienta la dirección de largo plazo. Un presupuesto asigna recursos cuantificados; un procedimiento detalla pasos concretos para ejecutar tareas.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Planeación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 13,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una empresa identifica como fortaleza su red de distribución y como amenaza la entrada de nuevos competidores. ¿Qué herramienta utiliza?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Análisis FODA",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Organigrama funcional",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Diagrama de flujo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "FODA organiza factores internos (fortalezas y debilidades) y externos (oportunidades y amenazas). Un organigrama representa relaciones jerárquicas y un diagrama de flujo describe la secuencia de actividades.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Planeación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 14,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál objetivo está mejor redactado para facilitar su evaluación?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Aumentar de 80 % a 90 % la satisfacción del cliente antes de diciembre",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Mejorar bastante la atención algún día",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ser la mejor empresa que haya existido",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La segunda opción establece indicador, punto de partida, meta cuantificable y plazo. Esto permite comprobar si se cumplió el objetivo; las otras formulaciones son vagas o no fijan criterios verificables.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Planeación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 15,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La dirección divide las actividades en compras, producción, ventas y contabilidad, y agrupa los puestos según su especialidad. ¿Qué técnica aplica?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Departamentalización geográfica",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Departamentalización funcional",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Organización por clientes",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La departamentalización funcional agrupa actividades semejantes por especialidad: compras, producción o ventas. El criterio geográfico utiliza regiones y el de clientes, segmentos atendidos.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Organización | Dificultad orientativa: Media"
+    },
+    {
+      "id": 16,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un organigrama, cada vendedor reporta directamente a dos jefaturas diferentes sin claridad sobre quién autoriza permisos. ¿Qué principio se vulnera?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "División del trabajo",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Especialización",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Unidad de mando",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La unidad de mando recomienda que cada colaborador reciba instrucciones de una autoridad directa definida para evitar órdenes contradictorias. La división del trabajo se refiere al reparto de actividades y la especialización a la concentración en tareas.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Organización | Dificultad orientativa: Media"
+    },
+    {
+      "id": 17,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La gerente de una pequeña empresa asigna a un supervisor la facultad de aprobar pedidos dentro de un límite, pero conserva la obligación de evaluar los resultados. Esto ejemplifica",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "delegación de autoridad",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "centralización absoluta",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "eliminación de responsabilidades",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Delegar implica transferir facultades para decidir o ejecutar tareas dentro de límites establecidos. Aunque el supervisor responde por su gestión, quien delega conserva responsabilidad de supervisión y rendición de cuentas.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Organización | Dificultad orientativa: Media"
+    },
+    {
+      "id": 18,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La empresa documenta: recibir pedido, verificar existencias, emitir factura y programar entrega. ¿Qué técnica permite mostrar claramente la secuencia de decisiones y actividades?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Balance general",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Matriz FODA",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Diagrama de flujo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "El diagrama de flujo representa pasos y puntos de decisión en un proceso mediante símbolos y conexiones. Un balance general describe situación financiera y FODA identifica factores estratégicos.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Organización | Dificultad orientativa: Media"
+    },
+    {
+      "id": 19,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una coordinadora reúne a su equipo, escucha dificultades, aclara expectativas y reconoce propuestas para alcanzar una meta. ¿Qué función administrativa ejerce principalmente?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Control contable",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Dirección",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Planeación financiera",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La dirección incluye liderazgo, motivación y comunicación para orientar esfuerzos hacia objetivos comunes. Aunque la coordinadora usa información, su acción central es movilizar al personal, no elaborar presupuestos o auditar cifras.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Dirección | Dificultad orientativa: Media"
+    },
+    {
+      "id": 20,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un supervisor pregunta a su equipo por soluciones y después toma una decisión considerando esas aportaciones. ¿Qué estilo de liderazgo se observa?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Participativo o democrático",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Autocrático rígido",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Laissez-faire sin intervención",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El liderazgo participativo incorpora opiniones de los colaboradores en la decisión. No equivale a delegar toda decisión ni a imponerla sin consulta, como sucede en los estilos laissez-faire y autocrático, respectivamente.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Dirección | Dificultad orientativa: Media"
+    },
+    {
+      "id": 21,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Durante una crisis operativa, la gerente informa la prioridad, asigna responsables y verifica que todos comprendan el mensaje. ¿Qué elemento de dirección busca fortalecer?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Contabilidad de costos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Diseño de puestos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Comunicación organizacional",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La comunicación eficaz permite transmitir objetivos, instrucciones y retroalimentación con claridad. Asignar funciones puede relacionarse con organización, pero aquí destaca asegurar comprensión y coordinación durante la ejecución.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Dirección | Dificultad orientativa: Media"
+    },
+    {
+      "id": 22,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una fábrica esperaba producir 500 piezas diarias, pero obtuvo 455. La jefatura compara el resultado, identifica fallas y propone ajustes. ¿Qué etapa está ejecutando?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Control",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Organización",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Emprendimiento",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Control consiste en establecer o usar estándares, medir resultados, comparar desviaciones y corregirlas. Aquí el estándar es 500 piezas y la diferencia observada es de 45 piezas por día.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Control | Dificultad orientativa: Media"
+    },
+    {
+      "id": 23,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se inspecciona la calidad de la materia prima antes de iniciar la producción para evitar defectos posteriores. ¿Qué tipo de control es?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Exclusivamente posterior",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Preventivo o preliminar",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Correctivo al final del proceso",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El control preventivo revisa condiciones antes de comenzar la operación para reducir problemas. El control posterior detecta resultados una vez que el producto o proceso ya terminó.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Control | Dificultad orientativa: Media"
+    },
+    {
+      "id": 24,
+      "materia": "Administración",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La empresa fijó que máximo 3 de cada 100 envíos lleguen tarde. En una semana, 18 de 400 entregas se retrasaron. ¿Cuál conclusión de control es válida?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El retraso fue de 4.5 % y excedió la meta",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "No se puede evaluar sin conocer el precio de cada envío",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Se cumplió el estándar: 18 es menor que 400",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La tasa observada es 18/400 × 100 = 4.5 %, superior al límite de 3 %. En control se compara el indicador real con el estándar para decidir una acción correctiva.",
+      "observaciones": "Subárea: Proceso administrativo | Tema: Control | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 25,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Evalúa: -6 + 4(-3) - (-10).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "-28",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "-8",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "16",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Se resuelve primero la multiplicación: 4(-3) = -12. Después, -6 - 12 + 10 = -8; restar un número negativo equivale a sumarlo.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Leyes de los signos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 26,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La temperatura era de -4 °C. Subió 7 °C y luego descendió 11 °C. ¿Cuál fue la temperatura final?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "-22 °C",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "8 °C",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "-8 °C",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Se representa el cambio con números con signo: -4 + 7 - 11 = -8. El aumento se suma y el descenso se resta, por lo que la temperatura termina ocho grados bajo cero.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Leyes de los signos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 27,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(\\dfrac{3^4\\cdot3^{-2}}{3}\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "27",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "1",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Al multiplicar potencias de igual base se suman exponentes y al dividir se restan: 4 + (-2) - 1 = 1. Por eso, el resultado es 3¹ = 3.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Leyes de los exponentes | Dificultad orientativa: Media"
+    },
+    {
+      "id": 28,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el valor de \\((2^3)^2\\div 2^4\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "64",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "16",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Potencia de una potencia: (2³)² = 2⁶. Al dividir entre 2⁴ se restan exponentes: 2⁶ / 2⁴ = 2² = 4.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Leyes de los exponentes | Dificultad orientativa: Media"
+    },
+    {
+      "id": 29,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Resuelve: \\(18-2[3+4(5-3)]\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "-4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "-22",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Primero (5 - 3) = 2; luego 4 × 2 = 8 y 3 + 8 = 11. Finalmente 18 - 2 × 11 = 18 - 22 = -4.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Jerarquía de operaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 30,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula \\(\\frac34-\\frac25+\\frac1{10}\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(\\frac9{20}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(\\frac{11}{20}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(\\frac7{20}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Con denominador común 20: 3/4 = 15/20, 2/5 = 8/20 y 1/10 = 2/20. Así, (15 - 8 + 2)/20 = 9/20.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Jerarquía de operaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 31,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la forma simplificada de \\(\\sqrt{72}\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(8\\sqrt{2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(3\\sqrt{8}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(6\\sqrt{2}\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Se extrae el cuadrado perfecto: 72 = 36 × 2, por tanto √72 = √36 × √2 = 6√2. Las otras expresiones no son la forma simplificada correcta.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Leyes de los exponentes | Dificultad orientativa: Media"
+    },
+    {
+      "id": 32,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una población de microorganismos se expresa como \\(4.5\\times10^5\\). ¿Cuántas unidades representa?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "450 000",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "45 000",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "4 500 000",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Multiplicar 4.5 por 10⁵ desplaza el punto decimal cinco lugares a la derecha. El número es 450 000, no 45 000 ni 4 500 000.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Leyes de los exponentes | Dificultad orientativa: Media"
+    },
+    {
+      "id": 33,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es la descomposición en factores primos de 180?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(2\\cdot3^3\\cdot5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(2^3\\cdot3\\cdot5\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(2^2\\cdot3^2\\cdot5\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "180 = 18 × 10 = (2 × 3²)(2 × 5) = 2² × 3² × 5. Los factores son primos y su producto devuelve exactamente 180.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Múltiplos y divisores | Dificultad orientativa: Media"
+    },
+    {
+      "id": 34,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se tienen rollos de listón de 84 cm y 126 cm. Si se cortan en segmentos iguales de la mayor longitud posible y sin desperdicio, ¿cuánto debe medir cada segmento?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "63 cm",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "21 cm",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "42 cm",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La mayor longitud que divide exactamente a 84 y 126 es su máximo común divisor: MCD(84,126)=42. Ambos rollos pueden dividirse en segmentos de 42 cm, pero no de 63 cm.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Múltiplos y divisores | Dificultad orientativa: Media"
+    },
+    {
+      "id": 35,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dos luces parpadean cada 18 y 24 segundos. Si coinciden ahora, ¿cuántos segundos pasarán para que coincidan otra vez?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "48",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "72",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "42",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La siguiente coincidencia ocurre en el mínimo común múltiplo. Como 18 = 2 × 3² y 24 = 2³ × 3, MCM = 2³ × 3² = 72 segundos.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Múltiplos y divisores | Dificultad orientativa: Media"
+    },
+    {
+      "id": 36,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una cantidad debe ser divisible entre 3 y 5, pero no entre 2. ¿Cuál número cumple las tres condiciones?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "450",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "520",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "375",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "375 termina en 5, así que es múltiplo de 5 e impar; además, 3+7+5=15, divisible entre 3. 450 es par y 520 no es divisible entre 3.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Múltiplos y divisores | Dificultad orientativa: Media"
+    },
+    {
+      "id": 37,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué número falta para que \\(\\frac{x}{18}=\\frac56\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "15",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "12",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "16",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Por productos cruzados: 6x = 18 × 5 = 90, de donde x = 90/6 = 15. Es equivalente a calcular cinco sextas partes de 18.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Jerarquía de operaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 38,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Calcula \\(\\frac{0.84}{0.07}-2^3\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "12",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "20",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La división 0.84/0.07 es igual a 84/7 = 12. Por su parte, 2³ = 8, así que 12 - 8 = 4.",
+      "observaciones": "Subárea: Principios de números reales | Tema: Jerarquía de operaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 39,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para preparar pintura se mezclan 3 partes de azul por 5 de blanco. Si se usan 25 L de blanco, ¿cuántos litros de azul corresponden?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "15 L",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "18 L",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "40 L",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La razón azul:blanco es 3:5. Como 25/5=5, se multiplica 3 × 5 = 15 L de azul, conservando la proporción.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Razones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 40,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una máquina elabora 168 piezas en 7 horas a ritmo constante. ¿Cuántas producirá en 11 horas?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "288",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "264",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "224",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La tasa de producción es 168/7 = 24 piezas por hora. En 11 horas elaborará 24 × 11 = 264 piezas, suponiendo la misma tasa.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Razones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 41,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un artículo cuesta $800 y tiene un descuento de 15 %; después se aplica IVA de 16 % al precio descontado. ¿Cuánto se paga?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$680.00",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$788.80",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$928.00",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El descuento deja 800 × 0.85 = $680. El IVA se calcula sobre $680: 680 × 1.16 = $788.80; los porcentajes se aplican en etapas, no se restan o suman directamente.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Variaciones | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 42,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una cantidad de $6 600 se distribuye entre tres personas en razón 2:3:6. ¿Cuánto recibe quien tiene seis partes?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$3 600",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$2 200",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$3 300",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La suma de partes es 2+3+6=11. Cada parte vale 6 600/11=$600; a quien corresponden seis partes recibe 6 × 600 = $3 600.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Razones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 43,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un capital de $12 000 se invierte durante 8 meses al 9 % anual de interés simple. ¿Cuánto interés produce?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$800",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$1 080",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$720",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Interés simple: I = C × r × t, con t=8/12 de año. Así, I=12 000×0.09×(8/12)=$720. No debe confundirse el interés con el capital final.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Variaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 44,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una sucesión aritmética el primer término es 7 y la diferencia común es 4. ¿Cuál es el término 12?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "44",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "55",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "51",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La fórmula es aₙ = a₁ +(n-1)d. Para n=12: 7 + 11×4 = 51; se añaden 11 diferencias, no 12.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Variaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 45,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una inversión crece de acuerdo con la sucesión geométrica 5, 15, 45, ... ¿Cuál es el quinto término?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "405",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "135",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "225",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La razón constante es 15/5=3; se multiplica cada término por 3. Los términos son 5, 15, 45, 135 y 405.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Variaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 46,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si 6 trabajadores realizan una tarea en 15 días con el mismo rendimiento individual, ¿en cuántos días la harán 10 trabajadores?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "25 días",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "9 días",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "12 días",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Para un trabajo fijo, trabajadores y tiempo guardan proporción inversa: 6×15=10×d. Por tanto d=90/10=9 días, suponiendo igual productividad.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Razones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 47,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El precio de un servicio aumentó de $250 a $285. ¿Cuál fue el porcentaje de aumento respecto del precio original?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "12 %",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "35 %",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "14 %",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La diferencia es $35. El porcentaje se calcula tomando como base el precio inicial: 35/250×100=14 %.",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Variaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 48,
+      "materia": "Aritmética",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un transporte recorre 90 km en 1.5 horas. Si mantiene la rapidez media, ¿cuánto tardará en recorrer 210 km?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4.5 horas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "3 horas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "3.5 horas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La rapidez es 90/1.5 = 60 km/h. El tiempo requerido para 210 km es 210/60=3.5 horas (3 horas y 30 minutos).",
+      "observaciones": "Subárea: Problemas con números racionales | Tema: Razones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 49,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente fragmento de un ensayo de divulgación:\n\nEn varias colonias, instalar techos de color claro parece una solución sencilla contra el calor. Las superficies claras reflejan más radiación solar y, por ello, suelen alcanzar menores temperaturas que las oscuras. Sin embargo, confundir la temperatura de una azotea con la del aire de toda una colonia llevaría a conclusiones apresuradas. Un equipo universitario comparó veinte edificios semejantes: diez conservaron techos oscuros y diez recibieron recubrimiento claro. Durante seis semanas registró temperaturas superficiales y consumo eléctrico de ventilación. En promedio, los techos tratados alcanzaron 7 °C menos al mediodía y los edificios intervenidos registraron 8 % menos consumo de electricidad para enfriamiento. Los autores advierten que las diferencias en aislamiento, ocupación y hábitos de los residentes también pueden influir en el consumo. Proponen ampliar la muestra y medir la temperatura del aire exterior antes de recomendar esta medida como solución única. El beneficio potencial justifica ensayos adicionales, pero no reemplaza el arbolado urbano ni la eficiencia de los equipos de climatización.\n\n¿Durante cuánto tiempo se efectuaron los registros del estudio?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Veinte semanas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Seis semanas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Diez días",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El texto indica expresamente que las temperaturas superficiales y el consumo se registraron durante seis semanas. Los números diez y veinte corresponden a edificios, no al periodo de medición.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 50,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente fragmento de un ensayo de divulgación:\n\nEn varias colonias, instalar techos de color claro parece una solución sencilla contra el calor. Las superficies claras reflejan más radiación solar y, por ello, suelen alcanzar menores temperaturas que las oscuras. Sin embargo, confundir la temperatura de una azotea con la del aire de toda una colonia llevaría a conclusiones apresuradas. Un equipo universitario comparó veinte edificios semejantes: diez conservaron techos oscuros y diez recibieron recubrimiento claro. Durante seis semanas registró temperaturas superficiales y consumo eléctrico de ventilación. En promedio, los techos tratados alcanzaron 7 °C menos al mediodía y los edificios intervenidos registraron 8 % menos consumo de electricidad para enfriamiento. Los autores advierten que las diferencias en aislamiento, ocupación y hábitos de los residentes también pueden influir en el consumo. Proponen ampliar la muestra y medir la temperatura del aire exterior antes de recomendar esta medida como solución única. El beneficio potencial justifica ensayos adicionales, pero no reemplaza el arbolado urbano ni la eficiencia de los equipos de climatización.\n\n¿Qué variable NO se reporta como medida directamente por los investigadores?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Consumo eléctrico para enfriamiento",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Temperatura de los techos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Temperatura del aire exterior de toda la colonia",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Se midieron la temperatura superficial de los techos y el consumo eléctrico. La temperatura del aire exterior se menciona como una medición pendiente para futuras investigaciones.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 51,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente fragmento de un ensayo de divulgación:\n\nEn varias colonias, instalar techos de color claro parece una solución sencilla contra el calor. Las superficies claras reflejan más radiación solar y, por ello, suelen alcanzar menores temperaturas que las oscuras. Sin embargo, confundir la temperatura de una azotea con la del aire de toda una colonia llevaría a conclusiones apresuradas. Un equipo universitario comparó veinte edificios semejantes: diez conservaron techos oscuros y diez recibieron recubrimiento claro. Durante seis semanas registró temperaturas superficiales y consumo eléctrico de ventilación. En promedio, los techos tratados alcanzaron 7 °C menos al mediodía y los edificios intervenidos registraron 8 % menos consumo de electricidad para enfriamiento. Los autores advierten que las diferencias en aislamiento, ocupación y hábitos de los residentes también pueden influir en el consumo. Proponen ampliar la muestra y medir la temperatura del aire exterior antes de recomendar esta medida como solución única. El beneficio potencial justifica ensayos adicionales, pero no reemplaza el arbolado urbano ni la eficiencia de los equipos de climatización.\n\n¿Cuál es la conclusión más compatible con los resultados?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los techos oscuros consumen exactamente el doble de energía",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Está demostrado que los techos claros enfrían toda la ciudad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los recubrimientos claros se asociaron con techos menos calientes y menor consumo en la muestra",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Los datos observados respaldan una asociación en edificios estudiados, no un efecto probado para toda la ciudad. La reducción media del consumo fue de 8 %, no de 50 %.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 52,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente fragmento de un ensayo de divulgación:\n\nEn varias colonias, instalar techos de color claro parece una solución sencilla contra el calor. Las superficies claras reflejan más radiación solar y, por ello, suelen alcanzar menores temperaturas que las oscuras. Sin embargo, confundir la temperatura de una azotea con la del aire de toda una colonia llevaría a conclusiones apresuradas. Un equipo universitario comparó veinte edificios semejantes: diez conservaron techos oscuros y diez recibieron recubrimiento claro. Durante seis semanas registró temperaturas superficiales y consumo eléctrico de ventilación. En promedio, los techos tratados alcanzaron 7 °C menos al mediodía y los edificios intervenidos registraron 8 % menos consumo de electricidad para enfriamiento. Los autores advierten que las diferencias en aislamiento, ocupación y hábitos de los residentes también pueden influir en el consumo. Proponen ampliar la muestra y medir la temperatura del aire exterior antes de recomendar esta medida como solución única. El beneficio potencial justifica ensayos adicionales, pero no reemplaza el arbolado urbano ni la eficiencia de los equipos de climatización.\n\n¿Por qué se mencionan el aislamiento y los hábitos de los residentes?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Porque fueron las únicas variables cuantificadas en el estudio",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Porque pueden influir en el consumo y limitar una atribución causal directa al recubrimiento",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Porque demuestran que el color del techo no importa",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Son factores alternativos capaces de modificar el gasto eléctrico; si no se controlan, no se debe atribuir toda la diferencia al color. El texto no afirma que sean las únicas variables medidas ni que el recubrimiento sea inútil.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Interpretación | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 53,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente fragmento de un ensayo de divulgación:\n\nEn varias colonias, instalar techos de color claro parece una solución sencilla contra el calor. Las superficies claras reflejan más radiación solar y, por ello, suelen alcanzar menores temperaturas que las oscuras. Sin embargo, confundir la temperatura de una azotea con la del aire de toda una colonia llevaría a conclusiones apresuradas. Un equipo universitario comparó veinte edificios semejantes: diez conservaron techos oscuros y diez recibieron recubrimiento claro. Durante seis semanas registró temperaturas superficiales y consumo eléctrico de ventilación. En promedio, los techos tratados alcanzaron 7 °C menos al mediodía y los edificios intervenidos registraron 8 % menos consumo de electricidad para enfriamiento. Los autores advierten que las diferencias en aislamiento, ocupación y hábitos de los residentes también pueden influir en el consumo. Proponen ampliar la muestra y medir la temperatura del aire exterior antes de recomendar esta medida como solución única. El beneficio potencial justifica ensayos adicionales, pero no reemplaza el arbolado urbano ni la eficiencia de los equipos de climatización.\n\n¿Qué observación fortalecería más la conclusión sobre el efecto del color en el consumo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Entrevistar únicamente a quienes prefieren los techos claros",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Comparar edificios de distinto tamaño sin registrar ocupación",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Asignar al azar el recubrimiento y mantener comparables aislamiento y uso",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La asignación aleatoria y el control de otras condiciones reducen sesgos y factores de confusión. Las otras estrategias introducen diferencias ajenas al recubrimiento.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 54,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente fragmento de un ensayo de divulgación:\n\nEn varias colonias, instalar techos de color claro parece una solución sencilla contra el calor. Las superficies claras reflejan más radiación solar y, por ello, suelen alcanzar menores temperaturas que las oscuras. Sin embargo, confundir la temperatura de una azotea con la del aire de toda una colonia llevaría a conclusiones apresuradas. Un equipo universitario comparó veinte edificios semejantes: diez conservaron techos oscuros y diez recibieron recubrimiento claro. Durante seis semanas registró temperaturas superficiales y consumo eléctrico de ventilación. En promedio, los techos tratados alcanzaron 7 °C menos al mediodía y los edificios intervenidos registraron 8 % menos consumo de electricidad para enfriamiento. Los autores advierten que las diferencias en aislamiento, ocupación y hábitos de los residentes también pueden influir en el consumo. Proponen ampliar la muestra y medir la temperatura del aire exterior antes de recomendar esta medida como solución única. El beneficio potencial justifica ensayos adicionales, pero no reemplaza el arbolado urbano ni la eficiencia de los equipos de climatización.\n\n¿Cuál es la función del último enunciado?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Matizar la recomendación y situarla entre varias estrategias",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Descalificar todas las medidas complementarias",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Garantizar que el resultado es universal",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El cierre reconoce un beneficio probable, pero aclara que los techos claros no sustituyen otras acciones. Se trata de una postura prudente basada en el alcance de la evidencia.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Media"
+    },
+    {
+      "id": 55,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto argumentativo:\n\nLos centros educativos suelen celebrar la compra de tabletas como si la presencia de dispositivos garantizara mejores aprendizajes. Pero disponer de tecnología no equivale a utilizarla con sentido pedagógico. En un bachillerato se habilitó una plataforma para resolver ejercicios y recibir retroalimentación inmediata. Una evaluación interna mostró que quienes completaron al menos cuatro actividades semanales mejoraron, en promedio, su puntuación respecto de su propio diagnóstico inicial. El resultado merece atención, aunque no prueba que la plataforma haya causado por sí sola la mejoría: los alumnos constantes quizá también estudian más fuera de ella. Además, algunos estudiantes compartían un solo teléfono con su familia y no podían conectarse a diario. Si la escuela califica exclusivamente la cantidad de accesos, podría castigar la falta de recursos en lugar de valorar lo aprendido. Una política responsable debería prestar equipos, ofrecer materiales sin conexión y evaluar avances con distintos instrumentos. El debate no debe reducirse a «pantallas sí» o «pantallas no», sino a qué tareas resuelve cada herramienta, para quiénes y bajo qué condiciones.\n\nSegún el texto, ¿qué estudiantes mostraron una mejoría promedio frente a su propio diagnóstico?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Todos los alumnos del bachillerato",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Quienes completaron al menos cuatro actividades semanales",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los que adquirieron una tableta nueva",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La evaluación interna observó mejoría entre quienes realizaron al menos cuatro actividades semanales. No se afirma que la mejora fuera de todos ni que dependiera de comprar tabletas.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 56,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto argumentativo:\n\nLos centros educativos suelen celebrar la compra de tabletas como si la presencia de dispositivos garantizara mejores aprendizajes. Pero disponer de tecnología no equivale a utilizarla con sentido pedagógico. En un bachillerato se habilitó una plataforma para resolver ejercicios y recibir retroalimentación inmediata. Una evaluación interna mostró que quienes completaron al menos cuatro actividades semanales mejoraron, en promedio, su puntuación respecto de su propio diagnóstico inicial. El resultado merece atención, aunque no prueba que la plataforma haya causado por sí sola la mejoría: los alumnos constantes quizá también estudian más fuera de ella. Además, algunos estudiantes compartían un solo teléfono con su familia y no podían conectarse a diario. Si la escuela califica exclusivamente la cantidad de accesos, podría castigar la falta de recursos en lugar de valorar lo aprendido. Una política responsable debería prestar equipos, ofrecer materiales sin conexión y evaluar avances con distintos instrumentos. El debate no debe reducirse a «pantallas sí» o «pantallas no», sino a qué tareas resuelve cada herramienta, para quiénes y bajo qué condiciones.\n\n¿Qué obstáculo de acceso se describe específicamente?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La prohibición institucional de internet",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La falta de exámenes impresos en la ciudad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El uso compartido de un teléfono familiar",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "El texto señala que algunos estudiantes compartían un teléfono con su familia y no podían conectarse diariamente. Las otras situaciones no aparecen descritas.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 57,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto argumentativo:\n\nLos centros educativos suelen celebrar la compra de tabletas como si la presencia de dispositivos garantizara mejores aprendizajes. Pero disponer de tecnología no equivale a utilizarla con sentido pedagógico. En un bachillerato se habilitó una plataforma para resolver ejercicios y recibir retroalimentación inmediata. Una evaluación interna mostró que quienes completaron al menos cuatro actividades semanales mejoraron, en promedio, su puntuación respecto de su propio diagnóstico inicial. El resultado merece atención, aunque no prueba que la plataforma haya causado por sí sola la mejoría: los alumnos constantes quizá también estudian más fuera de ella. Además, algunos estudiantes compartían un solo teléfono con su familia y no podían conectarse a diario. Si la escuela califica exclusivamente la cantidad de accesos, podría castigar la falta de recursos en lugar de valorar lo aprendido. Una política responsable debería prestar equipos, ofrecer materiales sin conexión y evaluar avances con distintos instrumentos. El debate no debe reducirse a «pantallas sí» o «pantallas no», sino a qué tareas resuelve cada herramienta, para quiénes y bajo qué condiciones.\n\n¿Cuál es la postura principal de la autora?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sustituir toda evaluación con estadísticas de acceso",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Evaluar la utilidad pedagógica y la equidad, no solo la disponibilidad de dispositivos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Eliminar las herramientas digitales del aula",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La tesis propone analizar qué problemas educativos resuelve la tecnología y si todos pueden utilizarla en condiciones justas. No propone prohibirla ni reducir la evaluación a conexiones.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 58,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto argumentativo:\n\nLos centros educativos suelen celebrar la compra de tabletas como si la presencia de dispositivos garantizara mejores aprendizajes. Pero disponer de tecnología no equivale a utilizarla con sentido pedagógico. En un bachillerato se habilitó una plataforma para resolver ejercicios y recibir retroalimentación inmediata. Una evaluación interna mostró que quienes completaron al menos cuatro actividades semanales mejoraron, en promedio, su puntuación respecto de su propio diagnóstico inicial. El resultado merece atención, aunque no prueba que la plataforma haya causado por sí sola la mejoría: los alumnos constantes quizá también estudian más fuera de ella. Además, algunos estudiantes compartían un solo teléfono con su familia y no podían conectarse a diario. Si la escuela califica exclusivamente la cantidad de accesos, podría castigar la falta de recursos en lugar de valorar lo aprendido. Una política responsable debería prestar equipos, ofrecer materiales sin conexión y evaluar avances con distintos instrumentos. El debate no debe reducirse a «pantallas sí» o «pantallas no», sino a qué tareas resuelve cada herramienta, para quiénes y bajo qué condiciones.\n\n¿Qué implica la expresión «castigar la falta de recursos»?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Que la escuela quiere retirar todos los dispositivos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Que una regla basada en accesos podría perjudicar injustamente a quienes tienen menos conectividad",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Que todos los alumnos deben recibir una sanción económica",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El argumento cuestiona confundir frecuencia de conexión con aprendizaje cuando existen barreras materiales. Esa medida podría penalizar condiciones ajenas al esfuerzo académico.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 59,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto argumentativo:\n\nLos centros educativos suelen celebrar la compra de tabletas como si la presencia de dispositivos garantizara mejores aprendizajes. Pero disponer de tecnología no equivale a utilizarla con sentido pedagógico. En un bachillerato se habilitó una plataforma para resolver ejercicios y recibir retroalimentación inmediata. Una evaluación interna mostró que quienes completaron al menos cuatro actividades semanales mejoraron, en promedio, su puntuación respecto de su propio diagnóstico inicial. El resultado merece atención, aunque no prueba que la plataforma haya causado por sí sola la mejoría: los alumnos constantes quizá también estudian más fuera de ella. Además, algunos estudiantes compartían un solo teléfono con su familia y no podían conectarse a diario. Si la escuela califica exclusivamente la cantidad de accesos, podría castigar la falta de recursos en lugar de valorar lo aprendido. Una política responsable debería prestar equipos, ofrecer materiales sin conexión y evaluar avances con distintos instrumentos. El debate no debe reducirse a «pantallas sí» o «pantallas no», sino a qué tareas resuelve cada herramienta, para quiénes y bajo qué condiciones.\n\n¿Qué dato adicional permitiría evaluar mejor el efecto propio de la plataforma?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Contar únicamente las descargas de la aplicación",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Comparar grupos equivalentes con y sin plataforma, considerando sus hábitos de estudio",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Preguntar qué color de tableta prefieren los alumnos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Una comparación de grupos similares ayudaría a distinguir el efecto de la plataforma de la motivación y el tiempo de estudio. Las descargas y preferencias estéticas no miden aprendizaje causalmente.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 60,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente texto argumentativo:\n\nLos centros educativos suelen celebrar la compra de tabletas como si la presencia de dispositivos garantizara mejores aprendizajes. Pero disponer de tecnología no equivale a utilizarla con sentido pedagógico. En un bachillerato se habilitó una plataforma para resolver ejercicios y recibir retroalimentación inmediata. Una evaluación interna mostró que quienes completaron al menos cuatro actividades semanales mejoraron, en promedio, su puntuación respecto de su propio diagnóstico inicial. El resultado merece atención, aunque no prueba que la plataforma haya causado por sí sola la mejoría: los alumnos constantes quizá también estudian más fuera de ella. Además, algunos estudiantes compartían un solo teléfono con su familia y no podían conectarse a diario. Si la escuela califica exclusivamente la cantidad de accesos, podría castigar la falta de recursos en lugar de valorar lo aprendido. Una política responsable debería prestar equipos, ofrecer materiales sin conexión y evaluar avances con distintos instrumentos. El debate no debe reducirse a «pantallas sí» o «pantallas no», sino a qué tareas resuelve cada herramienta, para quiénes y bajo qué condiciones.\n\n¿Por qué el autor plantea un falso dilema al final?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Porque demuestra matemáticamente que todas las pantallas son útiles",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Porque rechaza una elección binaria y propone examinar condiciones y propósitos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Porque afirma que las tabletas dañan la vista",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El cierre sustituye una oposición simplista entre aceptar o prohibir pantallas por una evaluación según tareas, usuarios y circunstancias. No hace aseveraciones sobre efectos visuales.",
+      "observaciones": "Subárea: Ámbito de estudio | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Media"
+    },
+    {
+      "id": 61,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente cuento breve:\n\nCada jueves, Ofelia abría la antigua estación de tren para recibir semillas. Los vecinos llegaban con frascos pequeños y etiquetas escritas a mano: maíz azul, frijol moteado, calabaza de lluvia. Un invierno, el ayuntamiento anunció que convertiría la estación en estacionamiento. Ofelia guardó las semillas en cajas y pidió a Tomás, un muchacho que siempre llegaba tarde, que llevara una al salón comunal. «No olvide escribir de dónde viene cada semilla», le dijo. Tomás sonrió y se marchó corriendo. Al día siguiente, la caja apareció cerrada y sin etiquetas. Ofelia sintió rabia, pero en vez de regañarlo pidió ayuda a las familias. Una abuela reconoció el maíz por el tono de sus granos; un campesino identificó el frijol por una pequeña mancha. Recuperaron casi todos los nombres, salvo uno. Meses después, cuando la estación ya era un estacionamiento, Tomás llegó al nuevo huerto con una planta desconocida. «La sembré para descubrir su nombre», explicó. Ofelia lo miró trabajar y comprendió que algunas historias no se guardan en cajas: necesitan a alguien que las continúe.\n\n¿Qué destino anunció el ayuntamiento para la estación?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Convertirla en escuela",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Utilizarla como almacén de semillas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Transformarla en estacionamiento",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "El anuncio municipal fue convertir la antigua estación en estacionamiento. Después, el cuento confirma que el lugar cambió de uso.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 62,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente cuento breve:\n\nCada jueves, Ofelia abría la antigua estación de tren para recibir semillas. Los vecinos llegaban con frascos pequeños y etiquetas escritas a mano: maíz azul, frijol moteado, calabaza de lluvia. Un invierno, el ayuntamiento anunció que convertiría la estación en estacionamiento. Ofelia guardó las semillas en cajas y pidió a Tomás, un muchacho que siempre llegaba tarde, que llevara una al salón comunal. «No olvide escribir de dónde viene cada semilla», le dijo. Tomás sonrió y se marchó corriendo. Al día siguiente, la caja apareció cerrada y sin etiquetas. Ofelia sintió rabia, pero en vez de regañarlo pidió ayuda a las familias. Una abuela reconoció el maíz por el tono de sus granos; un campesino identificó el frijol por una pequeña mancha. Recuperaron casi todos los nombres, salvo uno. Meses después, cuando la estación ya era un estacionamiento, Tomás llegó al nuevo huerto con una planta desconocida. «La sembré para descubrir su nombre», explicó. Ofelia lo miró trabajar y comprendió que algunas historias no se guardan en cajas: necesitan a alguien que las continúe.\n\n¿Qué se había perdido cuando apareció la caja cerrada?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Las etiquetas que indicaban su procedencia",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El salón comunal",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Todas las semillas",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La caja llegó sin etiquetas; no se afirma que faltaran todas las semillas. La comunidad pudo reconocer casi todas por sus características.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 63,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente cuento breve:\n\nCada jueves, Ofelia abría la antigua estación de tren para recibir semillas. Los vecinos llegaban con frascos pequeños y etiquetas escritas a mano: maíz azul, frijol moteado, calabaza de lluvia. Un invierno, el ayuntamiento anunció que convertiría la estación en estacionamiento. Ofelia guardó las semillas en cajas y pidió a Tomás, un muchacho que siempre llegaba tarde, que llevara una al salón comunal. «No olvide escribir de dónde viene cada semilla», le dijo. Tomás sonrió y se marchó corriendo. Al día siguiente, la caja apareció cerrada y sin etiquetas. Ofelia sintió rabia, pero en vez de regañarlo pidió ayuda a las familias. Una abuela reconoció el maíz por el tono de sus granos; un campesino identificó el frijol por una pequeña mancha. Recuperaron casi todos los nombres, salvo uno. Meses después, cuando la estación ya era un estacionamiento, Tomás llegó al nuevo huerto con una planta desconocida. «La sembré para descubrir su nombre», explicó. Ofelia lo miró trabajar y comprendió que algunas historias no se guardan en cajas: necesitan a alguien que las continúe.\n\n¿Por qué Ofelia opta por buscar a las familias en lugar de castigar a Tomás?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Porque Tomás ya conoce el nombre de todas las plantas",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Porque prioriza recuperar el conocimiento compartido para identificar las semillas",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Porque no le interesa conservar las variedades",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Ofelia transforma su disgusto en una solución comunitaria que aprovecha la memoria de las familias. Su decisión revela el valor del conocimiento colectivo frente al error individual.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 64,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente cuento breve:\n\nCada jueves, Ofelia abría la antigua estación de tren para recibir semillas. Los vecinos llegaban con frascos pequeños y etiquetas escritas a mano: maíz azul, frijol moteado, calabaza de lluvia. Un invierno, el ayuntamiento anunció que convertiría la estación en estacionamiento. Ofelia guardó las semillas en cajas y pidió a Tomás, un muchacho que siempre llegaba tarde, que llevara una al salón comunal. «No olvide escribir de dónde viene cada semilla», le dijo. Tomás sonrió y se marchó corriendo. Al día siguiente, la caja apareció cerrada y sin etiquetas. Ofelia sintió rabia, pero en vez de regañarlo pidió ayuda a las familias. Una abuela reconoció el maíz por el tono de sus granos; un campesino identificó el frijol por una pequeña mancha. Recuperaron casi todos los nombres, salvo uno. Meses después, cuando la estación ya era un estacionamiento, Tomás llegó al nuevo huerto con una planta desconocida. «La sembré para descubrir su nombre», explicó. Ofelia lo miró trabajar y comprendió que algunas historias no se guardan en cajas: necesitan a alguien que las continúe.\n\nEn el cuento, las semillas funcionan también como símbolo de",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "la inutilidad de los registros escritos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "la riqueza monetaria de la estación",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "la memoria y continuidad de una comunidad",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Además de ser plantas, las semillas representan saberes transmitidos entre generaciones. El relato valora los registros, pero enfatiza que la memoria permanece viva cuando otros la practican.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 65,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente cuento breve:\n\nCada jueves, Ofelia abría la antigua estación de tren para recibir semillas. Los vecinos llegaban con frascos pequeños y etiquetas escritas a mano: maíz azul, frijol moteado, calabaza de lluvia. Un invierno, el ayuntamiento anunció que convertiría la estación en estacionamiento. Ofelia guardó las semillas en cajas y pidió a Tomás, un muchacho que siempre llegaba tarde, que llevara una al salón comunal. «No olvide escribir de dónde viene cada semilla», le dijo. Tomás sonrió y se marchó corriendo. Al día siguiente, la caja apareció cerrada y sin etiquetas. Ofelia sintió rabia, pero en vez de regañarlo pidió ayuda a las familias. Una abuela reconoció el maíz por el tono de sus granos; un campesino identificó el frijol por una pequeña mancha. Recuperaron casi todos los nombres, salvo uno. Meses después, cuando la estación ya era un estacionamiento, Tomás llegó al nuevo huerto con una planta desconocida. «La sembré para descubrir su nombre», explicó. Ofelia lo miró trabajar y comprendió que algunas historias no se guardan en cajas: necesitan a alguien que las continúe.\n\n¿Qué cambio del personaje Tomás se sugiere al final?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "De encargado a propietario de la estación",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "De agricultor a funcionario",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "De descuidado con los registros a participante activo en su conservación",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Al comienzo Tomás pierde las etiquetas por descuido; después planta una semilla para conocerla y conservarla. La evolución se muestra por sus acciones, no mediante una explicación directa.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Media"
+    },
+    {
+      "id": 66,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente cuento breve:\n\nCada jueves, Ofelia abría la antigua estación de tren para recibir semillas. Los vecinos llegaban con frascos pequeños y etiquetas escritas a mano: maíz azul, frijol moteado, calabaza de lluvia. Un invierno, el ayuntamiento anunció que convertiría la estación en estacionamiento. Ofelia guardó las semillas en cajas y pidió a Tomás, un muchacho que siempre llegaba tarde, que llevara una al salón comunal. «No olvide escribir de dónde viene cada semilla», le dijo. Tomás sonrió y se marchó corriendo. Al día siguiente, la caja apareció cerrada y sin etiquetas. Ofelia sintió rabia, pero en vez de regañarlo pidió ayuda a las familias. Una abuela reconoció el maíz por el tono de sus granos; un campesino identificó el frijol por una pequeña mancha. Recuperaron casi todos los nombres, salvo uno. Meses después, cuando la estación ya era un estacionamiento, Tomás llegó al nuevo huerto con una planta desconocida. «La sembré para descubrir su nombre», explicó. Ofelia lo miró trabajar y comprendió que algunas historias no se guardan en cajas: necesitan a alguien que las continúe.\n\n¿Cuál interpretación del cierre es más sólida?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Conservar un legado también exige recrearlo y transmitirlo mediante acciones",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Es imposible identificar plantas si cambian de lugar",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los registros escritos siempre resultan perjudiciales",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La frase final utiliza una comparación metafórica para destacar que el patrimonio comunitario no depende únicamente de almacenarlo: requiere participación y continuidad. No descalifica la escritura.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 67,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente poema original:\n\nEn la mesa quedó un mapa abierto,\ncon caminos de sal y de papel;\nmi madre puso un punto sobre el puerto\ny dijo: «Hasta aquí llegué una vez».\n\nDe noche, el viento habló con la ventana,\nla lámpara tembló sobre el mantel;\nyo dibujé una ruta hacia mañana,\nsin preguntar si iba a poder volver.\n\nAl alba, entre dos hojas dobladas,\nencontré la palabra «regresar»;\nno era una orden ni llevaba fechas,\nera un lugar que había que inventar.\n\n¿Qué objeto quedó abierto sobre la mesa?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Un atlas cerrado",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Un mapa",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Un diario",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El primer verso enuncia que quedó un mapa abierto sobre la mesa. No se menciona un diario ni que el objeto esté cerrado.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 68,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente poema original:\n\nEn la mesa quedó un mapa abierto,\ncon caminos de sal y de papel;\nmi madre puso un punto sobre el puerto\ny dijo: «Hasta aquí llegué una vez».\n\nDe noche, el viento habló con la ventana,\nla lámpara tembló sobre el mantel;\nyo dibujé una ruta hacia mañana,\nsin preguntar si iba a poder volver.\n\nAl alba, entre dos hojas dobladas,\nencontré la palabra «regresar»;\nno era una orden ni llevaba fechas,\nera un lugar que había que inventar.\n\n¿Qué palabra encuentra la voz poética al alba?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Regresar",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Partir",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Esperar",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "En la última estrofa aparece explícitamente la palabra «regresar», hallada entre dos hojas dobladas. Las demás palabras no son ese hallazgo.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 69,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente poema original:\n\nEn la mesa quedó un mapa abierto,\ncon caminos de sal y de papel;\nmi madre puso un punto sobre el puerto\ny dijo: «Hasta aquí llegué una vez».\n\nDe noche, el viento habló con la ventana,\nla lámpara tembló sobre el mantel;\nyo dibujé una ruta hacia mañana,\nsin preguntar si iba a poder volver.\n\nAl alba, entre dos hojas dobladas,\nencontré la palabra «regresar»;\nno era una orden ni llevaba fechas,\nera un lugar que había que inventar.\n\n¿Cuál es el sentido más probable de «una ruta hacia mañana»?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Un horario fijo de navegación",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Una decisión orientada al futuro incierto",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Un viaje realizado por la madre durante la noche",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "«Mañana» se relaciona metafóricamente con el futuro, y dibujar la ruta expresa tomar iniciativa aunque no se conozca el desenlace. No hay evidencia de un itinerario literal.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 70,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente poema original:\n\nEn la mesa quedó un mapa abierto,\ncon caminos de sal y de papel;\nmi madre puso un punto sobre el puerto\ny dijo: «Hasta aquí llegué una vez».\n\nDe noche, el viento habló con la ventana,\nla lámpara tembló sobre el mantel;\nyo dibujé una ruta hacia mañana,\nsin preguntar si iba a poder volver.\n\nAl alba, entre dos hojas dobladas,\nencontré la palabra «regresar»;\nno era una orden ni llevaba fechas,\nera un lugar que había que inventar.\n\n¿Qué efecto produce «el viento habló con la ventana»?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Describe un fenómeno científico sin lenguaje figurado",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Personifica al viento y crea una atmósfera íntima",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Indica que una persona está detrás del vidrio",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Atribuir al viento la acción humana de hablar es una personificación. El recurso contribuye al ambiente evocador del poema sin pretender que el viento hable literalmente.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Media"
+    },
+    {
+      "id": 71,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente poema original:\n\nEn la mesa quedó un mapa abierto,\ncon caminos de sal y de papel;\nmi madre puso un punto sobre el puerto\ny dijo: «Hasta aquí llegué una vez».\n\nDe noche, el viento habló con la ventana,\nla lámpara tembló sobre el mantel;\nyo dibujé una ruta hacia mañana,\nsin preguntar si iba a poder volver.\n\nAl alba, entre dos hojas dobladas,\nencontré la palabra «regresar»;\nno era una orden ni llevaba fechas,\nera un lugar que había que inventar.\n\n¿Cuál tensión temática une la experiencia de la madre y la voz que dibuja su propia ruta?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La disputa por la propiedad de un barco",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La memoria de un trayecto pasado frente a la incertidumbre de uno nuevo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El rechazo absoluto a todo viaje",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La madre señala hasta dónde llegó; la voz poética proyecta un futuro sin saber si volverá. El poema contrapone memoria heredada y búsqueda personal, no una disputa material.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 72,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente poema original:\n\nEn la mesa quedó un mapa abierto,\ncon caminos de sal y de papel;\nmi madre puso un punto sobre el puerto\ny dijo: «Hasta aquí llegué una vez».\n\nDe noche, el viento habló con la ventana,\nla lámpara tembló sobre el mantel;\nyo dibujé una ruta hacia mañana,\nsin preguntar si iba a poder volver.\n\nAl alba, entre dos hojas dobladas,\nencontré la palabra «regresar»;\nno era una orden ni llevaba fechas,\nera un lugar que había que inventar.\n\nLa frase final «era un lugar que había que inventar» sugiere que regresar",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "puede significar construir una nueva forma de pertenencia",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "implica obligatoriamente volver al mismo puerto",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "es imposible después de cualquier viaje",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El regreso deja de ser una instrucción geográfica y se convierte en una posibilidad que se construye. La expresión abre una interpretación simbólica de identidad y pertenencia.",
+      "observaciones": "Subárea: Ámbito literario | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 73,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee la siguiente noticia ficticia creada para este ejercicio:\n\nEl municipio de Valle Verde abrió este lunes dos puntos de recolección de aparatos electrónicos, ubicados en el mercado central y la biblioteca comunitaria. Según la Dirección de Medio Ambiente, permanecerán abiertos de martes a sábado de 9:00 a 15:00 durante las próximas cuatro semanas. Se reciben teléfonos, cargadores y computadoras pequeñas, pero no pilas sueltas ni electrodomésticos grandes. Los aparatos serán trasladados a un centro autorizado para recuperar materiales y disponer de componentes peligrosos. La dependencia indicó que publicará al cierre una relación del peso recolectado; todavía no cuenta con cifras de participación.\n\n¿En qué lugar se instalará uno de los puntos de recolección?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "En una fábrica de baterías",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "En la biblioteca comunitaria",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "En el hospital municipal",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La noticia identifica dos sedes: el mercado central y la biblioteca comunitaria. Las otras instalaciones no se mencionan.",
+      "observaciones": "Subárea: Ámbito de participación social | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 74,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee la siguiente noticia ficticia creada para este ejercicio:\n\nEl municipio de Valle Verde abrió este lunes dos puntos de recolección de aparatos electrónicos, ubicados en el mercado central y la biblioteca comunitaria. Según la Dirección de Medio Ambiente, permanecerán abiertos de martes a sábado de 9:00 a 15:00 durante las próximas cuatro semanas. Se reciben teléfonos, cargadores y computadoras pequeñas, pero no pilas sueltas ni electrodomésticos grandes. Los aparatos serán trasladados a un centro autorizado para recuperar materiales y disponer de componentes peligrosos. La dependencia indicó que publicará al cierre una relación del peso recolectado; todavía no cuenta con cifras de participación.\n\n¿Qué puede concluirse sobre el resultado de la campaña?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Ya superó su meta de participación",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Se conoce el peso exacto de los residuos recuperados",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aún no se puede evaluar su alcance porque no hay cifras de participación",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La propia dependencia señala que publicará los datos al cierre y que todavía no hay cifras. Por ello es prematuro afirmar que alcanzó una meta o especificar el volumen.",
+      "observaciones": "Subárea: Ámbito de participación social | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 75,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee la siguiente noticia ficticia creada para este ejercicio:\n\nEl municipio de Valle Verde abrió este lunes dos puntos de recolección de aparatos electrónicos, ubicados en el mercado central y la biblioteca comunitaria. Según la Dirección de Medio Ambiente, permanecerán abiertos de martes a sábado de 9:00 a 15:00 durante las próximas cuatro semanas. Se reciben teléfonos, cargadores y computadoras pequeñas, pero no pilas sueltas ni electrodomésticos grandes. Los aparatos serán trasladados a un centro autorizado para recuperar materiales y disponer de componentes peligrosos. La dependencia indicó que publicará al cierre una relación del peso recolectado; todavía no cuenta con cifras de participación.\n\n¿Qué característica fortalece la confiabilidad informativa de la noticia?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Asegura que la campaña tuvo éxito sin evidencia",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Emplea adjetivos elogiosos en lugar de cifras",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Atribuye datos operativos a una dependencia e indica lo que todavía no se sabe",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La atribución a una autoridad identificable y el reconocimiento explícito de los datos pendientes favorecen la transparencia. No convierten la noticia en prueba de eficacia, pero permiten verificarla.",
+      "observaciones": "Subárea: Ámbito de participación social | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Media"
+    },
+    {
+      "id": 76,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente aviso administrativo ficticio:\n\nCONVOCATORIA PARA APOYO DE TRANSPORTE. Podrán solicitarlo estudiantes inscritos que residan a más de 8 km del plantel. La solicitud deberá presentarse en ventanilla del 4 al 15 de marzo, acompañada de constancia de inscripción vigente y comprobante de domicilio con antigüedad no mayor de tres meses. Si el comprobante está a nombre de un familiar, se adjuntará una carta simple que explique la relación. El apoyo se asignará después de verificar requisitos; presentar documentos no garantiza obtenerlo. Los resultados se publicarán el 25 de marzo en el tablero institucional.\n\nSi el comprobante de domicilio está a nombre de la madre del solicitante, ¿qué documento adicional se exige?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Una carta simple que explique la relación familiar",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Un recibo de inscripción del año anterior",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Una carta firmada por el director del plantel",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El aviso indica que cuando el comprobante pertenece a un familiar debe agregarse una carta simple explicativa. No exige una firma directiva ni una constancia anterior.",
+      "observaciones": "Subárea: Ámbito de participación social | Tema: Identificación de información | Dificultad orientativa: Media"
+    },
+    {
+      "id": 77,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente aviso administrativo ficticio:\n\nCONVOCATORIA PARA APOYO DE TRANSPORTE. Podrán solicitarlo estudiantes inscritos que residan a más de 8 km del plantel. La solicitud deberá presentarse en ventanilla del 4 al 15 de marzo, acompañada de constancia de inscripción vigente y comprobante de domicilio con antigüedad no mayor de tres meses. Si el comprobante está a nombre de un familiar, se adjuntará una carta simple que explique la relación. El apoyo se asignará después de verificar requisitos; presentar documentos no garantiza obtenerlo. Los resultados se publicarán el 25 de marzo en el tablero institucional.\n\nUna alumna vive a 11 km del plantel, pero entregó documentos el 18 de marzo. ¿Qué requisito incumple?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El plazo de presentación",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La obligación de comprobar su inscripción",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La distancia mínima respecto del plantel",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El periodo de recepción es del 4 al 15 de marzo. Aunque cumple la distancia por vivir a más de 8 km, entregar el 18 queda fuera de plazo.",
+      "observaciones": "Subárea: Ámbito de participación social | Tema: Interpretación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 78,
+      "materia": "Comprensión Lectora",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Lee el siguiente aviso administrativo ficticio:\n\nCONVOCATORIA PARA APOYO DE TRANSPORTE. Podrán solicitarlo estudiantes inscritos que residan a más de 8 km del plantel. La solicitud deberá presentarse en ventanilla del 4 al 15 de marzo, acompañada de constancia de inscripción vigente y comprobante de domicilio con antigüedad no mayor de tres meses. Si el comprobante está a nombre de un familiar, se adjuntará una carta simple que explique la relación. El apoyo se asignará después de verificar requisitos; presentar documentos no garantiza obtenerlo. Los resultados se publicarán el 25 de marzo en el tablero institucional.\n\n¿Qué conclusión es correcta sobre la frase «presentar documentos no garantiza obtenerlo»?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Cumplir la entrega permite participar, pero la asignación depende de la verificación posterior",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El apoyo se entrega automáticamente el día de la solicitud",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La convocatoria elimina cualquier requisito objetivo",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El aviso distingue entre presentar la solicitud y recibir el apoyo tras verificar requisitos. No establece concesión automática ni suprime los criterios mencionados.",
+      "observaciones": "Subárea: Ámbito de participación social | Tema: Evaluación de la forma y el contenido | Dificultad orientativa: Media"
+    },
+    {
+      "id": 79,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una reseña académica de un libro sobre economía, ¿qué fragmento integra de manera pertinente síntesis y valoración fundamentada?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El autor expone tres modelos de mercado; su comparación es clara, aunque omite datos recientes sobre empleo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El libro trata de economía y está muy padre; léanlo todos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ayer compré el libro y me gustó la portada, así que seguro es excelente.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Una reseña académica presenta el contenido y emite una valoración apoyada en criterios verificables. La segunda opción resume el tema y señala una limitación; las demás usan opiniones sin sustento o registro coloquial.",
+      "observaciones": "Subárea: Estudio | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 80,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una estudiante inicia un ensayo argumentativo sobre transporte público. ¿Qué tesis es más adecuada?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Enseguida escribiré todo lo que se me ocurra acerca de los autobuses.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El transporte público existe en muchas ciudades del país.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Ampliar las rutas de autobús puede reducir tiempos de traslado si se coordina con horarios y demanda.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La primera es una postura discutible y delimitada que puede defenderse con evidencias. La segunda es una observación general y la tercera no formula una afirmación que pueda sostenerse argumentativamente.",
+      "observaciones": "Subárea: Estudio | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 81,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se redacta el prólogo de una antología de relatos. ¿Qué fragmento corresponde mejor a su propósito?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Esta antología reúne voces de distintas generaciones; las páginas siguientes invitan a reconocer sus temas comunes y diferencias.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El cuento seis tiene un personaje simpático y un final sorprendente.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Las narraciones deberán entregarse el martes antes del recreo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El prólogo presenta una obra y orienta al lector sobre su contenido o intención. La opción correcta introduce el conjunto de relatos; las otras parecen una instrucción y una reseña particular.",
+      "observaciones": "Subárea: Estudio | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 82,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un informe de investigación, ¿qué oración mantiene un registro formal y preciso?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La cosa se puso intensa y todos nos quedamos sorprendidos.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Salió algo raro en las pruebas, pero más o menos funciona.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La muestra presentó una variación de 6 % entre la primera y la segunda medición.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "El registro académico requiere términos claros, datos verificables y ausencia de expresiones coloquiales. La segunda oración identifica una magnitud y las mediciones comparadas.",
+      "observaciones": "Subárea: Estudio | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 83,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El párrafo afirma: «Dormir poco afecta la atención durante las clases». ¿Qué continuación desarrolla mejor una explicación causal?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La escuela tiene varios salones y un patio muy amplio.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La privación de sueño reduce la capacidad para mantener la concentración y procesar información durante periodos prolongados.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Dormir es algo que mucha gente hace en la noche.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La oración elegida explica el mecanismo que conecta la falta de sueño con una menor atención. Las otras ideas no desarrollan la relación causal que plantea el párrafo.",
+      "observaciones": "Subárea: Estudio | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 84,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la oración con concordancia nominal correcta para un artículo académico.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El análisis y la síntesis realizada fueron publicados.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El análisis y la síntesis realizado fue publicado.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El análisis y la síntesis realizados fueron publicados.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Cuando dos sustantivos coordinados de distinto género comparten un adjetivo pospuesto, suele emplearse el masculino plural: realizados. El sujeto compuesto exige el verbo en plural: fueron publicados.",
+      "observaciones": "Subárea: Estudio | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 85,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Completa correctamente: «Ni la coordinadora ni los investigadores _____ previsto esa variación en los resultados».",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "habían",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "había",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "habíamos",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "En esta construcción, el sujeto compuesto coordinado con «ni... ni...» requiere el verbo en plural: habían previsto. «Habíamos» corresponde a primera persona del plural, que no aparece en el sujeto.",
+      "observaciones": "Subárea: Estudio | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 86,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un texto dice: «El estudio incluyó tres grupos. ______ recibieron las mismas instrucciones antes de iniciar». ¿Qué expresión evita ambigüedad?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Su resultado",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Estos tres grupos",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Este fenómeno",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "«Estos tres grupos» recupera de manera inequívoca el antecedente plural y mantiene la cohesión. Las otras opciones introducen referentes distintos o no concuerdan con el verbo.",
+      "observaciones": "Subárea: Estudio | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 87,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige el conector que completa lógicamente: «El método permite obtener resultados rápidos; ______, requiere una muestra representativa para generalizarlos».",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "por consiguiente",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "sin embargo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "de la misma manera",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La segunda proposición introduce una limitación frente a la ventaja inicial; «sin embargo» expresa contraste. Los otros conectores indicarían consecuencia o semejanza, relaciones distintas.",
+      "observaciones": "Subárea: Estudio | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 88,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál oración evita un cambio injustificado de referente?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El equipo entrevistó a los docentes y después él fueron analizados.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El equipo entrevistó a los docentes y después ellas analizó sus respuestas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El equipo entrevistó a los docentes y después analizó sus respuestas.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "«El equipo» mantiene el sujeto de «entrevistó» y «analizó»; «sus respuestas» remite coherentemente a los docentes. Las otras opciones contienen discordancias pronominales y verbales.",
+      "observaciones": "Subárea: Estudio | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 89,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona el enunciado que usa correctamente la acentuación.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El científico explicó por qué disminuyó la presión.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El científico explico por que disminuyó la presion.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El cientifico explico por qué disminuyo la presión.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "«Científico» es esdrújula, «explicó» y «disminuyó» son agudas terminadas en vocal, y «presión» es aguda terminada en n. «Por qué» lleva tilde en una interrogativa indirecta.",
+      "observaciones": "Subárea: Estudio | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 90,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál oración presenta puntuación adecuada en un informe?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Los resultados muestran una tendencia estable; no obstante, la muestra es pequeña.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Los resultados muestran, una tendencia estable.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Los resultados, muestran una tendencia: estable.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El punto y coma separa dos enunciados relacionados y «no obstante» va seguido de coma como conector. No debe colocarse coma entre sujeto y verbo ni entre verbo y complemento directo.",
+      "observaciones": "Subárea: Estudio | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 91,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la opción con escritura correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La hipotesis se verificó mediante un analisis estadístico.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La hipótesis se verificó a través de un análisis estadistico.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La hipótesis se verificó mediante un análisis estadístico.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "«Hipótesis», «análisis» y «estadístico» llevan tilde por sus reglas de acentuación. La segunda opción escribe correctamente las tres palabras y mantiene un registro formal.",
+      "observaciones": "Subárea: Estudio | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 92,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué oración emplea apropiadamente los dos puntos?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El estudio consideró tres variables: edad, ingreso y escolaridad.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El estudio: consideró tres variables, edad, ingreso y escolaridad.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El estudio consideró: tres variables edad, ingreso y escolaridad.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Los dos puntos pueden introducir una enumeración anunciada previamente por «tres variables». No deben separar el verbo de su complemento ni interrumpir la estructura sujeto-predicado.",
+      "observaciones": "Subárea: Estudio | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 93,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la pregunta con signos y tildes correctos para una encuesta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "¿Cuántos libros lee al mes y por qué elige esos títulos?",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "¿Cuantos libros lee al mes y porque elige esos títulos?",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "¿Cuántos libros lee al mes y porqué elige esos títulos?",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "En preguntas, «cuántos» lleva tilde y la locución interrogativa causal se escribe «por qué» en dos palabras. Los signos de interrogación enmarcan la pregunta completa.",
+      "observaciones": "Subárea: Estudio | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 94,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un periódico local informa sobre la apertura de un puente. ¿Cuál encabezado es apropiado para una noticia?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El magnífico puente que transformará para siempre nuestra ciudad",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El municipio abre un puente peatonal frente al hospital",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "No creerás lo que los funcionarios hicieron con esta obra",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Un encabezado noticioso identifica un hecho verificable de forma directa. La segunda opción informa qué ocurrió y dónde; las otras buscan persuadir o exagerar sin datos.",
+      "observaciones": "Subárea: Participación social | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 95,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se solicita redactar una crónica de un festival barrial. ¿Qué inicio corresponde al género?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Se solicita a los participantes entregar su permiso antes del jueves.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "A las siete comenzó a llover; minutos después, los músicos trasladaron sus instrumentos bajo el kiosco y el público siguió la presentación.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La música es necesaria porque todas las personas deberían asistir a conciertos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La crónica narra hechos situados en tiempo y lugar, con una secuencia de acontecimientos. La primera opción reconstruye la escena; las otras expresan opinión o una instrucción administrativa.",
+      "observaciones": "Subárea: Participación social | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 96,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para un artículo de opinión sobre parques públicos, ¿qué fragmento desarrolla mejor una postura argumentada?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El parque se ubica al norte de la colonia y tiene tres entradas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Ayer recorrí el parque con mis amigos y vi muchos árboles.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Conviene destinar presupuesto al mantenimiento de parques porque su abandono reduce espacios seguros de convivencia.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Un artículo de opinión sostiene una postura apoyada en razones. La tercera opción propone una medida y explica su justificación; las otras solo describen hechos o experiencias.",
+      "observaciones": "Subárea: Participación social | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 97,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El área de atención ciudadana necesita solicitar documentos faltantes sin resultar descortés. ¿Cuál redacción es pertinente?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Te equivocaste; trae todo bien hecho de una vez.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Debes venir rapidísimo porque no tenemos tiempo para estas cosas.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Para continuar con su trámite, le solicitamos adjuntar una copia legible de su identificación.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Un mensaje institucional debe ser claro, respetuoso y específico respecto de la acción necesaria. La segunda alternativa identifica el documento y evita expresiones ofensivas o vagas.",
+      "observaciones": "Subárea: Participación social | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 98,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se prepara un aviso sobre cierre temporal de una biblioteca. ¿Cuál versión informa mejor a la comunidad?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La biblioteca permanecerá cerrada el viernes 14 por mantenimiento; el servicio se reanudará el sábado 15 a las 9:00.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Esta biblioteca ha sido muy buena desde hace varios años.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Pronto cerraremos, pero seguro no será tanto tiempo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La versión correcta informa el motivo, la fecha de cierre y el momento de reanudación. Las otras formulaciones no proporcionan datos suficientes para que las personas organicen su visita.",
+      "observaciones": "Subárea: Participación social | Tema: Comunicativa | Dificultad orientativa: Media"
+    },
+    {
+      "id": 99,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la oración con concordancia adecuada para una circular.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La directora y el secretario informaron de los cambios.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La directora y el secretario informó de los cambios.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La directora y el secretario informó del cambio.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El sujeto compuesto «la directora y el secretario» requiere verbo plural: «informaron». El número de «cambios» no modifica esa concordancia entre sujeto y verbo.",
+      "observaciones": "Subárea: Participación social | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 100,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Completa el aviso: «Se informa a las personas inscritas que los certificados ____ disponibles a partir del lunes».",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "estaremos",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "estarán",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "estará",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El sujeto «los certificados» es plural, por lo cual el verbo debe escribirse «estarán». La tercera opción corresponde a la primera persona del plural, que no coincide con el sujeto.",
+      "observaciones": "Subárea: Participación social | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 101,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la redacción que evita un referente confuso.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La oficina notificó a las aspirantes que éste estaban completas.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La oficina notificó a las aspirantes que ellas estaban completos.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La oficina notificó a las aspirantes que sus expedientes estaban completos.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "«Sus expedientes» establece con claridad qué estaba completo y conserva la concordancia plural masculina del sustantivo «expedientes». Las otras alternativas tienen discordancias gramaticales.",
+      "observaciones": "Subárea: Participación social | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 102,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "El aviso dice: «El edificio se encuentra en reparación; ______, las actividades se realizarán en la sede alterna». ¿Qué conector expresa consecuencia?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "por lo tanto",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "sin embargo",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "en cambio",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "«Por lo tanto» introduce la consecuencia de que el edificio esté en reparación: el traslado de actividades. «Sin embargo» y «en cambio» expresan contraste, no consecuencia.",
+      "observaciones": "Subárea: Participación social | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 103,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Qué redacción es más clara para indicar el procedimiento de una solicitud?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Primero complete el formulario; después, entréguelo en ventanilla junto con su identificación.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Primero entrega formulario, después ahí la identificación cuando eso.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Traer papeles y luego ir por ahí a ver si lo atienden.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La segunda oración ordena los pasos con conectores temporales y verbos coherentes. Las otras son imprecisas, presentan referencias vagas o carecen de una secuencia clara.",
+      "observaciones": "Subárea: Participación social | Tema: Gramatical y semántica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 104,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Selecciona la oración correctamente acentuada para un comunicado.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Aun no se publica la lista definitiva de beneficiarios.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Aún no se publica la lista definitiva de beneficiarios.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Aún no se publica la lista difinitiva de beneficiarios.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "«Aún» lleva tilde cuando equivale a «todavía». Además, «definitiva» se escribe con e en la segunda sílaba; la tercera alternativa presenta una falta ortográfica.",
+      "observaciones": "Subárea: Participación social | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 105,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál opción utiliza correctamente la coma del vocativo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Vecinos, favor de mantener limpia la plaza.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Vecinos favor, de mantener limpia la plaza.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Vecinos favor de mantener limpia la plaza.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "«Vecinos» funciona como vocativo, por lo que se separa con coma del resto del mensaje. No corresponde colocar la coma entre «favor» y el complemento «de mantener».",
+      "observaciones": "Subárea: Participación social | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 106,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para la página de un municipio, elige la oración ortográficamente correcta.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "La sesión de cabildo se realizará el miércoles.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "La sesion de cabildo se realizara el miércoles.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "La sesión de cabildo se realizara el miercoles.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "«Sesión» y «realizará» son agudas terminadas en n y vocal, respectivamente; «miércoles» es esdrújula. Por eso las tres palabras requieren las tildes que aparecen en la segunda opción.",
+      "observaciones": "Subárea: Participación social | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 107,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál opción escribe correctamente una condición para un trámite?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "Sí reúne los requisitos, podra solicitar el apoyo.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "Si reune los requisitos podrá solicitar el apollo.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "Si reúne los requisitos, podrá solicitar el apoyo.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La conjunción condicional «si» no lleva tilde; «podrá» y «reúne» sí deben acentuarse y «apoyo» se escribe con y. La coma separa la condición inicial de la oración principal.",
+      "observaciones": "Subárea: Participación social | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 108,
+      "materia": "Redacción Indirecta",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Elige la oración con puntuación adecuada.",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "El servicio funcionará: los lunes, miércoles, y viernes de 9:00 a 13:00.",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "El servicio funcionará los lunes miércoles y viernes de 9:00 a 13:00.",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "El servicio funcionará los lunes, miércoles y viernes de 9:00 a 13:00.",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Los días de la enumeración se separan con comas, salvo el último unido por «y». Tampoco debe separarse el verbo «funcionará» de su complemento mediante dos puntos.",
+      "observaciones": "Subárea: Participación social | Tema: Ortográfica | Dificultad orientativa: Media"
+    },
+    {
+      "id": 109,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un plano a escala 1:25 000, dos puntos están separados por 4 cm. ¿Cuál es la distancia real?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "1 km",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "10 km",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "100 m",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La escala indica que 1 cm representa 25 000 cm reales. Por tanto, 4 cm representan 100 000 cm = 1 000 m = 1 km.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Conexiones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 110,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una relación lineal pasa por los pares (1,5) y (3,11). ¿Cuál es la pendiente de su representación gráfica?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "6",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "2",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La pendiente es el cambio vertical entre el horizontal: (11-5)/(3-1)=6/2=3. Expresa cuánto crece y por cada unidad que aumenta x.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Conexiones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 111,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los puntos (-4,2) y (6,2) son simétricos respecto de una recta vertical. ¿Cuál es esa recta?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "y = 2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "x = 1",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "x = 2",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La recta vertical de simetría pasa por el punto medio horizontal: (-4+6)/2=1. Así, la ecuación es x=1 y los puntos quedan a cinco unidades de ella.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Conexiones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 112,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un mapa cuadriculado, una persona avanza 4 km al este y luego 3 km al norte. ¿Cuál es la distancia en línea recta desde su origen?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "5 km",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1 km",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "7 km",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Los desplazamientos perpendiculares forman un triángulo rectángulo. Por Pitágoras, la distancia es √(4²+3²)=√25=5 km; no se suma el recorrido total.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Conexiones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 113,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En una encuesta de 25 alumnos, 12 prefieren autobús, 8 bicicleta y 5 caminar. ¿Qué porcentaje prefiere el autobús?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "40 %",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "60 %",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "48 %",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La frecuencia relativa del autobús es 12/25 = 0.48. Al multiplicar por 100 se obtiene 48 %; los tres conteos suman los 25 encuestados.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Conexiones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 114,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una bolsa contiene 5 fichas rojas, 3 azules y 2 verdes. Si se extrae una al azar, ¿cuál es la probabilidad de que NO sea azul?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3/10",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "1/2",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "7/10",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Hay 10 fichas en total, de las cuales 7 no son azules. La probabilidad clásica es casos favorables entre casos posibles: 7/10.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Conexiones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 115,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el resultado de \\((2.4\\times10^4)(3\\times10^{-2})\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(0.72\\times10^{-2}\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(7.2\\times10^2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(7.2\\times10^6\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Se multiplican coeficientes: 2.4×3=7.2; y se suman exponentes: 4+(-2)=2. El resultado es 7.2×10²=720.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Estimación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 116,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un producto de $1 200 baja 20 % y luego aumenta 10 % sobre el precio descontado. ¿Cuál es el precio final?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "$1 200",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "$1 056",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "$1 080",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Después del descuento cuesta 1 200×0.80=$960. El aumento posterior se aplica a esta nueva base: 960×1.10=$1 056; un descuento y aumento porcentuales distintos no se cancelan.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Estimación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 117,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un piso rectangular mide 2.4 m por 1.5 m. ¿Cuántos metros cuadrados cubre?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "3.6 m²",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "36 m²",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "3.9 m²",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "El área de un rectángulo es base por altura: 2.4×1.5=3.6 m². Al multiplicar dos medidas de longitud, la unidad resultante es cuadrada.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Estimación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 118,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Al lanzar dos monedas distinguibles, ¿cuántos resultados elementales forman el espacio muestral?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "2",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "3",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Cada moneda tiene dos resultados posibles y las combinaciones ordenadas son CC, CS, SC y SS. Por el principio multiplicativo, 2×2=4 resultados.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Estimación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 119,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un mes se atendieron 108 personas y al siguiente 130. ¿Cuál es el incremento porcentual aproximado respecto al primer mes?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "10 %",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "20 %",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "30 %",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El aumento fue de 22 personas; 22/108≈0.2037, es decir, aproximadamente 20 %. El denominador debe ser la cifra inicial.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Estimación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 120,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una actividad duró 1.75 horas. ¿A cuántos minutos equivale?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "105",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "115",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "75",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Se convierte multiplicando por 60: 1.75×60=105 minutos. El decimal 0.75 corresponde a tres cuartos de hora, es decir, 45 minutos.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Estimación | Dificultad orientativa: Media"
+    },
+    {
+      "id": 121,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "¿Cuál es el conjunto solución de \\(3(2x-1)\\leq15\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(x\\geq3\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(x\\leq2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(x\\leq3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Distribuimos: 6x-3≤15. Sumamos 3: 6x≤18, y dividimos entre 6 positivo: x≤3; no cambia el sentido de la desigualdad.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Sentido numérico | Dificultad orientativa: Media"
+    },
+    {
+      "id": 122,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Simplifica la expresión \\(4x-2(3x-5)\\).",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(10x-10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-2x+10\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-2x-10\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Se aplica la distributiva: 4x - 6x + 10 = -2x + 10. El producto de -2 por -5 da +10, no -10.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Sentido numérico | Dificultad orientativa: Media"
+    },
+    {
+      "id": 123,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "En un triángulo rectángulo, el cateto opuesto a un ángulo agudo mide 9 y la hipotenusa 15. ¿Cuánto vale el seno de ese ángulo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "5/3",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "4/5",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "3/5",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Por definición, sen(θ)=cateto opuesto/hipotenusa=9/15=3/5. El valor es menor que 1, como corresponde al seno de un ángulo agudo.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Sentido numérico | Dificultad orientativa: Media"
+    },
+    {
+      "id": 124,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Un terreno trapezoidal tiene bases paralelas de 10 m y 16 m y altura de 7 m. ¿Cuál es su área?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "56 m²",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "182 m²",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "91 m²",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "El área del trapecio es (B+b)h/2. Sustituyendo: (16+10)×7/2=26×3.5=91 m².",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Sentido numérico | Dificultad orientativa: Media"
+    },
+    {
+      "id": 125,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Las calificaciones de cuatro alumnos son 4, 5, 7 y 8. ¿Cuál es su media aritmética?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "5",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "7",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "6",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La media se calcula sumando las observaciones y dividiendo entre su cantidad: (4+5+7+8)/4=24/4=6.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Sentido numérico | Dificultad orientativa: Media"
+    },
+    {
+      "id": 126,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Los datos 2, 2, 6 y 6 tienen media de 4. ¿Cuál es su desviación estándar poblacional?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "√2",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "4",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "Las desviaciones respecto a la media son -2,-2,2,2; sus cuadrados suman 16. La varianza poblacional es 16/4=4 y su raíz cuadrada es 2.",
+      "observaciones": "Subárea: Comprensión de lo matemático | Tema: Sentido numérico | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 127,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "La altura de una pelota, en metros, sigue \\(h(t)=-t^2+6t+4\\), con t en segundos. ¿En qué instante alcanza su altura máxima?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "4 s",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "3 s",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "6 s",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "La gráfica es una parábola que abre hacia abajo porque el coeficiente de t² es negativo. El máximo ocurre en el vértice: t=-b/(2a)=-6/(2×-1)=3 s.",
+      "observaciones": "Subárea: Matematización | Tema: Desarrollo de usos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 128,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una parábola está dada por \\(y=(x-2)^2-9\\). ¿Cuál es su vértice?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "(2, 9)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "(-2, -9)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "(2, -9)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La forma de vértice y=(x-h)²+k permite leer directamente (h,k). Aquí h=2 y k=-9; la parábola abre hacia arriba.",
+      "observaciones": "Subárea: Matematización | Tema: Desarrollo de usos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 129,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una escalera forma un triángulo rectángulo con pared y suelo. Si el extremo superior está a 12 m de altura y el pie a 5 m de la pared, ¿cuál es la tangente del ángulo que forma con el suelo?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "12/5",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "5/12",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "5/13",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "La tangente es cateto opuesto entre cateto adyacente respecto del ángulo con el suelo. La altura es 12 m y la distancia horizontal 5 m, por lo que tan(θ)=12/5.",
+      "observaciones": "Subárea: Matematización | Tema: Desarrollo de usos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 130,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una gráfica de barras describe la asistencia por turno: A=3, B=7, C=4, D=6 personas. ¿Qué porcentaje del total corresponde al turno B?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "40 %",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "35 %",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "30 %",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El total representado es 3+7+4+6=20. El turno B suma 7, por lo que la proporción es 7/20×100=35 %.",
+      "observaciones": "Subárea: Matematización | Tema: Desarrollo de usos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 131,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se registraron los tiempos 5, 7, 7, 9, 12 y 18 minutos. ¿Cuál es la mediana?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "9 min",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "7 min",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "8 min",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Los seis datos ya están ordenados; al ser cantidad par, la mediana promedia el tercero y cuarto valores: (7+9)/2=8 minutos. No es la media aritmética.",
+      "observaciones": "Subárea: Matematización | Tema: Desarrollo de usos | Dificultad orientativa: Media"
+    },
+    {
+      "id": 132,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Dados \\(A=2x^2-x+3\\) y \\(B=x^2+4x-5\\), ¿cuál es la expresión simplificada de \\(A-2B\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(4x^2+7x-7\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(-9x+13\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(-9x-7\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Se distribuye -2: A-2B=2x²-x+3-2x²-8x+10. Los términos cuadráticos se cancelan y quedan -9x+13.",
+      "observaciones": "Subárea: Matematización | Tema: Lenguaje matemático | Dificultad orientativa: Media"
+    },
+    {
+      "id": 133,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Si \\(2x+y=11\\) y \\(x-y=1\\), ¿cuál es el valor de \\(2x-y\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "5",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "3",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "7",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "A",
+      "explicacion": "De x-y=1 se obtiene y=x-1. Sustituyendo: 2x+x-1=11, así que x=4 e y=3. Entonces 2x-y=8-3=5.",
+      "observaciones": "Subárea: Matematización | Tema: Lenguaje matemático | Dificultad orientativa: Media"
+    },
+    {
+      "id": 134,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Se sabe que \\(x+y+z=12\\), \\(x+y=7\\) y \\(y+z=9\\). ¿Cuánto vale \\(x-z\\)?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "2",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "-2",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "4",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "De la primera y segunda ecuaciones se obtiene z=12-7=5. De y+z=9 resulta y=4, y de x+y=7, x=3. Luego x-z=3-5=-2.",
+      "observaciones": "Subárea: Matematización | Tema: Lenguaje matemático | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 135,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una empresa cobra una tarifa fija de $85 más $12 por unidad enviada. ¿Cuántas unidades corresponden a una factura total de $205?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "8",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "12",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "10",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "El costo se modela como C=85+12n. Al igualar a 205: 12n=120 y n=10 unidades.",
+      "observaciones": "Subárea: Matematización | Tema: Lenguaje matemático | Dificultad orientativa: Media"
+    },
+    {
+      "id": 136,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una relación lineal tiene esta tabla: x=1 produce y=9; x=3 produce y=15; x=5 produce y=21. ¿Qué valor corresponde a x=7?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "30",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "27",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "25",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Cuando x aumenta 2 unidades, y aumenta 6, así que la pendiente es 3. La regla es y=3x+6 y para x=7 se obtiene 27.",
+      "observaciones": "Subárea: Matematización | Tema: Resignificaciones | Dificultad orientativa: Media"
+    },
+    {
+      "id": 137,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Para los datos ordenados 2, 4, 6, 8, 10, 12, 14, 16, se calcula el tercer cuartil mediante el método de la mediana de la mitad superior. ¿Cuál es Q3?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "12",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "14",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "13",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "La mitad superior es 10, 12, 14, 16. Su mediana es el promedio de los dos valores centrales: (12+14)/2=13, que corresponde a Q3 bajo el método indicado.",
+      "observaciones": "Subárea: Matematización | Tema: Resignificaciones | Dificultad orientativa: Alta"
+    },
+    {
+      "id": 138,
+      "materia": "Pensamiento Matemático",
+      "pregunta": {
+        "tipo": "texto",
+        "contenido": "Una tabla muestra los pares (x,y): (0,2), (1,5), (2,10), (3,17). ¿Qué expresión representa la relación?",
+        "imagen": null
+      },
+      "opciones": [
+        {
+          "inciso": "A",
+          "texto": "\\(y=3x+2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "B",
+          "texto": "\\(y=x^2+2x+2\\)",
+          "imagen": null
+        },
+        {
+          "inciso": "C",
+          "texto": "\\(y=x^2+3\\)",
+          "imagen": null
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "Las primeras diferencias son 3,5 y 7, por lo que la relación no es lineal: las segundas diferencias son constantes. La regla y=x²+2x+2 produce 2,5,10,17 para x=0,1,2,3.",
+      "observaciones": "Subárea: Matematización | Tema: Resignificaciones | Dificultad orientativa: Alta"
+    }
+  ]
+}
